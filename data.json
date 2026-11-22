@@ -1,0 +1,3955 @@
+{
+  "entities": [
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "MCL",
+      "division": "track",
+      "fullName": "McLaren Formula 1 Team",
+      "headquarters": "Woking, UK",
+      "id": "f1-mclaren",
+      "name": "McLaren",
+      "overview": "",
+      "powerUnit": "Mercedes",
+      "primaryColor": "#FF8000",
+      "secondaryColor": "#18191C",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Mercedes"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Woking, UK"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "FER",
+      "division": "track",
+      "fullName": "Scuderia Ferrari HP",
+      "headquarters": "Maranello, Italy",
+      "id": "f1-ferrari",
+      "name": "Ferrari",
+      "overview": "",
+      "powerUnit": "Ferrari",
+      "primaryColor": "#DC0000",
+      "secondaryColor": "#FFF200",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Ferrari"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Maranello, Italy"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "MER",
+      "division": "track",
+      "fullName": "Mercedes-AMG PETRONAS F1 Team",
+      "headquarters": "Brackley, UK",
+      "id": "f1-mercedes",
+      "name": "Mercedes",
+      "overview": "",
+      "powerUnit": "Mercedes",
+      "primaryColor": "#27F4D2",
+      "secondaryColor": "#0A0A0C",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Mercedes"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Brackley, UK"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "RBR",
+      "division": "track",
+      "fullName": "Oracle Red Bull Racing",
+      "headquarters": "Milton Keynes, UK",
+      "id": "f1-redbull",
+      "name": "Red Bull Racing",
+      "overview": "",
+      "powerUnit": "Red Bull Ford",
+      "primaryColor": "#3671C6",
+      "secondaryColor": "#E10600",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Red Bull Ford"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Milton Keynes, UK"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "AMR",
+      "division": "track",
+      "fullName": "Aston Martin Aramco F1 Team",
+      "headquarters": "Silverstone, UK",
+      "id": "f1-aston",
+      "name": "Aston Martin",
+      "overview": "",
+      "powerUnit": "Honda",
+      "primaryColor": "#229971",
+      "secondaryColor": "#CEDC00",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Honda"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Silverstone, UK"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "WIL",
+      "division": "track",
+      "fullName": "Atlassian Williams Racing",
+      "headquarters": "Grove, UK",
+      "id": "f1-williams",
+      "name": "Williams",
+      "overview": "",
+      "powerUnit": "Mercedes",
+      "primaryColor": "#64C4FF",
+      "secondaryColor": "#005AFF",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Mercedes"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Grove, UK"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "ALP",
+      "division": "track",
+      "fullName": "BWT Alpine Formula One Team",
+      "headquarters": "Enstone, UK",
+      "id": "f1-alpine",
+      "name": "Alpine",
+      "overview": "",
+      "powerUnit": "Mercedes",
+      "primaryColor": "#FF87BC",
+      "secondaryColor": "#0093CC",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Mercedes"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Enstone, UK"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "HAS",
+      "division": "track",
+      "fullName": "MoneyGram Haas F1 Team",
+      "headquarters": "Kannapolis, USA",
+      "id": "f1-haas",
+      "name": "Haas",
+      "overview": "",
+      "powerUnit": "Ferrari",
+      "primaryColor": "#B6BABD",
+      "secondaryColor": "#E10600",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Ferrari"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Kannapolis, USA"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "VCARB",
+      "division": "track",
+      "fullName": "Visa Cash App Racing Bulls",
+      "headquarters": "Faenza, Italy",
+      "id": "f1-rb",
+      "name": "Racing Bulls",
+      "overview": "",
+      "powerUnit": "Red Bull Ford",
+      "primaryColor": "#6692FF",
+      "secondaryColor": "#EAEAEA",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Red Bull Ford"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Faenza, Italy"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "AUD",
+      "division": "track",
+      "fullName": "Audi F1 Factory Team",
+      "headquarters": "Hinwil / Neuburg",
+      "id": "f1-audi",
+      "name": "Audi",
+      "overview": "",
+      "powerUnit": "Audi",
+      "primaryColor": "#F50537",
+      "secondaryColor": "#C0C0C0",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Audi"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Hinwil / Neuburg"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "CAD",
+      "division": "track",
+      "fullName": "Cadillac Formula 1 Team",
+      "headquarters": "Silverstone / Charlotte",
+      "id": "f1-cadillac",
+      "name": "Cadillac F1",
+      "overview": "",
+      "powerUnit": "Ferrari",
+      "primaryColor": "#D4AF37",
+      "secondaryColor": "#EAEAEA",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": ""
+        },
+        {
+          "label": "Power Unit",
+          "value": "Ferrari"
+        },
+        {
+          "label": "Team Principal",
+          "value": ""
+        },
+        {
+          "label": "Base",
+          "value": "Charlotte, USA"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Lando Norris",
+      "id": "drv-norris",
+      "name": "Lando Norris",
+      "nationality": "British",
+      "number": "1",
+      "overview": "",
+      "primaryColor": "#FF8000",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": "20"
+        },
+        {
+          "label": "Podiums",
+          "value": "50"
+        },
+        {
+          "label": "Race Wins",
+          "value": "14"
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": "1/6"
+        },
+        {
+          "label": "Career / Season Points",
+          "value": "1676/246"
+        }
+      ],
+      "teamId": "f1-mclaren",
+      "teamName": "McLaren",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Oscar Piastri",
+      "id": "drv-piastri",
+      "name": "Oscar Piastri",
+      "nationality": "Australian",
+      "number": "81",
+      "overview": "",
+      "primaryColor": "#FF8000",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": "6"
+        },
+        {
+          "label": "Podiums",
+          "value": "28"
+        },
+        {
+          "label": "Race Wins",
+          "value": "9"
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": "951/152"
+        }
+      ],
+      "teamId": "f1-mclaren",
+      "teamName": "McLaren",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Charles Leclerc",
+      "id": "drv-leclerc",
+      "name": "Charles Leclerc",
+      "nationality": "Monégasque",
+      "number": "16",
+      "overview": "",
+      "primaryColor": "#DC0000",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": "27"
+        },
+        {
+          "label": "Podiums",
+          "value": "56"
+        },
+        {
+          "label": "Race Wins",
+          "value": "9"
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": "08/5"
+        },
+        {
+          "label": "Career / Season Points",
+          "value": "1921/249"
+        }
+      ],
+      "teamId": "f1-ferrari",
+      "teamName": "Ferrari",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Lewis Hamilton",
+      "id": "drv-hamilton",
+      "name": "Lewis Hamilton",
+      "nationality": "British",
+      "number": "44",
+      "overview": "",
+      "primaryColor": "#DC0000",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-ferrari",
+      "teamName": "Ferrari",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "George Russell",
+      "id": "drv-russell",
+      "name": "George Russell",
+      "nationality": "British",
+      "number": "63",
+      "overview": "",
+      "primaryColor": "#27F4D2",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-mercedes",
+      "teamName": "Mercedes",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Andrea Kimi Antonelli",
+      "id": "drv-antonelli",
+      "name": "Kimi Antonelli",
+      "nationality": "Italian",
+      "number": "12",
+      "overview": "",
+      "primaryColor": "#27F4D2",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-mercedes",
+      "teamName": "Mercedes",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Max Verstappen",
+      "id": "drv-verstappen",
+      "name": "Max Verstappen",
+      "nationality": "Dutch",
+      "number": "3",
+      "overview": "",
+      "primaryColor": "#3671C6",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-redbull",
+      "teamName": "Red Bull Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Liam Lawson",
+      "id": "drv-lawson",
+      "name": "Liam Lawson",
+      "nationality": "New Zealander",
+      "number": "30",
+      "overview": "",
+      "primaryColor": "#3671C6",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-redbull",
+      "teamName": "Red Bull Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Fernando Alonso",
+      "id": "drv-alonso",
+      "name": "Fernando Alonso",
+      "nationality": "Spanish",
+      "number": "14",
+      "overview": "",
+      "primaryColor": "#229971",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-aston",
+      "teamName": "Aston Martin",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Lance Stroll",
+      "id": "drv-stroll",
+      "name": "Lance Stroll",
+      "nationality": "Canadian",
+      "number": "18",
+      "overview": "",
+      "primaryColor": "#229971",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-aston",
+      "teamName": "Aston Martin",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Carlos Sainz Jr.",
+      "id": "drv-sainz",
+      "name": "Carlos Sainz",
+      "nationality": "Spanish",
+      "number": "55",
+      "overview": "",
+      "primaryColor": "#64C4FF",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-williams",
+      "teamName": "Williams",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Alexander Albon",
+      "id": "drv-albon",
+      "name": "Alexander Albon",
+      "nationality": "Thai",
+      "number": "23",
+      "overview": "",
+      "primaryColor": "#64C4FF",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-williams",
+      "teamName": "Williams",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Pierre Gasly",
+      "id": "drv-gasly",
+      "name": "Pierre Gasly",
+      "nationality": "French",
+      "number": "10",
+      "overview": "",
+      "primaryColor": "#FF87BC",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-alpine",
+      "teamName": "Alpine",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Franco Colapinto",
+      "id": "drv-colapinto",
+      "name": "Franco Colapinto",
+      "nationality": "Argentine",
+      "number": "43",
+      "overview": "",
+      "primaryColor": "#FF87BC",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-alpine",
+      "teamName": "Alpine",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Esteban Ocon",
+      "id": "drv-ocon",
+      "name": "Esteban Ocon",
+      "nationality": "French",
+      "number": "31",
+      "overview": "",
+      "primaryColor": "#B6BABD",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-haas",
+      "teamName": "Haas",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Oliver Bearman",
+      "id": "drv-bearman",
+      "name": "Oliver Bearman",
+      "nationality": "British",
+      "number": "87",
+      "overview": "",
+      "primaryColor": "#B6BABD",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-haas",
+      "teamName": "Haas",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Yuki Tsunoda",
+      "id": "drv-tsunoda",
+      "name": "Yuki Tsunoda",
+      "nationality": "Japanese",
+      "number": "22",
+      "overview": "",
+      "primaryColor": "#6692FF",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-rb",
+      "teamName": "Racing Bulls",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Isack Hadjar",
+      "id": "drv-hadjar",
+      "name": "Isack Hadjar",
+      "nationality": "French",
+      "number": "6",
+      "overview": "",
+      "primaryColor": "#6692FF",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-rb",
+      "teamName": "Racing Bulls",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Nico Hülkenberg",
+      "id": "drv-hulkenberg",
+      "name": "Nico Hülkenberg",
+      "nationality": "German",
+      "number": "27",
+      "overview": "",
+      "primaryColor": "#F50537",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-audi",
+      "teamName": "Audi",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Gabriel Bortoleto",
+      "id": "drv-bortoleto",
+      "name": "Gabriel Bortoleto",
+      "nationality": "Brazilian",
+      "number": "5",
+      "overview": "",
+      "primaryColor": "#F50537",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-audi",
+      "teamName": "Audi",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Valtteri Bottas",
+      "id": "drv-bottas",
+      "name": "Valtteri Bottas",
+      "nationality": "Finnish",
+      "number": "77",
+      "overview": "",
+      "primaryColor": "#D4AF37",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-cadillac",
+      "teamName": "Cadillac F1",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "division": "track",
+      "fullName": "Sergio Pérez",
+      "id": "drv-perez",
+      "name": "Sergio Pérez",
+      "nationality": "Mexican",
+      "number": "11",
+      "overview": "",
+      "primaryColor": "#D4AF37",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f1-cadillac",
+      "teamName": "Cadillac F1",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f1",
+      "code": "FIA",
+      "division": "track",
+      "fullName": "Fédération Internationale de l’Automobile (F1)",
+      "headquarters": "Paris / Geneva",
+      "id": "org-fia-f1",
+      "name": "FIA",
+      "overview": "",
+      "primaryColor": "#C5A059",
+      "specs": [
+        {
+          "label": "Jurisdiction",
+          "value": "FIA Formula One World Championship"
+        }
+      ],
+      "type": "governing"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "INV",
+      "division": "track",
+      "fullName": "Invicta Racing F2",
+      "headquarters": "Norfolk, UK",
+      "id": "f2-invicta",
+      "name": "Invicta Racing",
+      "overview": "",
+      "primaryColor": "#FFD700",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "PRE",
+      "division": "track",
+      "fullName": "PREMA Racing F2",
+      "headquarters": "Grisignano, Italy",
+      "id": "f2-prema",
+      "name": "PREMA Racing",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "CAM",
+      "division": "track",
+      "fullName": "Campos Racing F2",
+      "headquarters": "Alzira, Spain",
+      "id": "f2-campos",
+      "name": "Campos Racing",
+      "overview": "",
+      "primaryColor": "#FF6B00",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "ART",
+      "division": "track",
+      "fullName": "ART Grand Prix F2",
+      "headquarters": "Villeneuve-la-Guyard, France",
+      "id": "f2-art",
+      "name": "ART Grand Prix",
+      "overview": "",
+      "primaryColor": "#EAEAEA",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "HIT",
+      "division": "track",
+      "fullName": "Hitech TGR F2",
+      "headquarters": "Silverstone, UK",
+      "id": "f2-hitech",
+      "name": "Hitech",
+      "overview": "",
+      "primaryColor": "#9CA3AF",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "ROD",
+      "division": "track",
+      "fullName": "Rodin Motorsport F2",
+      "headquarters": "Farnham, UK",
+      "id": "f2-rodin",
+      "name": "Rodin Motorsport",
+      "overview": "",
+      "primaryColor": "#22C55E",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "DAM",
+      "division": "track",
+      "fullName": "DAMS Lucas Oil F2",
+      "headquarters": "Le Mans, France",
+      "id": "f2-dams",
+      "name": "DAMS Lucas Oil",
+      "overview": "",
+      "primaryColor": "#38BDF8",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "MPM",
+      "division": "track",
+      "fullName": "MP Motorsport F2",
+      "headquarters": "Westmaas, Netherlands",
+      "id": "f2-mp",
+      "name": "MP Motorsport",
+      "overview": "",
+      "primaryColor": "#F97316",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "TRI",
+      "division": "track",
+      "fullName": "Trident Motorsport F2",
+      "headquarters": "Ossona, Italy",
+      "id": "f2-trident",
+      "name": "Trident",
+      "overview": "",
+      "primaryColor": "#3B82F6",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "AIX",
+      "division": "track",
+      "fullName": "AIX Racing F2",
+      "headquarters": "Dubai / Germany",
+      "id": "f2-aix",
+      "name": "AIX Racing",
+      "overview": "",
+      "primaryColor": "#A3E635",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "code": "VAR",
+      "division": "track",
+      "fullName": "Van Amersfoort Racing",
+      "headquarters": "Zeewolde, Netherlands",
+      "id": "f2-var",
+      "name": "Van Amersfoort",
+      "overview": "",
+      "primaryColor": "#FB923C",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "Dallara F2 2024"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Rafael Câmara",
+      "id": "drv-f2-camara",
+      "name": "Rafael Câmara",
+      "nationality": "Brazilian",
+      "number": "1",
+      "overview": "",
+      "primaryColor": "#FFD700",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-invicta",
+      "teamName": "Invicta Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Leonardo Fornaroli",
+      "id": "drv-f2-fornaroli",
+      "name": "Leonardo Fornaroli",
+      "nationality": "Italian",
+      "number": "2",
+      "overview": "",
+      "primaryColor": "#FFD700",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-invicta",
+      "teamName": "Invicta Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Gabriele Minì",
+      "id": "drv-f2-mini",
+      "name": "Gabriele Minì",
+      "nationality": "Italian",
+      "number": "3",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-prema",
+      "teamName": "PREMA Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Sebastián Montoya",
+      "id": "drv-f2-montoya",
+      "name": "Sebastián Montoya",
+      "nationality": "Colombian",
+      "number": "4",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-prema",
+      "teamName": "PREMA Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Arvid Lindblad",
+      "id": "drv-f2-lindblad",
+      "name": "Arvid Lindblad",
+      "nationality": "British",
+      "number": "5",
+      "overview": "",
+      "primaryColor": "#FF6B00",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-campos",
+      "teamName": "Campos Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Nikola Tsolov",
+      "id": "drv-f2-tsolov",
+      "name": "Nikola Tsolov",
+      "nationality": "Bulgarian",
+      "number": "6",
+      "overview": "",
+      "primaryColor": "#FF6B00",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-campos",
+      "teamName": "Campos Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Victor Martins",
+      "id": "drv-f2-martins",
+      "name": "Victor Martins",
+      "nationality": "French",
+      "number": "7",
+      "overview": "",
+      "primaryColor": "#EAEAEA",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-art",
+      "teamName": "ART Grand Prix",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Ritomo Miyata",
+      "id": "drv-f2-miyata",
+      "name": "Ritomo Miyata",
+      "nationality": "Japanese",
+      "number": "8",
+      "overview": "",
+      "primaryColor": "#EAEAEA",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-art",
+      "teamName": "ART Grand Prix",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Luke Browning",
+      "id": "drv-f2-browning",
+      "name": "Luke Browning",
+      "nationality": "British",
+      "number": "9",
+      "overview": "",
+      "primaryColor": "#9CA3AF",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-hitech",
+      "teamName": "Hitech",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Dino Beganovic",
+      "id": "drv-f2-beganovic",
+      "name": "Dino Beganovic",
+      "nationality": "Swedish",
+      "number": "10",
+      "overview": "",
+      "primaryColor": "#9CA3AF",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-hitech",
+      "teamName": "Hitech",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028594,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Alex Dunne",
+      "id": "drv-f2-dunne",
+      "name": "Alex Dunne",
+      "nationality": "Irish",
+      "number": "11",
+      "overview": "",
+      "primaryColor": "#22C55E",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-rodin",
+      "teamName": "Rodin Motorsport",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Jak Crawford",
+      "id": "drv-f2-crawford",
+      "name": "Jak Crawford",
+      "nationality": "American",
+      "number": "14",
+      "overview": "",
+      "primaryColor": "#38BDF8",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-dams",
+      "teamName": "DAMS Lucas Oil",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Oliver Goethe",
+      "id": "drv-f2-goethe",
+      "name": "Oliver Goethe",
+      "nationality": "German",
+      "number": "16",
+      "overview": "",
+      "primaryColor": "#F97316",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-mp",
+      "teamName": "MP Motorsport",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Richard Verschoor",
+      "id": "drv-f2-verschoor",
+      "name": "Richard Verschoor",
+      "nationality": "Dutch",
+      "number": "17",
+      "overview": "",
+      "primaryColor": "#F97316",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-mp",
+      "teamName": "MP Motorsport",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Sami Meguetounif",
+      "id": "drv-f2-meguetounif",
+      "name": "Sami Meguetounif",
+      "nationality": "French",
+      "number": "18",
+      "overview": "",
+      "primaryColor": "#3B82F6",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-trident",
+      "teamName": "Trident",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Joshua Dürksen",
+      "id": "drv-f2-durksen",
+      "name": "Joshua Dürksen",
+      "nationality": "Paraguayan",
+      "number": "20",
+      "overview": "",
+      "primaryColor": "#A3E635",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-aix",
+      "teamName": "AIX Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "f2",
+      "division": "track",
+      "fullName": "Rafael Villagómez",
+      "id": "drv-f2-villagomez",
+      "name": "Rafael Villagómez",
+      "nationality": "Mexican",
+      "number": "22",
+      "overview": "",
+      "primaryColor": "#FB923C",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "f2-var",
+      "teamName": "Van Amersfoort",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "f2",
+      "code": "FIA-F2",
+      "division": "track",
+      "fullName": "FIA Formula 2 Championship Governance",
+      "headquarters": "Paris, France",
+      "id": "org-fia-f2",
+      "name": "FIA F2 Commission",
+      "overview": "",
+      "primaryColor": "#C5A059",
+      "specs": [
+        {
+          "label": "Jurisdiction",
+          "value": "FIA Formula 2 Championship"
+        }
+      ],
+      "type": "governing"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "POR",
+      "division": "track",
+      "fullName": "TAG Heuer Porsche Formula E Team",
+      "headquarters": "Weissach, Germany",
+      "id": "fe-porsche",
+      "name": "Porsche",
+      "overview": "",
+      "primaryColor": "#D5001C",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "JAG",
+      "division": "track",
+      "fullName": "Jaguar TCS Racing",
+      "headquarters": "Kidlington, UK",
+      "id": "fe-jaguar",
+      "name": "Jaguar TCS Racing",
+      "overview": "",
+      "primaryColor": "#EAEAEA",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "NIS",
+      "division": "track",
+      "fullName": "Nissan Formula E Team",
+      "headquarters": "Viry-Châtillon, France",
+      "id": "fe-nissan",
+      "name": "Nissan",
+      "overview": "",
+      "primaryColor": "#C3002F",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "DSP",
+      "division": "track",
+      "fullName": "DS PENSKE Formula E Team",
+      "headquarters": "Satory, France",
+      "id": "fe-dspenske",
+      "name": "DS PENSKE",
+      "overview": "",
+      "primaryColor": "#D4AF37",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "MAS",
+      "division": "track",
+      "fullName": "Maserati MSG Racing",
+      "headquarters": "Monaco",
+      "id": "fe-maserati",
+      "name": "Maserati MSG",
+      "overview": "",
+      "primaryColor": "#0066B2",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "ENV",
+      "division": "track",
+      "fullName": "Envision Racing",
+      "headquarters": "Silverstone, UK",
+      "id": "fe-envision",
+      "name": "Envision Racing",
+      "overview": "",
+      "primaryColor": "#22C55E",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "AND",
+      "division": "track",
+      "fullName": "Andretti Formula E",
+      "headquarters": "Banbury, UK",
+      "id": "fe-andretti",
+      "name": "Andretti",
+      "overview": "",
+      "primaryColor": "#EF4444",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "MAH",
+      "division": "track",
+      "fullName": "Mahindra Racing",
+      "headquarters": "Banbury, UK",
+      "id": "fe-mahindra",
+      "name": "Mahindra Racing",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "LOL",
+      "division": "track",
+      "fullName": "Lola Yamaha ABT Formula E Team",
+      "headquarters": "Kempten, Germany",
+      "id": "fe-lola",
+      "name": "Lola Yamaha ABT",
+      "overview": "",
+      "primaryColor": "#3B82F6",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "KIR",
+      "division": "track",
+      "fullName": "CUPRA KIRO Race Co",
+      "headquarters": "Silverstone, UK",
+      "id": "fe-kiro",
+      "name": "CUPRA KIRO",
+      "overview": "",
+      "primaryColor": "#A3E635",
+      "specs": [
+        {
+          "label": "Chassis",
+          "value": "GEN3 Evo"
+        }
+      ],
+      "type": "team"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Pascal Wehrlein",
+      "id": "drv-fe-wehrlein",
+      "name": "Pascal Wehrlein",
+      "nationality": "German",
+      "number": "1",
+      "overview": "",
+      "primaryColor": "#D5001C",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-porsche",
+      "teamName": "Porsche",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "António Félix da Costa",
+      "id": "drv-fe-dacosta",
+      "name": "António Félix da Costa",
+      "nationality": "Portuguese",
+      "number": "13",
+      "overview": "",
+      "primaryColor": "#D5001C",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-porsche",
+      "teamName": "Porsche",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Mitch Evans",
+      "id": "drv-fe-evans",
+      "name": "Mitch Evans",
+      "nationality": "New Zealander",
+      "number": "9",
+      "overview": "",
+      "primaryColor": "#EAEAEA",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-jaguar",
+      "teamName": "Jaguar TCS Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Nick Cassidy",
+      "id": "drv-fe-cassidy",
+      "name": "Nick Cassidy",
+      "nationality": "New Zealander",
+      "number": "37",
+      "overview": "",
+      "primaryColor": "#EAEAEA",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-jaguar",
+      "teamName": "Jaguar TCS Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Oliver Rowland",
+      "id": "drv-fe-rowland",
+      "name": "Oliver Rowland",
+      "nationality": "British",
+      "number": "23",
+      "overview": "",
+      "primaryColor": "#C3002F",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-nissan",
+      "teamName": "Nissan",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Norman Nato",
+      "id": "drv-fe-nato",
+      "name": "Norman Nato",
+      "nationality": "French",
+      "number": "17",
+      "overview": "",
+      "primaryColor": "#C3002F",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-nissan",
+      "teamName": "Nissan",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Jean-Éric Vergne",
+      "id": "drv-fe-vergne",
+      "name": "Jean-Éric Vergne",
+      "nationality": "French",
+      "number": "25",
+      "overview": "",
+      "primaryColor": "#D4AF37",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-dspenske",
+      "teamName": "DS PENSKE",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Maximilian Günther",
+      "id": "drv-fe-gunther",
+      "name": "Maximilian Günther",
+      "nationality": "German",
+      "number": "7",
+      "overview": "",
+      "primaryColor": "#D4AF37",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-dspenske",
+      "teamName": "DS PENSKE",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Stoffel Vandoorne",
+      "id": "drv-fe-vandoorne",
+      "name": "Stoffel Vandoorne",
+      "nationality": "Belgian",
+      "number": "2",
+      "overview": "",
+      "primaryColor": "#0066B2",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-maserati",
+      "teamName": "Maserati MSG",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Jake Hughes",
+      "id": "drv-fe-hughes",
+      "name": "Jake Hughes",
+      "nationality": "British",
+      "number": "55",
+      "overview": "",
+      "primaryColor": "#0066B2",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-maserati",
+      "teamName": "Maserati MSG",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Sébastien Buemi",
+      "id": "drv-fe-buemi",
+      "name": "Sébastien Buemi",
+      "nationality": "Swiss",
+      "number": "16",
+      "overview": "",
+      "primaryColor": "#22C55E",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-envision",
+      "teamName": "Envision Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Robin Frijns",
+      "id": "drv-fe-frijns",
+      "name": "Robin Frijns",
+      "nationality": "Dutch",
+      "number": "4",
+      "overview": "",
+      "primaryColor": "#22C55E",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-envision",
+      "teamName": "Envision Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Jake Dennis",
+      "id": "drv-fe-dennis",
+      "name": "Jake Dennis",
+      "nationality": "British",
+      "number": "27",
+      "overview": "",
+      "primaryColor": "#EF4444",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-andretti",
+      "teamName": "Andretti",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Nico Müller",
+      "id": "drv-fe-muller",
+      "name": "Nico Müller",
+      "nationality": "Swiss",
+      "number": "51",
+      "overview": "",
+      "primaryColor": "#EF4444",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-andretti",
+      "teamName": "Andretti",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Edoardo Mortara",
+      "id": "drv-fe-mortara",
+      "name": "Edoardo Mortara",
+      "nationality": "Swiss",
+      "number": "48",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-mahindra",
+      "teamName": "Mahindra Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Nyck de Vries",
+      "id": "drv-fe-devries",
+      "name": "Nyck de Vries",
+      "nationality": "Dutch",
+      "number": "21",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-mahindra",
+      "teamName": "Mahindra Racing",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Lucas di Grassi",
+      "id": "drv-fe-digrassi",
+      "name": "Lucas di Grassi",
+      "nationality": "Brazilian",
+      "number": "11",
+      "overview": "",
+      "primaryColor": "#3B82F6",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-lola",
+      "teamName": "Lola Yamaha ABT",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Zane Maloney",
+      "id": "drv-fe-maloney",
+      "name": "Zane Maloney",
+      "nationality": "Barbadian",
+      "number": "22",
+      "overview": "",
+      "primaryColor": "#3B82F6",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-lola",
+      "teamName": "Lola Yamaha ABT",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "Dan Ticktum",
+      "id": "drv-fe-ticktum",
+      "name": "Dan Ticktum",
+      "nationality": "British",
+      "number": "33",
+      "overview": "",
+      "primaryColor": "#A3E635",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-kiro",
+      "teamName": "CUPRA KIRO",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "division": "track",
+      "fullName": "David Beckmann",
+      "id": "drv-fe-beckmann",
+      "name": "David Beckmann",
+      "nationality": "German",
+      "number": "3",
+      "overview": "",
+      "primaryColor": "#A3E635",
+      "stats": [
+        {
+          "label": "Pole Positions",
+          "value": ""
+        },
+        {
+          "label": "Podiums",
+          "value": ""
+        },
+        {
+          "label": "Race Wins",
+          "value": ""
+        },
+        {
+          "label": "Recent Race / Standings",
+          "value": ""
+        },
+        {
+          "label": "Career / Season Points",
+          "value": ""
+        }
+      ],
+      "teamId": "fe-kiro",
+      "teamName": "CUPRA KIRO",
+      "type": "driver"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "fe",
+      "code": "FIA-FE",
+      "division": "track",
+      "fullName": "ABB FIA Formula E World Championship",
+      "headquarters": "Geneva, Switzerland",
+      "id": "org-fia-fe",
+      "name": "FIA Formula E",
+      "overview": "",
+      "primaryColor": "#C5A059",
+      "specs": [
+        {
+          "label": "Jurisdiction",
+          "value": "FIA Formula E World Championship"
+        }
+      ],
+      "type": "governing"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "AIR",
+      "division": "sky",
+      "fullName": "Airbus Commercial Aircraft",
+      "headquarters": "Toulouse, France",
+      "id": "sky-airbus",
+      "name": "Airbus",
+      "overview": "",
+      "primaryColor": "#005EB8",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Commercial Airliners"
+        },
+        {
+          "label": "HQ",
+          "value": "Toulouse, France"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "BOE",
+      "division": "sky",
+      "fullName": "The Boeing Company",
+      "headquarters": "Arlington, Virginia",
+      "id": "sky-boeing",
+      "name": "Boeing",
+      "overview": "",
+      "primaryColor": "#1D4ED8",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Commercial & Defense"
+        },
+        {
+          "label": "HQ",
+          "value": "Arlington, VA"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "BBD",
+      "division": "sky",
+      "fullName": "Bombardier Aviation",
+      "headquarters": "Dorval, Canada",
+      "id": "sky-bombardier",
+      "name": "Bombardier",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Long-Range Business Jets"
+        },
+        {
+          "label": "HQ",
+          "value": "Dorval, Canada"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "GLF",
+      "division": "sky",
+      "fullName": "Gulfstream Aerospace",
+      "headquarters": "Savannah, Georgia",
+      "id": "sky-gulfstream",
+      "name": "Gulfstream",
+      "overview": "",
+      "primaryColor": "#D4AF37",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Ultra-Long-Range Business Jets"
+        },
+        {
+          "label": "HQ",
+          "value": "Savannah, GA"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "EMB",
+      "division": "sky",
+      "fullName": "Embraer Commercial Aviation",
+      "headquarters": "São José dos Campos, Brazil",
+      "id": "sky-embraer",
+      "name": "Embraer",
+      "overview": "",
+      "primaryColor": "#10B981",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Regional & E2 Jets"
+        },
+        {
+          "label": "HQ",
+          "value": "Brazil"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "RR",
+      "division": "sky",
+      "fullName": "Rolls-Royce Civil Aerospace",
+      "headquarters": "Derby, UK",
+      "id": "sky-rollsroyce",
+      "name": "Rolls-Royce",
+      "overview": "",
+      "primaryColor": "#3B82F6",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Turbofan Propulsion"
+        },
+        {
+          "label": "HQ",
+          "value": "Derby, UK"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "GEA",
+      "division": "sky",
+      "fullName": "GE Aerospace / CFM International",
+      "headquarters": "Evendale, Ohio",
+      "id": "sky-ge",
+      "name": "GE Aerospace",
+      "overview": "",
+      "primaryColor": "#38BDF8",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Commercial & Military Engines"
+        },
+        {
+          "label": "HQ",
+          "value": "Evendale, OH"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "military",
+      "code": "LMT",
+      "division": "sky",
+      "fullName": "Lockheed Martin Aeronautics",
+      "headquarters": "Fort Worth, Texas",
+      "id": "sky-lockheed",
+      "name": "Lockheed Martin",
+      "overview": "",
+      "primaryColor": "#FF6B00",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Tactical Stealth Fighters"
+        },
+        {
+          "label": "HQ",
+          "value": "Fort Worth, TX"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "military",
+      "code": "NOC",
+      "division": "sky",
+      "fullName": "Northrop Grumman Aeronautics",
+      "headquarters": "Falls Church, Virginia",
+      "id": "sky-northrop",
+      "name": "Northrop Grumman",
+      "overview": "",
+      "primaryColor": "#9CA3AF",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Stealth Flying-Wing Bombers"
+        },
+        {
+          "label": "HQ",
+          "value": "Falls Church, VA"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "military",
+      "code": "BAE",
+      "division": "sky",
+      "fullName": "BAE Systems Air",
+      "headquarters": "Farnborough, UK",
+      "id": "sky-bae",
+      "name": "BAE Systems",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Combat Air & GCAP"
+        },
+        {
+          "label": "HQ",
+          "value": "Farnborough, UK"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "aerospace",
+      "code": "SPX",
+      "division": "sky",
+      "fullName": "Space Exploration Technologies",
+      "headquarters": "Starbase, Texas",
+      "id": "sky-spacex",
+      "name": "SpaceX",
+      "overview": "",
+      "primaryColor": "#EAEAEA",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Reusable Heavy Launchers"
+        },
+        {
+          "label": "HQ",
+          "value": "Starbase, TX"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "aerospace",
+      "code": "BOM",
+      "division": "sky",
+      "fullName": "Boom Technology",
+      "headquarters": "Centennial, Colorado",
+      "id": "sky-boom",
+      "name": "Boom Supersonic",
+      "overview": "",
+      "primaryColor": "#FF6B00",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Supersonic Commercial Airliners"
+        },
+        {
+          "label": "HQ",
+          "value": "Centennial, CO"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "sustainable",
+      "code": "ZAV",
+      "division": "sky",
+      "fullName": "ZeroAvia Hydrogen-Electric",
+      "headquarters": "Hollister / Kemble",
+      "id": "sky-zeroavia",
+      "name": "ZeroAvia",
+      "overview": "",
+      "primaryColor": "#22C55E",
+      "specs": [
+        {
+          "label": "Focus",
+          "value": "Hydrogen-Electric Powertrains"
+        },
+        {
+          "label": "HQ",
+          "value": "Kemble, UK"
+        }
+      ],
+      "type": "manufacturer"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "ICAO",
+      "division": "sky",
+      "fullName": "International Civil Aviation Organization",
+      "headquarters": "Montreal / Cologne",
+      "id": "org-icao",
+      "name": "ICAO / EASA",
+      "overview": "",
+      "primaryColor": "#C5A059",
+      "specs": [
+        {
+          "label": "Jurisdiction",
+          "value": "Global Aviation Certification"
+        }
+      ],
+      "type": "governing"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "A359",
+      "companyId": "sky-airbus",
+      "companyName": "Airbus",
+      "division": "sky",
+      "fullName": "Airbus A350-900 XWB",
+      "id": "ac-a350",
+      "name": "Airbus A350-900",
+      "outlineType": "widebody",
+      "overview": "",
+      "primaryColor": "#005EB8",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "A20N",
+      "companyId": "sky-airbus",
+      "companyName": "Airbus",
+      "division": "sky",
+      "fullName": "Airbus A320neo Family",
+      "id": "ac-a320neo",
+      "name": "Airbus A320neo",
+      "outlineType": "narrowbody",
+      "overview": "",
+      "primaryColor": "#005EB8",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "BCS3",
+      "companyId": "sky-airbus",
+      "companyName": "Airbus",
+      "division": "sky",
+      "fullName": "Airbus A220-300",
+      "id": "ac-a220",
+      "name": "Airbus A220-300",
+      "outlineType": "narrowbody",
+      "overview": "",
+      "primaryColor": "#005EB8",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "B779",
+      "companyId": "sky-boeing",
+      "companyName": "Boeing",
+      "division": "sky",
+      "fullName": "Boeing 777X (777-9)",
+      "id": "ac-b777x",
+      "name": "Boeing 777-9",
+      "outlineType": "widebody",
+      "overview": "",
+      "primaryColor": "#1D4ED8",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "B789",
+      "companyId": "sky-boeing",
+      "companyName": "Boeing",
+      "division": "sky",
+      "fullName": "Boeing 787-9 Dreamliner",
+      "id": "ac-b787",
+      "name": "Boeing 787-9",
+      "outlineType": "widebody",
+      "overview": "",
+      "primaryColor": "#1D4ED8",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "GL7T",
+      "companyId": "sky-bombardier",
+      "companyName": "Bombardier",
+      "division": "sky",
+      "fullName": "Bombardier Global 7500",
+      "id": "ac-global7500",
+      "name": "Global 7500",
+      "outlineType": "bizjet",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "CL35",
+      "companyId": "sky-bombardier",
+      "companyName": "Bombardier",
+      "division": "sky",
+      "fullName": "Bombardier Challenger 3500",
+      "id": "ac-challenger3500",
+      "name": "Challenger 3500",
+      "outlineType": "bizjet",
+      "overview": "",
+      "primaryColor": "#E10600",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "GA7C",
+      "companyId": "sky-gulfstream",
+      "companyName": "Gulfstream",
+      "division": "sky",
+      "fullName": "Gulfstream G700",
+      "id": "ac-g700",
+      "name": "Gulfstream G700",
+      "outlineType": "bizjet",
+      "overview": "",
+      "primaryColor": "#D4AF37",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "commercial",
+      "code": "E295",
+      "companyId": "sky-embraer",
+      "companyName": "Embraer",
+      "division": "sky",
+      "fullName": "Embraer E195-E2 Profit Hunter",
+      "id": "ac-e195e2",
+      "name": "Embraer E195-E2",
+      "outlineType": "narrowbody",
+      "overview": "",
+      "primaryColor": "#10B981",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "military",
+      "code": "F35A",
+      "companyId": "sky-lockheed",
+      "companyName": "Lockheed Martin",
+      "division": "sky",
+      "fullName": "Lockheed Martin F-35A Lightning II",
+      "id": "ac-f35a",
+      "name": "F-35A Lightning II",
+      "outlineType": "fighter",
+      "overview": "",
+      "primaryColor": "#FF6B00",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "military",
+      "code": "B21",
+      "companyId": "sky-northrop",
+      "companyName": "Northrop Grumman",
+      "division": "sky",
+      "fullName": "Northrop Grumman B-21 Raider",
+      "id": "ac-b21",
+      "name": "B-21 Raider",
+      "outlineType": "fighter",
+      "overview": "",
+      "primaryColor": "#9CA3AF",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "aerospace",
+      "code": "OVTR",
+      "companyId": "sky-boom",
+      "companyName": "Boom Supersonic",
+      "division": "sky",
+      "fullName": "Boom Supersonic Overture",
+      "id": "ac-overture",
+      "name": "Boom Overture",
+      "outlineType": "supersonic",
+      "overview": "",
+      "primaryColor": "#FF6B00",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "aerospace",
+      "code": "SHSS",
+      "companyId": "sky-spacex",
+      "companyName": "SpaceX",
+      "division": "sky",
+      "fullName": "SpaceX Starship Orbital System",
+      "id": "ac-starship",
+      "name": "Starship / Super Heavy",
+      "outlineType": "supersonic",
+      "overview": "",
+      "primaryColor": "#EAEAEA",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    },
+    {
+      "_updatedAt": 1795333028595,
+      "category": "sustainable",
+      "code": "ZA60",
+      "companyId": "sky-zeroavia",
+      "companyName": "ZeroAvia",
+      "division": "sky",
+      "fullName": "ZeroAvia ZA600 Hydrogen-Electric",
+      "id": "ac-za600",
+      "name": "ZeroAvia ZA600",
+      "outlineType": "narrowbody",
+      "overview": "",
+      "primaryColor": "#22C55E",
+      "stats": [
+        {
+          "label": "Operating Empty Weight (OEW)",
+          "value": ""
+        },
+        {
+          "label": "Max Takeoff Weight (MTOW)",
+          "value": ""
+        },
+        {
+          "label": "Fuel Consumption Rate",
+          "value": ""
+        },
+        {
+          "label": "Airframe Materials",
+          "value": ""
+        },
+        {
+          "label": "Manufacturing / EIS Year",
+          "value": ""
+        },
+        {
+          "label": "Propulsion & Range",
+          "value": ""
+        }
+      ],
+      "type": "aircraft"
+    }
+  ],
+  "articles": [],
+  "weeklyLogs": [],
+  "raceResults": [
+    {
+      "_updatedAt": 1795333028504,
+      "circuit": "",
+      "date": "2026-11-22",
+      "dnfs": [],
+      "fastestLap": "",
+      "flag": "🏁",
+      "flags": [],
+      "id": "race-1795333021925",
+      "isTickerActive": true,
+      "laps": "",
+      "penalties": [],
+      "raceName": "LAS VEGAS GRAND PRIX",
+      "raceStatus": "FINISHED // CHEQUERED FLAG",
+      "round": "ROUND",
+      "series": "F1",
+      "shortTitle": "Race",
+      "standings": [
+        {
+          "pos": "1",
+          "code": "VER",
+          "driver": "Max Verstappen",
+          "team": "Red Bull Racing",
+          "gap": "WINNER",
+          "tires": "M-H",
+          "pits": "1",
+          "points": "25"
+        },
+        {
+          "pos": "2",
+          "code": "NOR",
+          "driver": "Lando Norris",
+          "team": "McLaren",
+          "gap": "+4.210s",
+          "tires": "M-H",
+          "pits": "1",
+          "points": "18"
+        },
+        {
+          "pos": "3",
+          "code": "PIA",
+          "driver": "Oscar Piastri",
+          "team": "McLaren",
+          "gap": "+9.845s",
+          "tires": "M-H",
+          "pits": "1",
+          "points": "15"
+        }
+      ],
+      "summary": "",
+      "weather": ""
+    }
+  ],
+  "updatedAt": 1795334250022
+}
