@@ -3897,59 +3897,6 @@
   ],
   "articles": [],
   "weeklyLogs": [],
-  "raceResults": [
-    {
-      "_updatedAt": 1795333028504,
-      "circuit": "",
-      "date": "2026-11-22",
-      "dnfs": [],
-      "fastestLap": "",
-      "flag": "🏁",
-      "flags": [],
-      "id": "race-1795333021925",
-      "isTickerActive": true,
-      "laps": "",
-      "penalties": [],
-      "raceName": "LAS VEGAS GRAND PRIX",
-      "raceStatus": "FINISHED // CHEQUERED FLAG",
-      "round": "ROUND",
-      "series": "F1",
-      "shortTitle": "Race",
-      "standings": [
-        {
-          "pos": "1",
-          "code": "VER",
-          "driver": "Max Verstappen",
-          "team": "Red Bull Racing",
-          "gap": "WINNER",
-          "tires": "M-H",
-          "pits": "1",
-          "points": "25"
-        },
-        {
-          "pos": "2",
-          "code": "NOR",
-          "driver": "Lando Norris",
-          "team": "McLaren",
-          "gap": "+4.210s",
-          "tires": "M-H",
-          "pits": "1",
-          "points": "18"
-        },
-        {
-          "pos": "3",
-          "code": "PIA",
-          "driver": "Oscar Piastri",
-          "team": "McLaren",
-          "gap": "+9.845s",
-          "tires": "M-H",
-          "pits": "1",
-          "points": "15"
-        }
-      ],
-      "summary": "",
-      "weather": ""
-    }
-  ],
-  "updatedAt": 1795334256151
+  "raceResults": [],
+  "updatedAt": 1795334375467
 }
