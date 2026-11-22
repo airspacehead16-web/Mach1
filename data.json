@@ -3895,28 +3895,7 @@
       "type": "aircraft"
     }
   ],
-  "articles": [
-    {
-      "id": "art-1795345375249",
-      "division": "track",
-      "categoryId": "f1",
-      "categoryLabel": "Formula 1",
-      "headline": "What is happening in ferrari?",
-      "summary": "hi",
-      "body": "hi",
-      "verdict": "hi",
-      "imageUrl": "",
-      "isAnalysis": false,
-      "entityIds": [
-        "f1-ferrari",
-        "drv-leclerc",
-        "drv-hamilton"
-      ],
-      "date": "2026-11-22",
-      "author": "MACH1 Editorial Desk",
-      "_updatedAt": 1795345375249
-    }
-  ],
+  "articles": [],
   "weeklyLogs": [],
   "raceResults": [
     {
@@ -4070,5 +4049,5 @@
       "flags": []
     }
   ],
-  "updatedAt": 1795345375249
+  "updatedAt": 1795345401413
 }
