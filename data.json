@@ -3897,6 +3897,96 @@
   ],
   "articles": [],
   "weeklyLogs": [],
-  "raceResults": [],
-  "updatedAt": 1795334375467
+  "raceResults": [
+    {
+      "id": "race-1795334379793",
+      "raceName": "LAS VEGAS GRAND PRIX",
+      "shortTitle": "LAS VEGAS GP",
+      "flag": "🏁",
+      "series": "Formula 1",
+      "circuit": "",
+      "date": "2026-11-22",
+      "weather": "Dry • 24°C",
+      "raceStatus": "OFFICIAL CLASSIFICATION",
+      "fastestLap": "",
+      "summary": "",
+      "isLiveTicker": true,
+      "standings": [
+        {
+          "pos": "1",
+          "driver": "Max Verstappen",
+          "code": "VER",
+          "team": "Red Bull Racing",
+          "gap": "WINNER",
+          "tires": "M",
+          "pits": "1",
+          "points": "25",
+          "color": "#3671C6"
+        },
+        {
+          "pos": "2",
+          "driver": "Lando Norris",
+          "code": "NOR",
+          "team": "McLaren",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "18",
+          "color": "#FF8000"
+        },
+        {
+          "pos": "3",
+          "driver": "Oscar Piastri",
+          "code": "PIA",
+          "team": "McLaren",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "15",
+          "color": "#FF8000"
+        },
+        {
+          "pos": "4",
+          "driver": "Kimi Antonelli",
+          "code": "ANT",
+          "team": "Mercedes",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "12",
+          "color": "#27F4D2"
+        }
+      ],
+      "dnfs": [
+        {
+          "status": "DNS",
+          "driver": "Alexander Albon",
+          "team": "",
+          "lap": "",
+          "reason": ""
+        },
+        {
+          "status": "DNF",
+          "driver": "Sergio Pérez",
+          "team": "",
+          "lap": "",
+          "reason": ""
+        }
+      ],
+      "penalties": [
+        {
+          "driver": "Charles Leclerc",
+          "penalty": "+10s Time Penalty",
+          "reason": ""
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "penalty": "+10s Time Penalty",
+          "reason": ""
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "updatedAt": 1795334379796
 }
