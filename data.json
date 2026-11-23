@@ -2,26 +2,6 @@
   "teams": [],
   "drivers": [
     {
-      "id": "d-sai",
-      "series": "F1",
-      "number": "55",
-      "code": "SAI",
-      "name": "Carlos Sainz",
-      "nationality": "Spanish",
-      "teamId": "t-wil",
-      "team": "Williams",
-      "color": "#64C4FF",
-      "flag": "🇪🇸",
-      "rank": 10,
-      "points": 6,
-      "isChampion": false,
-      "poles": "6",
-      "podiums": "27",
-      "wins": "4",
-      "last": "—",
-      "bio": "Driving Williams FW48 into regular Q3 and points contention."
-    },
-    {
       "id": "d-str",
       "series": "F1",
       "number": "18",
@@ -627,5 +607,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:16.636Z"
+  "updatedAt": "2026-11-23T17:08:16.796Z"
 }
