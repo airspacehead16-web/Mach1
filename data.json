@@ -199,26 +199,6 @@
   ],
   "drivers": [
     {
-      "id": "d-rus",
-      "series": "F1",
-      "number": "63",
-      "code": "RUS",
-      "name": "George Russell",
-      "nationality": "British",
-      "teamId": "t-mer",
-      "team": "Mercedes",
-      "color": "#27F4D2",
-      "flag": "🇬🇧",
-      "rank": 7,
-      "points": 4,
-      "isChampion": false,
-      "poles": "5",
-      "podiums": "18",
-      "wins": "3",
-      "last": "—",
-      "bio": "Lead Brackley technical feedback driver."
-    },
-    {
       "id": "d-alo",
       "series": "F1",
       "number": "14",
@@ -884,5 +864,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:06:09.154Z"
+  "updatedAt": "2026-11-23T17:06:09.287Z"
 }
