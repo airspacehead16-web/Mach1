@@ -1,20 +1,6 @@
 {
   "teams": [
     {
-      "id": "t-amr",
-      "series": "F1",
-      "code": "AMR",
-      "name": "Aston Martin Aramco",
-      "chassis": "AMR26",
-      "powerUnit": "Honda RA626H",
-      "base": "Silverstone, UK",
-      "color": "#229971",
-      "rank": 5,
-      "points": 44,
-      "isChampion": false,
-      "bio": "Silverstone-built Adrian Newey-era chassis paired with exclusive Honda works hybrid power."
-    },
-    {
       "id": "t-wil",
       "series": "F1",
       "code": "WIL",
@@ -666,5 +652,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:59.244Z"
+  "updatedAt": "2026-11-23T17:09:00.862Z"
 }
