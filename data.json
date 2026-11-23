@@ -1,20 +1,6 @@
 {
   "teams": [
     {
-      "id": "t-has",
-      "series": "F1",
-      "code": "HAS",
-      "name": "MoneyGram Haas F1 Team",
-      "chassis": "VF-26",
-      "powerUnit": "Ferrari 067",
-      "base": "Kannapolis, USA",
-      "color": "#B6BABD",
-      "rank": 9,
-      "points": 11,
-      "isChampion": false,
-      "bio": "Compact aerodynamic package maximizing high-efficiency Ferrari energy recovery."
-    },
-    {
       "id": "t-rb",
       "series": "F1",
       "code": "VCARB",
@@ -710,5 +696,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:07:32.072Z"
+  "updatedAt": "2026-11-23T17:08:11.740Z"
 }
