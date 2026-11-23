@@ -959,11 +959,11 @@
       "_updatedAt": 1795333028594,
       "category": "f1",
       "division": "track",
-      "fullName": "Arvid Lindbla",
+      "fullName": "Arvid Lindblad",
       "id": "drv-tsunoda",
-      "name": "Arvid Lindbla",
+      "name": "Arvid Lindblad",
       "nationality": "Japanese",
-      "number": "22",
+      "number": "2",
       "overview": "",
       "primaryColor": "#6692FF",
       "stats": [
@@ -4206,5 +4206,5 @@
       ]
     }
   ],
-  "updatedAt": 1795405194687
+  "updatedAt": 1795405197704
 }
