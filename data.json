@@ -127,20 +127,6 @@
       "bio": "French single-seater powerhouse with multiple F2 & GP2 championship titles."
     },
     {
-      "id": "t-fe-nis",
-      "series": "FE",
-      "code": "NIS",
-      "name": "Nissan Formula E Team",
-      "chassis": "GEN3 Evo",
-      "powerUnit": "Nissan e-4ORCE 05",
-      "base": "Viry-Châtillon, France",
-      "color": "#C3002F",
-      "rank": 3,
-      "points": 61,
-      "isChampion": false,
-      "bio": "High-efficiency dual-motor torque vectoring across street circuits."
-    },
-    {
       "id": "t-fe-mcl",
       "series": "FE",
       "code": "NEOM",
@@ -722,5 +708,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:58.611Z"
+  "updatedAt": "2026-11-23T17:08:58.811Z"
 }
