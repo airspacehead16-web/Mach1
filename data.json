@@ -895,11 +895,11 @@
       "stats": [
         {
           "label": "Pole Positions",
-          "value": "-"
+          "value": ""
         },
         {
           "label": "Podiums",
-          "value": "-"
+          "value": ""
         },
         {
           "label": "Race Wins",
@@ -4068,5 +4068,5 @@
       "flags": []
     }
   ],
-  "updatedAt": 1795404686380
+  "updatedAt": 1795404687924
 }
