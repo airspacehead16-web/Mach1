@@ -99,20 +99,6 @@
       "bio": "America’s newest Formula 1 constructor expanding the grid to 22 cars."
     },
     {
-      "id": "t-f2-art",
-      "series": "F2",
-      "code": "ART",
-      "name": "ART Grand Prix",
-      "chassis": "Dallara F2 2024",
-      "powerUnit": "Mechachrome V6 Turbo",
-      "base": "Villeneuve-la-Guyard, France",
-      "color": "#E2E8F0",
-      "rank": 4,
-      "points": 41,
-      "isChampion": false,
-      "bio": "French single-seater powerhouse with multiple F2 & GP2 championship titles."
-    },
-    {
       "id": "t-fe-mcl",
       "series": "FE",
       "code": "NEOM",
@@ -794,5 +780,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:07:29.410Z"
+  "updatedAt": "2026-11-23T17:07:29.489Z"
 }
