@@ -199,26 +199,6 @@
   ],
   "drivers": [
     {
-      "id": "d-pia",
-      "series": "F1",
-      "number": "81",
-      "code": "PIA",
-      "name": "Oscar Piastri",
-      "nationality": "Australian",
-      "teamId": "t-mcl",
-      "team": "McLaren",
-      "color": "#FF8000",
-      "flag": "🇦🇺",
-      "rank": 4,
-      "points": 15,
-      "isChampion": false,
-      "poles": "6",
-      "podiums": "28",
-      "wins": "9",
-      "last": "—",
-      "bio": "Clinical racecraft and high-speed stability in the MCL40."
-    },
-    {
       "id": "d-ham",
       "series": "F1",
       "number": "44",
@@ -944,5 +924,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:06:08.648Z"
+  "updatedAt": "2026-11-23T17:06:08.856Z"
 }
