@@ -1,20 +1,6 @@
 {
   "teams": [
     {
-      "id": "t-rb",
-      "series": "F1",
-      "code": "VCARB",
-      "name": "Visa Cash App Racing Bulls",
-      "chassis": "VCARB 03",
-      "powerUnit": "Red Bull Ford DM01",
-      "base": "Faenza, Italy",
-      "color": "#6692FF",
-      "rank": 10,
-      "points": 9,
-      "isChampion": false,
-      "bio": "Faenza-based sister constructor running Red Bull Ford powertrains."
-    },
-    {
       "id": "t-cad",
       "series": "F1",
       "code": "CAD",
@@ -596,5 +582,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:09:05.266Z"
+  "updatedAt": "2026-11-23T17:09:05.431Z"
 }
