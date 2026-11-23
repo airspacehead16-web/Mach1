@@ -199,26 +199,6 @@
   ],
   "drivers": [
     {
-      "id": "d-lec",
-      "series": "F1",
-      "number": "16",
-      "code": "LEC",
-      "name": "Charles Leclerc",
-      "nationality": "Monégasque",
-      "teamId": "t-fer",
-      "team": "Ferrari",
-      "color": "#E10600",
-      "flag": "🇲🇨",
-      "rank": 3,
-      "points": 2,
-      "isChampion": false,
-      "poles": "27",
-      "podiums": "56",
-      "wins": "9",
-      "last": "08/5",
-      "bio": "Ferrari qualifying specialist extracting peak single-lap X-mode speed from the SF-26."
-    },
-    {
       "id": "d-pia",
       "series": "F1",
       "number": "81",
@@ -964,5 +944,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:06:08.457Z"
+  "updatedAt": "2026-11-23T17:06:08.648Z"
 }
