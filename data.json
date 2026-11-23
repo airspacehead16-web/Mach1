@@ -52,7 +52,7 @@
       "base": "Brackley, UK",
       "color": "#27F4D2",
       "rank": 1,
-      "points": 666,
+      "points": 667,
       "isChampion": true,
       "bio": "Brackley factory operation optimized for straight-line X-mode drag reduction."
     },
@@ -1035,11 +1035,11 @@
     }
   ],
   "raceSummary": {
-    "id": "race-1795452458429",
+    "id": "race-initial",
     "raceName": "United States Grand Prix — Circuit of the Americas",
     "shortTitle": "Race",
     "flag": "🏁",
-    "series": "Formula E",
+    "series": "Formula 1",
     "circuit": "Circuit of the Americas",
     "date": "2026-11-23",
     "laps": "56 Laps • 308.405 km",
@@ -1122,10 +1122,10 @@
       },
       {
         "pos": "7",
-        "code": "BAR",
-        "name": "Taylor Barnard",
-        "team": "NEOM McLaren",
-        "color": "#FF8000",
+        "code": "SAI",
+        "name": "Carlos Sainz",
+        "team": "Williams",
+        "color": "#64C4FF",
         "interval": "+31.084s",
         "tires": [
           "M",
@@ -1136,10 +1136,10 @@
       },
       {
         "pos": "8",
-        "code": "ROW",
-        "name": "Oliver Rowland",
-        "team": "Nissan FE",
-        "color": "#C3002F",
+        "code": "RUS",
+        "name": "George Russell",
+        "team": "Mercedes",
+        "color": "#27F4D2",
         "interval": "+34.511s",
         "tires": [
           "H",
@@ -1240,5 +1240,5 @@
       }
     ]
   },
-  "updatedAt": "2026-11-23T16:47:38.430Z"
+  "updatedAt": "2026-11-23T16:52:28.776Z"
 }
