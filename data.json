@@ -1035,11 +1035,11 @@
     }
   ],
   "raceSummary": {
-    "id": "race-initial",
+    "id": "race-1795452424961",
     "raceName": "United States Grand Prix — Circuit of the Americas",
     "shortTitle": "Race",
     "flag": "🏁",
-    "series": "Formula 1",
+    "series": "Formula E",
     "circuit": "Circuit of the Americas",
     "date": "2026-11-23",
     "laps": "56 Laps • 308.405 km",
@@ -1240,5 +1240,5 @@
       }
     ]
   },
-  "updatedAt": "2026-11-23T16:43:55.990Z"
+  "updatedAt": "2026-11-23T16:47:04.962Z"
 }
