@@ -127,20 +127,6 @@
       "bio": "America’s newest Formula 1 constructor expanding the grid to 22 cars."
     },
     {
-      "id": "t-f2-pre",
-      "series": "F2",
-      "code": "PRE",
-      "name": "PREMA Racing",
-      "chassis": "Dallara F2 2024",
-      "powerUnit": "Mechachrome V6 Turbo",
-      "base": "Grisignano, Italy",
-      "color": "#E10600",
-      "rank": 2,
-      "points": 58,
-      "isChampion": false,
-      "bio": "Italian junior single-seater powerhouse renowned for qualifying damper setups."
-    },
-    {
       "id": "t-f2-cam",
       "series": "F2",
       "code": "CAM",
@@ -1018,5 +1004,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:05:28.781Z"
+  "updatedAt": "2026-11-23T17:05:28.959Z"
 }
