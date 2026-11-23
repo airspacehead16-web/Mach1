@@ -962,8 +962,8 @@
       "fullName": "Arvid Lindblad",
       "id": "drv-tsunoda",
       "name": "Arvid Lindblad",
-      "nationality": "Japanese",
-      "number": "4",
+      "nationality": "Japane",
+      "number": "41",
       "overview": "",
       "primaryColor": "#6692FF",
       "stats": [
@@ -4206,5 +4206,5 @@
       ]
     }
   ],
-  "updatedAt": 1795405198959
+  "updatedAt": 1795405203887
 }
