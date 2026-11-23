@@ -51,9 +51,9 @@
       "powerUnit": "Mercedes-AMG",
       "base": "Brackley, UK",
       "color": "#27F4D2",
-      "rank": 4,
-      "points": 76,
-      "isChampion": false,
+      "rank": 1,
+      "points": 666,
+      "isChampion": true,
       "bio": "Brackley factory operation optimized for straight-line X-mode drag reduction."
     },
     {
@@ -1248,5 +1248,5 @@
       }
     ]
   },
-  "updatedAt": "2026-11-23T16:37:50.007Z"
+  "updatedAt": "2026-11-23T16:38:13.054Z"
 }
