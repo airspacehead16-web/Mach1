@@ -199,26 +199,6 @@
   ],
   "drivers": [
     {
-      "id": "d-ant",
-      "series": "F1",
-      "number": "12",
-      "code": "ANT",
-      "name": "Kimi Antonelli",
-      "nationality": "Italian",
-      "teamId": "t-mer",
-      "team": "Mercedes",
-      "color": "#27F4D2",
-      "flag": "🇮🇹",
-      "rank": 6,
-      "points": 12,
-      "isChampion": false,
-      "poles": "—",
-      "podiums": "2",
-      "wins": "—",
-      "last": "—",
-      "bio": "Mercedes-AMG prodigy delivering standout race pace in the W17."
-    },
-    {
       "id": "d-rus",
       "series": "F1",
       "number": "63",
@@ -904,5 +884,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:06:08.973Z"
+  "updatedAt": "2026-11-23T17:06:09.154Z"
 }
