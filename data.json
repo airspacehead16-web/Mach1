@@ -907,7 +907,7 @@
         },
         {
           "label": "Recent Race / Standings",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "Career / Season Points",
@@ -4068,5 +4068,5 @@
       "flags": []
     }
   ],
-  "updatedAt": 1795404682253
+  "updatedAt": 1795404683951
 }
