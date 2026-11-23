@@ -1,20 +1,6 @@
 {
   "teams": [
     {
-      "id": "t-mcl",
-      "series": "F1",
-      "code": "MCL",
-      "name": "McLaren Formula 1 Team",
-      "chassis": "MCL40",
-      "powerUnit": "Mercedes-AMG",
-      "base": "Woking, UK",
-      "color": "#FF8000",
-      "rank": 4,
-      "points": 33,
-      "isChampion": false,
-      "bio": "Woking-based constructor leading 2026 active-aero efficiency and low-speed mechanical traction."
-    },
-    {
       "id": "t-amr",
       "series": "F1",
       "code": "AMR",
@@ -808,5 +794,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:07:29.261Z"
+  "updatedAt": "2026-11-23T17:07:29.410Z"
 }
