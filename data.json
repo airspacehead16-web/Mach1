@@ -97,20 +97,6 @@
       "points": 4,
       "isChampion": false,
       "bio": "America’s newest Formula 1 constructor expanding the grid to 22 cars."
-    },
-    {
-      "id": "t-fe-mcl",
-      "series": "FE",
-      "code": "NEOM",
-      "name": "NEOM McLaren Formula E",
-      "chassis": "GEN3 Evo",
-      "powerUnit": "Nissan e-4ORCE 05",
-      "base": "Bicester, UK",
-      "color": "#FF8000",
-      "rank": 4,
-      "points": 52,
-      "isChampion": false,
-      "bio": "Papaya electric outfit excelling in peloton energy-conservation races."
     }
   ],
   "drivers": [
@@ -680,5 +666,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:59.078Z"
+  "updatedAt": "2026-11-23T17:08:59.244Z"
 }
