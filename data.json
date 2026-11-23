@@ -959,9 +959,9 @@
       "_updatedAt": 1795333028594,
       "category": "f1",
       "division": "track",
-      "fullName": "Yuki Tsunoda",
+      "fullName": "Yuki Tsunod",
       "id": "drv-tsunoda",
-      "name": "Yuki Tsunoda",
+      "name": "Yuki Tsunod",
       "nationality": "Japanese",
       "number": "22",
       "overview": "",
@@ -4206,5 +4206,5 @@
       ]
     }
   ],
-  "updatedAt": 1795405030231
+  "updatedAt": 1795405185814
 }
