@@ -43,20 +43,6 @@
       "bio": "Milton Keynes outfit running the inaugural Red Bull Ford Powertrains 350kW hybrid unit."
     },
     {
-      "id": "t-mer",
-      "series": "F1",
-      "code": "MER",
-      "name": "Mercedes-AMG PETRONAS",
-      "chassis": "W17",
-      "powerUnit": "Mercedes-AMG",
-      "base": "Brackley, UK",
-      "color": "#27F4D2",
-      "rank": 1,
-      "points": 16,
-      "isChampion": true,
-      "bio": "Brackley factory operation optimized for straight-line X-mode drag reduction."
-    },
-    {
       "id": "t-amr",
       "series": "F1",
       "code": "AMR",
@@ -1074,5 +1060,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:04:54.939Z"
+  "updatedAt": "2026-11-23T17:05:28.156Z"
 }
