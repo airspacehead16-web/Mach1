@@ -1,20 +1,5 @@
 {
-  "teams": [
-    {
-      "id": "t-cad",
-      "series": "F1",
-      "code": "CAD",
-      "name": "Cadillac Formula 1 Team",
-      "chassis": "CAD-26",
-      "powerUnit": "Ferrari 067",
-      "base": "Silverstone / Charlotte",
-      "color": "#A88932",
-      "rank": 11,
-      "points": 4,
-      "isChampion": false,
-      "bio": "America’s newest Formula 1 constructor expanding the grid to 22 cars."
-    }
-  ],
+  "teams": [],
   "drivers": [
     {
       "id": "d-hul",
@@ -582,5 +567,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:09:05.431Z"
+  "updatedAt": "2026-11-23T17:09:05.570Z"
 }
