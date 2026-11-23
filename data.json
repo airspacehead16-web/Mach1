@@ -959,9 +959,9 @@
       "_updatedAt": 1795333028594,
       "category": "f1",
       "division": "track",
-      "fullName": "Arvid L",
+      "fullName": "Arvid Lin",
       "id": "drv-tsunoda",
-      "name": "Arvid L",
+      "name": "Arvid Lin",
       "nationality": "Japanese",
       "number": "22",
       "overview": "",
@@ -4206,5 +4206,5 @@
       ]
     }
   ],
-  "updatedAt": 1795405192275
+  "updatedAt": 1795405193440
 }
