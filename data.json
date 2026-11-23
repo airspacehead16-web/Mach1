@@ -199,26 +199,6 @@
   ],
   "drivers": [
     {
-      "id": "d-ham",
-      "series": "F1",
-      "number": "44",
-      "code": "HAM",
-      "name": "Lewis Hamilton",
-      "nationality": "British",
-      "teamId": "t-fer",
-      "team": "Ferrari",
-      "color": "#E10600",
-      "flag": "🇬🇧",
-      "rank": 5,
-      "points": 8,
-      "isChampion": false,
-      "poles": "104",
-      "podiums": "202",
-      "wins": "105",
-      "last": "—",
-      "bio": "Seven-time World Champion piloting the #44 Scuderia Ferrari SF-26."
-    },
-    {
       "id": "d-ant",
       "series": "F1",
       "number": "12",
@@ -924,5 +904,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:06:08.856Z"
+  "updatedAt": "2026-11-23T17:06:08.973Z"
 }
