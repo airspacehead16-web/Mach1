@@ -183,20 +183,6 @@
       "bio": "French single-seater powerhouse with multiple F2 & GP2 championship titles."
     },
     {
-      "id": "t-fe-por",
-      "series": "FE",
-      "code": "POR",
-      "name": "TAG Heuer Porsche FE",
-      "chassis": "GEN3 Evo",
-      "powerUnit": "Porsche 99X Electric",
-      "base": "Weissach, Germany",
-      "color": "#D5001C",
-      "rank": 1,
-      "points": 86,
-      "isChampion": true,
-      "bio": "Weissach silicon-carbide inverter efficiency and 350kW AWD Attack Mode acceleration."
-    },
-    {
       "id": "t-fe-jag",
       "series": "FE",
       "code": "JAG",
@@ -806,5 +792,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:57.628Z"
+  "updatedAt": "2026-11-23T17:08:57.786Z"
 }
