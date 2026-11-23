@@ -888,7 +888,7 @@
       "fullName": "Rafa Camara",
       "id": "drv-ocon",
       "name": "Rafa Camara",
-      "nationality": "French",
+      "nationality": "B",
       "number": "51",
       "overview": "",
       "primaryColor": "#B6BABD",
@@ -4068,5 +4068,5 @@
       "flags": []
     }
   ],
-  "updatedAt": 1795404687924
+  "updatedAt": 1795404694673
 }
