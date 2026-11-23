@@ -10,7 +10,7 @@
       "base": "Woking, UK",
       "color": "#FF8000",
       "rank": 4,
-      "points": 112,
+      "points": 33,
       "isChampion": false,
       "bio": "Woking-based constructor leading 2026 active-aero efficiency and low-speed mechanical traction."
     },
@@ -24,7 +24,7 @@
       "base": "Maranello, Italy",
       "color": "#E10600",
       "rank": 2,
-      "points": 98,
+      "points": 10,
       "isChampion": false,
       "bio": "Maranello works team leveraging high-density MGU-K deployment and narrow sidepod undercut geometry."
     },
@@ -38,7 +38,7 @@
       "base": "Milton Keynes, UK",
       "color": "#3671C6",
       "rank": 3,
-      "points": 89,
+      "points": 25,
       "isChampion": false,
       "bio": "Milton Keynes outfit running the inaugural Red Bull Ford Powertrains 350kW hybrid unit."
     },
@@ -52,7 +52,7 @@
       "base": "Brackley, UK",
       "color": "#27F4D2",
       "rank": 1,
-      "points": 667,
+      "points": 16,
       "isChampion": true,
       "bio": "Brackley factory operation optimized for straight-line X-mode drag reduction."
     },
@@ -80,7 +80,7 @@
       "base": "Grove, UK",
       "color": "#64C4FF",
       "rank": 6,
-      "points": 28,
+      "points": 6,
       "isChampion": false,
       "bio": "Grove squad combining carbon-monocoque weight savings with customer Mercedes power."
     },
@@ -94,7 +94,7 @@
       "base": "Enstone, UK",
       "color": "#FF87BC",
       "rank": 7,
-      "points": 19,
+      "points": 10,
       "isChampion": false,
       "bio": "Enstone chassis transitioning to customer Mercedes hybrid architecture for 2026."
     },
@@ -108,7 +108,7 @@
       "base": "Hinwil / Neuburg",
       "color": "#F50537",
       "rank": 8,
-      "points": 14,
+      "points": 1,
       "isChampion": false,
       "bio": "Full German-Swiss works entry debuting Neuburg-developed 50/50 electric-combustion powertrain."
     },
@@ -280,7 +280,7 @@
       "color": "#3671C6",
       "flag": "🇳🇱",
       "rank": 1,
-      "points": 68,
+      "points": 25,
       "isChampion": true,
       "poles": "40",
       "podiums": "112",
@@ -300,7 +300,7 @@
       "color": "#FF8000",
       "flag": "🇬🇧",
       "rank": 2,
-      "points": 62,
+      "points": 18,
       "isChampion": false,
       "poles": "20",
       "podiums": "50",
@@ -320,7 +320,7 @@
       "color": "#E10600",
       "flag": "🇲🇨",
       "rank": 3,
-      "points": 52,
+      "points": 2,
       "isChampion": false,
       "poles": "27",
       "podiums": "56",
@@ -340,7 +340,7 @@
       "color": "#FF8000",
       "flag": "🇦🇺",
       "rank": 4,
-      "points": 50,
+      "points": 15,
       "isChampion": false,
       "poles": "6",
       "podiums": "28",
@@ -360,7 +360,7 @@
       "color": "#E10600",
       "flag": "🇬🇧",
       "rank": 5,
-      "points": 46,
+      "points": 8,
       "isChampion": false,
       "poles": "104",
       "podiums": "202",
@@ -380,7 +380,7 @@
       "color": "#27F4D2",
       "flag": "🇮🇹",
       "rank": 6,
-      "points": 40,
+      "points": 12,
       "isChampion": false,
       "poles": "—",
       "podiums": "2",
@@ -400,7 +400,7 @@
       "color": "#27F4D2",
       "flag": "🇬🇧",
       "rank": 7,
-      "points": 36,
+      "points": 4,
       "isChampion": false,
       "poles": "5",
       "podiums": "18",
@@ -460,7 +460,7 @@
       "color": "#64C4FF",
       "flag": "🇪🇸",
       "rank": 10,
-      "points": 20,
+      "points": 6,
       "isChampion": false,
       "poles": "6",
       "podiums": "27",
@@ -500,7 +500,7 @@
       "color": "#FF87BC",
       "flag": "🇫🇷",
       "rank": 12,
-      "points": 14,
+      "points": 10,
       "isChampion": false,
       "poles": "—",
       "podiums": "5",
@@ -520,7 +520,7 @@
       "color": "#F50537",
       "flag": "🇩🇪",
       "rank": 13,
-      "points": 10,
+      "points": 1,
       "isChampion": false,
       "poles": "1",
       "podiums": "—",
@@ -1203,6 +1203,20 @@
         ],
         "pits": 1,
         "points": 0
+      },
+      {
+        "pos": "1",
+        "code": "VER",
+        "name": "Max Verstappen",
+        "team": "Red Bull Racing",
+        "color": "#3671C6",
+        "interval": "+0.000s",
+        "tires": [
+          "M",
+          "H"
+        ],
+        "pits": 1,
+        "points": 25
       }
     ],
     "dnfs": [
@@ -1240,6 +1254,227 @@
       }
     ]
   },
-  "savedRaces": [],
-  "updatedAt": "2026-11-23T17:03:28.856Z"
+  "savedRaces": [
+    {
+      "id": "race-initial",
+      "raceName": "United States Grand Prix — Circuit of the Americas",
+      "shortTitle": "Race",
+      "flag": "🏁",
+      "series": "Formula 1",
+      "circuit": "Circuit of the Americas",
+      "date": "2026-11-23",
+      "laps": "56 Laps • 308.405 km",
+      "weather": "Dry • Track 34°C / Air 26°C",
+      "status": "OFFICIAL CLASSIFICATION",
+      "fastestLap": "1:35.812 — Lando Norris (Lap 49)",
+      "debrief": "",
+      "activeOnTicker": true,
+      "standings": [
+        {
+          "pos": "2",
+          "code": "NOR",
+          "name": "Lando Norris",
+          "team": "McLaren",
+          "color": "#FF8000",
+          "interval": "+2.419s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 18
+        },
+        {
+          "pos": "3",
+          "code": "PIA",
+          "name": "Oscar Piastri",
+          "team": "McLaren",
+          "color": "#FF8000",
+          "interval": "+7.892s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 15
+        },
+        {
+          "pos": "4",
+          "code": "ANT",
+          "name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "color": "#27F4D2",
+          "interval": "+14.105s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 12
+        },
+        {
+          "pos": "5",
+          "code": "GAS",
+          "name": "Pierre Gasly",
+          "team": "Alpine",
+          "color": "#FF87BC",
+          "interval": "+21.640s",
+          "tires": [
+            "S",
+            "H"
+          ],
+          "pits": 1,
+          "points": 10
+        },
+        {
+          "pos": "6",
+          "code": "HAM",
+          "name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "color": "#E10600",
+          "interval": "+24.912s",
+          "tires": [
+            "M",
+            "H",
+            "S"
+          ],
+          "pits": 2,
+          "points": 8
+        },
+        {
+          "pos": "7",
+          "code": "SAI",
+          "name": "Carlos Sainz",
+          "team": "Williams",
+          "color": "#64C4FF",
+          "interval": "+31.084s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 6
+        },
+        {
+          "pos": "8",
+          "code": "RUS",
+          "name": "George Russell",
+          "team": "Mercedes",
+          "color": "#27F4D2",
+          "interval": "+34.511s",
+          "tires": [
+            "H",
+            "M"
+          ],
+          "pits": 1,
+          "points": 4
+        },
+        {
+          "pos": "9",
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "team": "Ferrari",
+          "color": "#E10600",
+          "interval": "+38.209s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 2
+        },
+        {
+          "pos": "10",
+          "code": "HUL",
+          "name": "Nico Hülkenberg",
+          "team": "Audi",
+          "color": "#F50537",
+          "interval": "+45.770s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 1
+        },
+        {
+          "pos": "11",
+          "code": "ALO",
+          "name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "color": "#229971",
+          "interval": "+49.112s",
+          "tires": [
+            "H",
+            "M"
+          ],
+          "pits": 1,
+          "points": 0
+        },
+        {
+          "pos": "NC",
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "team": "Williams",
+          "color": "#64C4FF",
+          "interval": "DNF (Lap 41)",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 0
+        },
+        {
+          "pos": "1",
+          "code": "VER",
+          "name": "Max Verstappen",
+          "team": "Red Bull Racing",
+          "color": "#3671C6",
+          "interval": "+0.000s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 25
+        }
+      ],
+      "dnfs": [
+        {
+          "code": "ALB",
+          "name": "Alexander Albon",
+          "status": "DNF",
+          "lap": "Lap 41",
+          "reason": "MGU-K hydraulic pressure loss in Sector 2"
+        }
+      ],
+      "penalties": [
+        {
+          "code": "LEC",
+          "name": "Charles Leclerc",
+          "penalty": "+5s Time Penalty",
+          "reason": "Leaving the track and gaining a lasting advantage at Turn 12"
+        }
+      ],
+      "flags": [
+        {
+          "type": "GREEN FLAG",
+          "lap": "Lap 1",
+          "note": "Clean race start across all 22 cars"
+        },
+        {
+          "type": "VIRTUAL SAFETY CAR",
+          "lap": "Lap 41–42",
+          "note": "Car #23 (ALB) recovered safely at Turn 11 escape road"
+        },
+        {
+          "type": "CHEQUERED FLAG",
+          "lap": "Lap 56",
+          "note": "Max Verstappen wins the United States Grand Prix"
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-11-23T17:04:38.996Z"
 }
