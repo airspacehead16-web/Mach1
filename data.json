@@ -543,7 +543,7 @@
     }
   ],
   "raceSummary": {
-    "id": "race-initial",
+    "id": "race-1795456929598",
     "raceName": "United States Grand Prix — Circuit of the Americas",
     "shortTitle": "Race",
     "flag": "🏁",
@@ -570,6 +570,20 @@
         ],
         "pits": 1,
         "points": 0
+      },
+      {
+        "pos": "2",
+        "code": "LAW",
+        "name": "Liam Lawson",
+        "team": "Racing Bulls",
+        "color": "#6692FF",
+        "interval": "+0.000s",
+        "tires": [
+          "M",
+          "H"
+        ],
+        "pits": 1,
+        "points": 0
       }
     ],
     "dnfs": [],
@@ -578,7 +592,7 @@
   },
   "savedRaces": [
     {
-      "id": "race-initial",
+      "id": "race-1795456929598",
       "raceName": "United States Grand Prix — Circuit of the Americas",
       "shortTitle": "Race",
       "flag": "🏁",
@@ -605,6 +619,54 @@
           ],
           "pits": 1,
           "points": 0
+        },
+        {
+          "pos": "2",
+          "code": "LAW",
+          "name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "color": "#6692FF",
+          "interval": "+0.000s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 0
+        }
+      ],
+      "dnfs": [],
+      "penalties": [],
+      "flags": []
+    },
+    {
+      "id": "race-initial",
+      "raceName": "United States Grand Prix — Circuit of the Americas",
+      "shortTitle": "Race",
+      "flag": "🏁",
+      "series": "Formula 1",
+      "circuit": "Circuit of the Americas",
+      "date": "2026-11-23",
+      "laps": "56 Laps • 308.405 km",
+      "weather": "Dry • Track 34°C / Air 26°C",
+      "status": "OFFICIAL CLASSIFICATION",
+      "fastestLap": "1:35.812 — Lando Norris (Lap 49)",
+      "debrief": "",
+      "activeOnTicker": false,
+      "standings": [
+        {
+          "pos": "1",
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac F1",
+          "color": "#A88932",
+          "interval": "+0.000s",
+          "tires": [
+            "W",
+            "I"
+          ],
+          "pits": 1,
+          "points": 0
         }
       ],
       "dnfs": [],
@@ -612,5 +674,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T18:01:53.012Z"
+  "updatedAt": "2026-11-23T18:02:09.599Z"
 }
