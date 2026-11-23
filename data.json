@@ -1,20 +1,6 @@
 {
   "teams": [
     {
-      "id": "t-aud",
-      "series": "F1",
-      "code": "AUD",
-      "name": "Audi F1 Factory Team",
-      "chassis": "R26",
-      "powerUnit": "Audi Neuburg",
-      "base": "Hinwil / Neuburg",
-      "color": "#F50537",
-      "rank": 8,
-      "points": 1,
-      "isChampion": false,
-      "bio": "Full German-Swiss works entry debuting Neuburg-developed 50/50 electric-combustion powertrain."
-    },
-    {
       "id": "t-has",
       "series": "F1",
       "code": "HAS",
@@ -724,5 +710,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:07:31.624Z"
+  "updatedAt": "2026-11-23T17:07:32.072Z"
 }
