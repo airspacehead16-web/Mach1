@@ -3895,26 +3895,7 @@
       "type": "aircraft"
     }
   ],
-  "articles": [
-    {
-      "id": "art-1795346977156",
-      "division": "track",
-      "categoryId": "f1",
-      "categoryLabel": "Formula 1",
-      "headline": "FIA Greenlights 2030 V8 Power Unit Framework: Unpacking the Technical Shift Towards Lighter andAgile Chassis",
-      "summary": "The FIA, Formula One Management (FOM), and power unit manufacturers have reached a unanimous agreement to reintroduce V8 engines for the 2030 regulatory cycle, pairing them with lighter, simpler chassis architectures to prioritize wheel-to-wheel racing and cost control.",
-      "body": "Following high-level stakeholder meetings ahead of the Las Vegas Grand Prix weekend, the FIA has confirmed a landmark consensus among Formula One Management (FOM) and all current power unit manufacturers on the technical direction for 2030. The centerpiece of the agreement is the retirement of the complex V6 hybrid architecture in favor of a return to V8 engines—though engineered specifically for modern sustainability standards rather than a simple throwback to the pre-2014 era.\n\nKey Technical Pillars of the 2030 Framework:\n\n1. Power Unit Architecture & Hybrid Integration\nWhile the V8 configuration will restore the high-revving acoustic profile long demanded by fans, technical briefings indicate it will not be an unassisted, naturally aspirated unit. Instead, the 2030 formula is expected to utilize a turbocharged V8 paired with a scaled-back, standardized hybrid energy recovery system. Reducing the electrical deployment burden allows manufacturers to shed massive battery and MGU weight while running on 100% sustainable fuels.\n\n2. Chassis Weight and Aerodynamic Simplification\nA lighter power unit directly unlocks significant gains on the chassis side. Under the 2030 mandate, the FIA is targeting a substantial reduction in minimum car weight and physical dimensions. By stripping away heavy cooling apparatus required by high-output hybrid systems, aerodynamicists will have greater freedom to design narrower, more agile cars that generate less turbulent wake—directly addressing the dirty-air challenges that have historically hindered close following.\n\n3. Cost Containment and Manufacturer Alignment\nEscalating R&D expenditure on bespoke electrical components has been a persistent concern in the paddock. Standardizing or simplifying the hybrid elements around a V8 core lowers the barrier to entry for independent engine suppliers and caps runaway development costs, a critical factor in securing unanimous sign-off from OEMs including Mercedes, Ferrari, Red Bull Powertrains, Audi, and Cadillac.",
-      "verdict": "This agreement is a direct course correction aimed at curing Formula 1's biggest modern handicap: heavy, overly complex cars that rely too heavily on energy management rather than flat-out driving. While the return of the V8 will grab headlines for its sound, the real competitive breakthrough lies in the weight savings and aerodynamic agility it unlocks. Watch closely for the FIA World Motor Sport Council meeting in Shanghai next month, where the definitive technical regulations will be ratified—specifically how much electrical power remains in the mix, as manufacturers will fiercely debate the balance between internal combustion and hybrid relevance.",
-      "imageUrl": "",
-      "isAnalysis": false,
-      "entityIds": [
-        "org-fia-f1"
-      ],
-      "date": "2026-11-22",
-      "author": "MACH1 Editorial Desk",
-      "_updatedAt": 1795346977156
-    }
-  ],
+  "articles": [],
   "weeklyLogs": [],
   "raceResults": [
     {
@@ -4068,5 +4049,5 @@
       "flags": []
     }
   ],
-  "updatedAt": 1795346977157
+  "updatedAt": 1795404470686
 }
