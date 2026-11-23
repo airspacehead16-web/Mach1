@@ -2,26 +2,6 @@
   "teams": [],
   "drivers": [
     {
-      "id": "d-str",
-      "series": "F1",
-      "number": "18",
-      "code": "STR",
-      "name": "Lance Stroll",
-      "nationality": "Canadian",
-      "teamId": "t-amr",
-      "team": "Aston Martin",
-      "color": "#229971",
-      "flag": "🇨🇦",
-      "rank": 11,
-      "points": 16,
-      "isChampion": false,
-      "poles": "1",
-      "podiums": "3",
-      "wins": "—",
-      "last": "—",
-      "bio": "Experienced Aston Martin Aramco racer."
-    },
-    {
       "id": "d-gas",
       "series": "F1",
       "number": "10",
@@ -607,5 +587,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:16.796Z"
+  "updatedAt": "2026-11-23T17:08:16.960Z"
 }
