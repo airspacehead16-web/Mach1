@@ -1,20 +1,6 @@
 {
   "teams": [
     {
-      "id": "t-fer",
-      "series": "F1",
-      "code": "FER",
-      "name": "Scuderia Ferrari HP",
-      "chassis": "SF-26",
-      "powerUnit": "Ferrari 067",
-      "base": "Maranello, Italy",
-      "color": "#E10600",
-      "rank": 2,
-      "points": 98,
-      "isChampion": false,
-      "bio": "Maranello works team leveraging high-density MGU-K deployment and narrow sidepod undercut geometry."
-    },
-    {
       "id": "t-rbr",
       "series": "F1",
       "code": "RBR",
@@ -792,5 +778,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:57.786Z"
+  "updatedAt": "2026-11-23T17:08:57.929Z"
 }
