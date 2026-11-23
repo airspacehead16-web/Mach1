@@ -2,26 +2,6 @@
   "teams": [],
   "drivers": [
     {
-      "id": "d-had",
-      "series": "F1",
-      "number": "6",
-      "code": "HAD",
-      "name": "Isack Hadjar",
-      "nationality": "French",
-      "teamId": "t-rbr",
-      "team": "Red Bull Racing",
-      "color": "#3671C6",
-      "flag": "🇫🇷",
-      "rank": 9,
-      "points": 21,
-      "isChampion": false,
-      "poles": "—",
-      "podiums": "—",
-      "wins": "—",
-      "last": "—",
-      "bio": "Red Bull junior promoted to Milton Keynes senior squad."
-    },
-    {
       "id": "d-sai",
       "series": "F1",
       "number": "55",
@@ -647,5 +627,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:16.486Z"
+  "updatedAt": "2026-11-23T17:08:16.636Z"
 }
