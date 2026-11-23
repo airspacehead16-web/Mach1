@@ -4040,6 +4040,138 @@
           "pits": "1",
           "points": "1",
           "color": "#DC0000"
+        },
+        {
+          "pos": "11",
+          "driver": "Nico Hülkenberg",
+          "code": "HLK",
+          "team": "Audi",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#F50537"
+        },
+        {
+          "pos": "12",
+          "driver": "Gabriel Bortoleto",
+          "code": "BOR",
+          "team": "Audi",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#F50537"
+        },
+        {
+          "pos": "13",
+          "driver": "Oliver Bearman",
+          "code": "BEA",
+          "team": "Haas",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#B6BABD"
+        },
+        {
+          "pos": "14",
+          "driver": "Liam Lawson",
+          "code": "LAW",
+          "team": "Red Bull Racing",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#3671C6"
+        },
+        {
+          "pos": "15",
+          "driver": "Isack Hadjar",
+          "code": "HAD",
+          "team": "Racing Bulls",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#6692FF"
+        },
+        {
+          "pos": "16",
+          "driver": "Rafa Camara",
+          "code": "CAM",
+          "team": "Haas",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#B6BABD"
+        },
+        {
+          "pos": "17",
+          "driver": "Lance Stroll",
+          "code": "STR",
+          "team": "Aston Martin",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#229971"
+        },
+        {
+          "pos": "18",
+          "driver": "Valtteri Bottas",
+          "code": "BOT",
+          "team": "Cadillac F1",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#D4AF37"
+        },
+        {
+          "pos": "19",
+          "driver": "Fernando Alonso",
+          "code": "ALO",
+          "team": "Aston Martin",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#229971"
+        },
+        {
+          "pos": "20",
+          "driver": "Arvid Lindblad",
+          "code": "LIN",
+          "team": "Racing Bulls",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#FF6B00"
+        },
+        {
+          "pos": "21",
+          "driver": "Sergio Pérez",
+          "code": "PRE",
+          "team": "Cadillac F1",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#D4AF37"
+        },
+        {
+          "pos": "22",
+          "driver": "Alexander Albon",
+          "code": "ALB",
+          "team": "Williams",
+          "gap": "",
+          "tires": "M",
+          "pits": "1",
+          "points": "0",
+          "color": "#64C4FF"
         }
       ],
       "dnfs": [
@@ -4056,17 +4188,42 @@
           "team": "",
           "lap": "",
           "reason": ""
+        },
+        {
+          "status": "DNF",
+          "driver": "Arvid Lindblad",
+          "team": "",
+          "lap": "",
+          "reason": ""
+        },
+        {
+          "status": "DNF",
+          "driver": "Fernando Alonso",
+          "team": "",
+          "lap": "",
+          "reason": ""
         }
       ],
       "penalties": [
         {
           "driver": "Charles Leclerc",
           "penalty": "+10s Time Penalty",
-          "reason": ""
+          "reason": "Causing a collision"
+        },
+        {
+          "driver": "Lewis Hamilton",
+          "penalty": "+10s Time Penalty",
+          "reason": "Leaving the track and gaining an advantage."
         }
       ],
-      "flags": []
+      "flags": [
+        {
+          "flag": "SAFETY CAR",
+          "lap": "",
+          "reason": ""
+        }
+      ]
     }
   ],
-  "updatedAt": 1795404701714
+  "updatedAt": 1795404950616
 }
