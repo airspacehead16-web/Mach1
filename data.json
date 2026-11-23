@@ -2,26 +2,6 @@
   "teams": [],
   "drivers": [
     {
-      "id": "d-alo",
-      "series": "F1",
-      "number": "14",
-      "code": "ALO",
-      "name": "Fernando Alonso",
-      "nationality": "Spanish",
-      "teamId": "t-amr",
-      "team": "Aston Martin",
-      "color": "#229971",
-      "flag": "🇪🇸",
-      "rank": 8,
-      "points": 28,
-      "isChampion": false,
-      "poles": "22",
-      "podiums": "106",
-      "wins": "32",
-      "last": "—",
-      "bio": "Two-time World Champion leading Aston Martin-Honda development."
-    },
-    {
       "id": "d-had",
       "series": "F1",
       "number": "6",
@@ -667,5 +647,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:12.089Z"
+  "updatedAt": "2026-11-23T17:08:16.486Z"
 }
