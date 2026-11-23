@@ -15,20 +15,6 @@
       "bio": "Woking-based constructor leading 2026 active-aero efficiency and low-speed mechanical traction."
     },
     {
-      "id": "t-rbr",
-      "series": "F1",
-      "code": "RBR",
-      "name": "Oracle Red Bull Racing",
-      "chassis": "RB22",
-      "powerUnit": "Red Bull Ford DM01",
-      "base": "Milton Keynes, UK",
-      "color": "#3671C6",
-      "rank": 3,
-      "points": 25,
-      "isChampion": false,
-      "bio": "Milton Keynes outfit running the inaugural Red Bull Ford Powertrains 350kW hybrid unit."
-    },
-    {
       "id": "t-amr",
       "series": "F1",
       "code": "AMR",
@@ -850,5 +836,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:07:28.782Z"
+  "updatedAt": "2026-11-23T17:07:28.935Z"
 }
