@@ -1,20 +1,6 @@
 {
   "teams": [
     {
-      "id": "t-alp",
-      "series": "F1",
-      "code": "ALP",
-      "name": "BWT Alpine F1 Team",
-      "chassis": "A526",
-      "powerUnit": "Mercedes-AMG",
-      "base": "Enstone, UK",
-      "color": "#FF87BC",
-      "rank": 7,
-      "points": 19,
-      "isChampion": false,
-      "bio": "Enstone chassis transitioning to customer Mercedes hybrid architecture for 2026."
-    },
-    {
       "id": "t-aud",
       "series": "F1",
       "code": "AUD",
@@ -638,5 +624,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:09:02.506Z"
+  "updatedAt": "2026-11-23T17:09:03.421Z"
 }
