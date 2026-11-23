@@ -899,11 +899,11 @@
         },
         {
           "label": "Podiums",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "Race Wins",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "Recent Race / Standings",
@@ -4068,5 +4068,5 @@
       "flags": []
     }
   ],
-  "updatedAt": 1795404680516
+  "updatedAt": 1795404682253
 }
