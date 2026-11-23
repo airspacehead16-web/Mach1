@@ -543,7 +543,7 @@
     }
   ],
   "raceSummary": {
-    "id": "race-initial",
+    "id": "race-1795457008820",
     "raceName": "United States Grand Prix — Circuit of the Americas",
     "shortTitle": "Race",
     "flag": "🏁",
@@ -570,12 +570,103 @@
         ],
         "pits": 1,
         "points": 0
+      },
+      {
+        "pos": "2",
+        "code": "BOR",
+        "name": "Gabriel Bortoleto",
+        "team": "Audi",
+        "color": "#F50537",
+        "interval": "+0.000s",
+        "tires": [
+          "M",
+          "H"
+        ],
+        "pits": 1,
+        "points": 0
+      },
+      {
+        "pos": "3",
+        "code": "PER",
+        "name": "Sergio Pérez",
+        "team": "Cadillac F1",
+        "color": "#A88932",
+        "interval": "+0.000s",
+        "tires": [
+          "M",
+          "H"
+        ],
+        "pits": 1,
+        "points": 0
       }
     ],
     "dnfs": [],
     "penalties": [],
     "flags": []
   },
-  "savedRaces": [],
-  "updatedAt": "2026-11-23T18:03:07.871Z"
+  "savedRaces": [
+    {
+      "id": "race-1795457008820",
+      "raceName": "United States Grand Prix — Circuit of the Americas",
+      "shortTitle": "Race",
+      "flag": "🏁",
+      "series": "Formula 1",
+      "circuit": "Circuit of the Americas",
+      "date": "2026-11-23",
+      "laps": "56 Laps • 308.405 km",
+      "weather": "Dry • Track 34°C / Air 26°C",
+      "status": "OFFICIAL CLASSIFICATION",
+      "fastestLap": "1:35.812 — Lando Norris (Lap 49)",
+      "debrief": "",
+      "activeOnTicker": true,
+      "standings": [
+        {
+          "pos": "1",
+          "code": "BOT",
+          "name": "Valtteri Bottas",
+          "team": "Cadillac F1",
+          "color": "#A88932",
+          "interval": "+0.000s",
+          "tires": [
+            "W",
+            "I"
+          ],
+          "pits": 1,
+          "points": 0
+        },
+        {
+          "pos": "2",
+          "code": "BOR",
+          "name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "color": "#F50537",
+          "interval": "+0.000s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 0
+        },
+        {
+          "pos": "3",
+          "code": "PER",
+          "name": "Sergio Pérez",
+          "team": "Cadillac F1",
+          "color": "#A88932",
+          "interval": "+0.000s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 0
+        }
+      ],
+      "dnfs": [],
+      "penalties": [],
+      "flags": []
+    }
+  ],
+  "updatedAt": "2026-11-23T18:03:28.821Z"
 }
