@@ -1,20 +1,6 @@
 {
   "teams": [
     {
-      "id": "t-mer",
-      "series": "F1",
-      "code": "MER",
-      "name": "Mercedes-AMG PETRONAS",
-      "chassis": "W17",
-      "powerUnit": "Mercedes-AMG",
-      "base": "Brackley, UK",
-      "color": "#27F4D2",
-      "rank": 4,
-      "points": 76,
-      "isChampion": false,
-      "bio": "Brackley factory operation optimized for straight-line X-mode drag reduction."
-    },
-    {
       "id": "t-amr",
       "series": "F1",
       "code": "AMR",
@@ -708,5 +694,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:58.811Z"
+  "updatedAt": "2026-11-23T17:08:58.928Z"
 }
