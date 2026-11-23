@@ -1,20 +1,6 @@
 {
   "teams": [
     {
-      "id": "t-wil",
-      "series": "F1",
-      "code": "WIL",
-      "name": "Atlassian Williams Racing",
-      "chassis": "FW48",
-      "powerUnit": "Mercedes-AMG",
-      "base": "Grove, UK",
-      "color": "#64C4FF",
-      "rank": 6,
-      "points": 28,
-      "isChampion": false,
-      "bio": "Grove squad combining carbon-monocoque weight savings with customer Mercedes power."
-    },
-    {
       "id": "t-alp",
       "series": "F1",
       "code": "ALP",
@@ -652,5 +638,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:09:00.862Z"
+  "updatedAt": "2026-11-23T17:09:02.506Z"
 }
