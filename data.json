@@ -1035,7 +1035,7 @@
     }
   ],
   "raceSummary": {
-    "id": "race-1795452427017",
+    "id": "race-1795452449847",
     "raceName": "United States Grand Prix — Circuit of the Americas",
     "shortTitle": "Race",
     "flag": "🏁",
@@ -1122,10 +1122,10 @@
       },
       {
         "pos": "7",
-        "code": "SAI",
-        "name": "Carlos Sainz",
-        "team": "Williams",
-        "color": "#64C4FF",
+        "code": "BAR",
+        "name": "Taylor Barnard",
+        "team": "NEOM McLaren",
+        "color": "#FF8000",
         "interval": "+31.084s",
         "tires": [
           "M",
@@ -1136,10 +1136,10 @@
       },
       {
         "pos": "8",
-        "code": "RUS",
-        "name": "George Russell",
-        "team": "Mercedes",
-        "color": "#27F4D2",
+        "code": "ROW",
+        "name": "Oliver Rowland",
+        "team": "Nissan FE",
+        "color": "#C3002F",
         "interval": "+34.511s",
         "tires": [
           "H",
@@ -1240,5 +1240,5 @@
       }
     ]
   },
-  "updatedAt": "2026-11-23T16:47:07.018Z"
+  "updatedAt": "2026-11-23T16:47:29.848Z"
 }
