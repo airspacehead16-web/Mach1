@@ -199,26 +199,6 @@
   ],
   "drivers": [
     {
-      "id": "d-ver",
-      "series": "F1",
-      "number": "1",
-      "code": "VER",
-      "name": "Max Verstappen",
-      "nationality": "Dutch",
-      "teamId": "t-rbr",
-      "team": "Red Bull Racing",
-      "color": "#3671C6",
-      "flag": "🇳🇱",
-      "rank": 1,
-      "points": 25,
-      "isChampion": true,
-      "poles": "40",
-      "podiums": "112",
-      "wins": "63",
-      "last": "1/1",
-      "bio": "Reigning World Champion spearheading Red Bull Ford DM01 energy deployment."
-    },
-    {
       "id": "d-nor",
       "series": "F1",
       "number": "4",
@@ -1004,5 +984,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:05:28.959Z"
+  "updatedAt": "2026-11-23T17:06:08.305Z"
 }
