@@ -199,26 +199,6 @@
   ],
   "drivers": [
     {
-      "id": "d-nor",
-      "series": "F1",
-      "number": "4",
-      "code": "NOR",
-      "name": "Lando Norris",
-      "nationality": "British",
-      "teamId": "t-mcl",
-      "team": "McLaren",
-      "color": "#FF8000",
-      "flag": "🇬🇧",
-      "rank": 2,
-      "points": 18,
-      "isChampion": false,
-      "poles": "20",
-      "podiums": "50",
-      "wins": "14",
-      "last": "1/6",
-      "bio": "McLaren lead driver maximizing MCL40 corner-exit traction and low tyre degradation."
-    },
-    {
       "id": "d-lec",
       "series": "F1",
       "number": "16",
@@ -984,5 +964,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:06:08.305Z"
+  "updatedAt": "2026-11-23T17:06:08.457Z"
 }
