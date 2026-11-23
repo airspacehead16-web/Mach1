@@ -2,26 +2,6 @@
   "teams": [],
   "drivers": [
     {
-      "id": "d-gas",
-      "series": "F1",
-      "number": "10",
-      "code": "GAS",
-      "name": "Pierre Gasly",
-      "nationality": "French",
-      "teamId": "t-alp",
-      "team": "Alpine",
-      "color": "#FF87BC",
-      "flag": "🇫🇷",
-      "rank": 12,
-      "points": 10,
-      "isChampion": false,
-      "poles": "—",
-      "podiums": "5",
-      "wins": "1",
-      "last": "—",
-      "bio": "Extracting strong midfield pace from the Mercedes-powered Alpine A526."
-    },
-    {
       "id": "d-hul",
       "series": "F1",
       "number": "27",
@@ -587,5 +567,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T17:08:16.960Z"
+  "updatedAt": "2026-11-23T17:08:17.126Z"
 }
