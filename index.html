@@ -1111,8 +1111,118 @@
     }
 
     // =========================================================================
-    // 7. DOSSIER MODAL & SEARCH MODAL
+    // 7. DOSSIER MODAL, ARTICLE READER MODAL & SEARCH MODAL
     // =========================================================================
+    function ArticleReaderModal({ article, onClose, onShare, drivers, teams, airliners, onOpenDossier, onNavigate }) {
+      if (!article) return null;
+      const isTrack = String(article.section || 'track').toLowerCase() === 'track';
+      const linkedDrivers = (drivers || []).filter(d => (article.relatedDriverIds || []).includes(d.id));
+      const linkedTeams = (teams || []).filter(t => (article.relatedTeamIds || []).includes(t.id));
+      const linkedAirliners = (airliners || []).filter(a => (article.relatedAirlinerIds || []).includes(a.id));
+
+      return (
+        <div className="fixed inset-0 z-50 bg-black/85 flex items-center justify-center p-4" onClick={onClose}>
+          <article
+            style={{ borderColor: isTrack ? '#E10600' : '#FF6B00' }}
+            className="w-full max-w-3xl rounded-xl bg-charcoal border-2 p-6 sm:p-8 space-y-6 shadow-2xl max-h-[90vh] overflow-y-auto"
+            onClick={e => e.stopPropagation()}
+          >
+            {/* Top Bar */}
+            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-graphite pb-4">
+              <div className="flex flex-wrap items-center gap-2 font-mono text-xs">
+                <span className={`px-2.5 py-0.5 rounded font-bold uppercase ${isTrack ? 'bg-scarlet/15 text-scarlet border border-scarlet/40' : 'bg-papaya/15 text-papaya border border-papaya/40'}`}>
+                  {String(article.section || 'track').toUpperCase()} • {article.seriesBadge || 'BRIEF'}
+                </span>
+                <span className="text-steel uppercase">{article.tag}</span>
+              </div>
+              <div className="flex items-center gap-2 shrink-0">
+                <button
+                  onClick={() => onShare(article)}
+                  className="px-3 py-1.5 rounded bg-carbon border border-papaya/60 hover:bg-papaya/15 font-mono text-xs text-papaya"
+                >
+                  🔗 Share
+                </button>
+                <button
+                  onClick={onClose}
+                  className="px-3 py-1.5 rounded bg-carbon border border-graphite hover:border-offwhite font-mono text-xs text-offwhite"
+                >
+                  ✕ Close
+                </button>
+              </div>
+            </div>
+
+            {/* Article Header */}
+            <div className="space-y-3">
+              <h1 className="text-2xl sm:text-3xl font-bold text-offwhite leading-tight">
+                {article.title}
+              </h1>
+              <div className="flex flex-wrap items-center gap-3 font-mono text-xs text-steel">
+                <span>By {article.author || 'MACH1 Editorial Desk'}</span>
+                <span>•</span>
+                <span>{article.date || '2026'}</span>
+                <span>•</span>
+                <span className="text-papaya">{article.readTime || '4 MIN READ'}</span>
+              </div>
+              {article.summary && (
+                <p className="p-4 rounded-lg bg-carbon border border-graphite text-sm text-offwhite/90 font-medium leading-relaxed">
+                  {article.summary}
+                </p>
+              )}
+            </div>
+
+            {/* Full Article Body */}
+            <div className="space-y-4 text-base text-offwhite/95 leading-relaxed pt-2 border-t border-graphite/60">
+              {(article.content && article.content.length > 0 ? article.content : [article.summary]).map((para, idx) => (
+                <p key={idx}>{para}</p>
+              ))}
+            </div>
+
+            {/* Related Cubes & Quick Navigation */}
+            <div className="pt-5 border-t border-graphite flex flex-wrap items-center justify-between gap-3">
+              <div className="flex flex-wrap items-center gap-2">
+                {linkedTeams.map(t => (
+                  <button
+                    key={t.id}
+                    onClick={() => { onClose(); onOpenDossier({ ...t, kind: 'team' }); }}
+                    style={{ borderColor: t.isChampion ? CHAMPION_GOLD : t.color }}
+                    className="px-2.5 py-1 rounded bg-carbon border font-mono text-[11px] text-offwhite hover:bg-charcoal"
+                  >
+                    {t.name} ({t.series} Cube) →
+                  </button>
+                ))}
+                {linkedDrivers.map(d => (
+                  <button
+                    key={d.id}
+                    onClick={() => { onClose(); onOpenDossier({ ...d, kind: 'driver' }); }}
+                    style={{ borderColor: d.isChampion ? CHAMPION_GOLD : d.color }}
+                    className="px-2.5 py-1 rounded bg-carbon border font-mono text-[11px] text-offwhite hover:bg-charcoal"
+                  >
+                    #{d.number} {d.name} (Driver Cube) →
+                  </button>
+                ))}
+                {linkedAirliners.map(a => (
+                  <button
+                    key={a.id}
+                    onClick={() => { onClose(); onOpenDossier({ ...a, kind: 'airliner' }); }}
+                    style={{ borderColor: a.color }}
+                    className="px-2.5 py-1 rounded bg-carbon border font-mono text-[11px] text-offwhite hover:bg-charcoal"
+                  >
+                    {a.manufacturer} {a.model} (Airliner Cube) →
+                  </button>
+                ))}
+              </div>
+              <button
+                onClick={() => { onClose(); onNavigate({ view: isTrack ? 'track' : 'sky' }); }}
+                className="font-mono text-xs text-papaya hover:underline ml-auto"
+              >
+                View All {isTrack ? 'Track' : 'Sky'} Articles →
+              </button>
+            </div>
+          </article>
+        </div>
+      );
+    }
+
     function EntityDossierModal({ item, onClose, onShare }) {
       if (!item) return null;
       const isChamp = Boolean(item.isChampion);
@@ -1239,7 +1349,7 @@
       );
     }
 
-    function SearchModal({ isOpen, onClose, teams, drivers, airliners, articles, onSelectDossier, navigate }) {
+    function SearchModal({ isOpen, onClose, teams, drivers, airliners, articles, onSelectDossier, onSelectArticle }) {
       const [q, setQ] = useState('');
       useEffect(() => { if (isOpen) setQ(''); }, [isOpen]);
       if (!isOpen) return null;
@@ -1363,7 +1473,7 @@
                   {matchedArticles.map(art => (
                     <button
                       key={art.id}
-                      onClick={() => { navigate({ view: art.section }); onClose(); }}
+                      onClick={() => { onSelectArticle(art); onClose(); }}
                       className="w-full p-2.5 rounded-lg bg-carbon border border-graphite hover:border-scarlet text-left"
                     >
                       <div className="font-mono text-[10px] uppercase text-scarlet">{String(art.section || 'track').toUpperCase()} • {art.tag}</div>
@@ -1437,6 +1547,7 @@
       const [driverSeriesFilter, setDriverSeriesFilter] = useState('F1');
       const [standingsSeriesFilter, setStandingsSeriesFilter] = useState('F1');
       const [activeDossier, setActiveDossier] = useState(null);
+      const [activeArticle, setActiveArticle] = useState(null);
       const [compareMode, setCompareMode] = useState(false);
       const [compareSelection, setCompareSelection] = useState([]);
       const [compareKind, setCompareKind] = useState('driver');
@@ -1472,6 +1583,7 @@
           } else if (e.key === 'Escape') {
             setSearchOpen(false);
             setActiveDossier(null);
+            setActiveArticle(null);
             setCompareSelection([]);
           }
         };
@@ -1487,6 +1599,12 @@
           const [prefix, entityId] = hash.split('/');
           if (['home', 'track', 'sky', 'race', 'standings', 'drivers', 'f1', 'f2', 'fe', 'airliners', 'admin'].includes(prefix)) {
             setRoute({ view: prefix });
+          } else if (prefix === 'article' && entityId) {
+            const found = articles.find(a => a.id === entityId);
+            if (found) {
+              setRoute({ view: String(found.section || 'track').toLowerCase() });
+              setActiveArticle(found);
+            }
           } else if (prefix === 'driver' && entityId) {
             const found = drivers.find(d => d.id === entityId);
             if (found) {
@@ -1510,7 +1628,7 @@
         syncFromHash();
         window.addEventListener('hashchange', syncFromHash);
         return () => window.removeEventListener('hashchange', syncFromHash);
-      }, [drivers, teams, airliners]);
+      }, [drivers, teams, airliners, articles]);
 
       const pullLatestFromCloud = async (showToast = false) => {
         const remote = await fetchPublicGithubData();
@@ -1565,6 +1683,27 @@
         setCompareSelection([]);
         try { window.history.replaceState(null, '', `#${next.view}`); } catch (e) {}
         window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+
+      const openArticleReader = (art) => {
+        setActiveArticle(art);
+        try { window.history.replaceState(null, '', `#article/${art.id}`); } catch (e) {}
+      };
+
+      const closeArticleReader = () => {
+        setActiveArticle(null);
+        try { window.history.replaceState(null, '', `#${route.view}`); } catch (e) {}
+      };
+
+      const handleShareArticle = (art) => {
+        const shareUrl = `${window.location.origin}${window.location.pathname}#article/${art.id}`;
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(shareUrl).then(() => {
+            notify('Direct article link copied to clipboard!');
+          }).catch(() => notify(shareUrl));
+        } else {
+          notify(shareUrl);
+        }
       };
 
       const openDossierWithHash = (dossierObj) => {
@@ -1964,11 +2103,11 @@
       };
 
       // =====================================================================
-      // ARTICLE SECTION VIEW (TRACK OR SKY) WITH REDIRECTS TO CUBES & STANDINGS
+      // ARTICLE SECTION VIEW (TRACK OR SKY) WITH FULL READER POPUP & CUBES
       // =====================================================================
       const renderArticlesSection = (sectionKey) => {
         const isTrack = sectionKey === 'track';
-        const sectionArticles = articles.filter(a => a.section === sectionKey);
+        const sectionArticles = articles.filter(a => String(a?.section || 'track').toLowerCase() === sectionKey);
 
         return (
           <div className="space-y-8">
@@ -1982,8 +2121,8 @@
                 </h1>
                 <p className="text-sm text-steel mt-2 max-w-2xl">
                   {isTrack
-                    ? 'Aerodynamics, hybrid energy deployment, and race engineering briefings. Jump directly to Driver Cubes, Team Cubes, or Championship Standings below.'
-                    : 'Widebody propulsion, supersonic aerodynamics, and sustainable aviation fuel briefings. Jump directly to Airliner Cubes for full aircraft specs.'}
+                    ? 'Click any article card to open the full technical briefing reader, or jump directly to Driver Cubes, Team Cubes, and Championship Standings.'
+                    : 'Click any article card to open the full aerospace briefing reader, or jump directly to Airliner Cubes for full aircraft specs.'}
                 </p>
               </div>
 
@@ -2032,7 +2171,11 @@
                   const linkedAirliners = airliners.filter(a => (art.relatedAirlinerIds || []).includes(a.id));
 
                   return (
-                    <article key={art.id} className="p-6 sm:p-8 rounded-xl bg-charcoal border border-graphite space-y-4">
+                    <article
+                      key={art.id}
+                      onClick={() => openArticleReader(art)}
+                      className="cursor-pointer p-6 sm:p-8 rounded-xl bg-charcoal border border-graphite hover:border-scarlet/80 transition-all space-y-4 group"
+                    >
                       <div className="flex flex-wrap items-center justify-between gap-2 font-mono text-xs">
                         <div className="flex items-center gap-2">
                           <span className={`px-2.5 py-0.5 rounded font-bold ${isTrack ? 'bg-scarlet/15 text-scarlet border border-scarlet/40' : 'bg-papaya/15 text-papaya border border-papaya/40'}`}>
@@ -2040,10 +2183,17 @@
                           </span>
                           <span className="text-steel uppercase">{art.tag}</span>
                         </div>
-                        <span className="text-steel">{art.date} • {art.readTime}</span>
+                        <div className="flex items-center gap-3">
+                          <span className="text-steel">{art.date} • {art.readTime}</span>
+                          <span className={`font-bold ${isTrack ? 'text-scarlet' : 'text-papaya'} group-hover:underline`}>
+                            Read Briefing ↗
+                          </span>
+                        </div>
                       </div>
 
-                      <h2 className="text-2xl font-bold text-offwhite leading-snug">{art.title}</h2>
+                      <h2 className="text-2xl font-bold text-offwhite group-hover:text-papaya transition-colors leading-snug">
+                        {art.title}
+                      </h2>
                       <p className="text-sm text-steel font-medium">{art.summary}</p>
 
                       <div className="space-y-3 text-sm text-offwhite/90 leading-relaxed pt-2 border-t border-graphite/60">
@@ -2053,7 +2203,10 @@
                       </div>
 
                       {(linkedDrivers.length > 0 || linkedTeams.length > 0 || linkedAirliners.length > 0) && (
-                        <div className="pt-4 border-t border-graphite flex flex-wrap items-center gap-2">
+                        <div
+                          onClick={e => e.stopPropagation()}
+                          className="pt-4 border-t border-graphite flex flex-wrap items-center gap-2"
+                        >
                           <span className="font-mono text-[10px] uppercase tracking-wider text-steel mr-1">
                             INSPECT CUBES:
                           </span>
@@ -2430,18 +2583,19 @@
                         return (
                           <button
                             key={art.id}
-                            onClick={() => navigate({ view: sec })}
-                            className="p-6 rounded-xl bg-charcoal border border-graphite hover:border-scarlet text-left transition-all flex flex-col justify-between"
+                            onClick={() => openArticleReader(art)}
+                            className="p-6 rounded-xl bg-charcoal border border-graphite hover:border-scarlet text-left transition-all flex flex-col justify-between group"
                           >
                             <div>
                               <div className="font-mono text-[10px] uppercase text-papaya">
                                 {sec.toUpperCase()} • {art.seriesBadge || 'BRIEF'} • {art.date || ''}
                               </div>
-                              <h3 className="text-lg font-bold text-offwhite mt-1">{art.title}</h3>
+                              <h3 className="text-lg font-bold text-offwhite group-hover:text-papaya transition-colors mt-1">{art.title}</h3>
                               <p className="text-xs text-steel mt-2 line-clamp-2">{art.summary}</p>
                             </div>
-                            <div className="mt-4 pt-3 border-t border-graphite/60 font-mono text-[11px] text-offwhite">
-                              Open {sec === 'track' ? 'Track' : 'Sky'} Section →
+                            <div className="mt-4 pt-3 border-t border-graphite/60 font-mono text-[11px] text-offwhite flex items-center justify-between">
+                              <span>Read Full Article →</span>
+                              <span className="text-steel">{art.readTime || '4 MIN READ'}</span>
                             </div>
                           </button>
                         );
@@ -2624,6 +2778,17 @@
             </main>
           </div>
 
+          <ArticleReaderModal
+            article={activeArticle}
+            onClose={closeArticleReader}
+            onShare={handleShareArticle}
+            drivers={drivers}
+            teams={teams}
+            airliners={airliners}
+            onOpenDossier={openDossierWithHash}
+            onNavigate={navigate}
+          />
+
           <EntityDossierModal
             item={activeDossier}
             onClose={closeDossierWithHash}
@@ -2646,7 +2811,7 @@
             airliners={airliners}
             articles={articles}
             onSelectDossier={openDossierWithHash}
-            navigate={navigate}
+            onSelectArticle={openArticleReader}
           />
 
           {toastMsg && (
@@ -2676,7 +2841,8 @@
       const [ghToken, setGhToken] = useState(() => getStoredGithubToken());
       const [showGhBox, setShowGhBox] = useState(false);
 
-      // Article Form
+      // Article Form (Add & Edit)
+      const [editingArticleId, setEditingArticleId] = useState(null);
       const [artSection, setArtSection] = useState('track');
       const [artBadge, setArtBadge] = useState('F1');
       const [artTag, setArtTag] = useState('AERODYNAMICS');
@@ -2820,7 +2986,6 @@
         setFlagRows((r.flags || []).map((f, i) => ({ id: `flg-${i}`, ...f })));
       };
 
-      // Keep form synchronized when cloud data is pulled
       const prevRaceNameRef = useRef(raceSummary.raceName);
       useEffect(() => {
         if (raceSummary && raceSummary.raceName && raceSummary.raceName !== prevRaceNameRef.current) {
@@ -3612,8 +3777,8 @@
                 onSubmit={(e) => {
                   e.preventDefault();
                   if (!artTitle.trim()) return;
-                  const newArt = {
-                    id: 'art-' + Date.now(),
+                  const record = {
+                    id: editingArticleId || 'art-' + Date.now(),
                     section: artSection,
                     seriesBadge: artBadge,
                     tag: artTag.toUpperCase(),
@@ -3627,16 +3792,32 @@
                     relatedAirlinerIds: [],
                     content: artBody.split('\n\n').map(p => p.trim()).filter(Boolean)
                   };
-                  const next = [newArt, ...articles];
+                  const next = editingArticleId
+                    ? articles.map(a => (a.id === editingArticleId ? record : a))
+                    : [record, ...articles];
                   setArticles(next);
                   saveAllData(teams, drivers, airliners, next, raceSummary, savedRaces);
+                  setEditingArticleId(null);
                   setArtTitle('');
                   setArtSummary('');
                   setArtBody('');
                 }}
                 className="lg:col-span-2 p-6 rounded-xl bg-charcoal border border-graphite space-y-4"
               >
-                <h2 className="text-lg font-bold text-offwhite">Publish Article to Track or Sky</h2>
+                <div className="flex items-center justify-between">
+                  <h2 className="text-lg font-bold text-offwhite">
+                    {editingArticleId ? 'Edit Article Briefing' : 'Publish Article to Track or Sky'}
+                  </h2>
+                  {editingArticleId && (
+                    <button
+                      type="button"
+                      onClick={() => { setEditingArticleId(null); setArtTitle(''); setArtSummary(''); setArtBody(''); }}
+                      className="font-mono text-xs text-steel hover:text-offwhite"
+                    >
+                      Cancel Edit
+                    </button>
+                  )}
+                </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <select value={artSection} onChange={e => setArtSection(e.target.value)} className="px-3 py-2 rounded bg-carbon border border-graphite text-xs text-offwhite">
                     <option value="track">Track (Articles)</option>
@@ -3654,7 +3835,7 @@
                 <input type="text" value={artSummary} onChange={e => setArtSummary(e.target.value)} placeholder="Executive Summary" className="w-full px-3.5 py-2 rounded bg-carbon border border-graphite text-xs text-offwhite" />
                 <textarea rows={5} value={artBody} onChange={e => setArtBody(e.target.value)} placeholder="Article paragraphs (separate with blank lines)..." className="w-full p-3.5 rounded bg-carbon border border-graphite text-xs text-offwhite" />
                 <button type="submit" className="px-5 py-2.5 rounded-lg bg-scarlet text-white font-mono text-xs font-bold uppercase">
-                  Publish Briefing
+                  {editingArticleId ? 'Save Article Changes' : 'Publish Briefing'}
                 </button>
               </form>
 
@@ -3666,16 +3847,32 @@
                       <div className="font-mono text-[10px] text-papaya">{String(a.section || 'track').toUpperCase()} • {a.seriesBadge}</div>
                       <div className="text-xs font-semibold text-offwhite mt-0.5">{a.title}</div>
                     </div>
-                    <button
-                      onClick={() => {
-                        const next = articles.filter(item => item.id !== a.id);
-                        setArticles(next);
-                        saveAllData(teams, drivers, airliners, next, raceSummary, savedRaces);
-                      }}
-                      className="font-mono text-[10px] text-scarlet hover:underline"
-                    >
-                      Delete
-                    </button>
+                    <div className="flex items-center gap-2 shrink-0">
+                      <button
+                        onClick={() => {
+                          setEditingArticleId(a.id);
+                          setArtSection(a.section || 'track');
+                          setArtBadge(a.seriesBadge || 'F1');
+                          setArtTag(a.tag || 'AERODYNAMICS');
+                          setArtTitle(a.title || '');
+                          setArtSummary(a.summary || '');
+                          setArtBody((a.content || []).join('\n\n'));
+                        }}
+                        className="font-mono text-[10px] text-papaya hover:underline"
+                      >
+                        Edit
+                      </button>
+                      <button
+                        onClick={() => {
+                          const next = articles.filter(item => item.id !== a.id);
+                          setArticles(next);
+                          saveAllData(teams, drivers, airliners, next, raceSummary, savedRaces);
+                        }}
+                        className="font-mono text-[10px] text-scarlet hover:underline"
+                      >
+                        Delete
+                      </button>
+                    </div>
                   </div>
                 ))}
               </div>
