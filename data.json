@@ -108,7 +108,7 @@
       "base": "Hinwil / Neuburg",
       "color": "#F50537",
       "rank": 8,
-      "points": 14,
+      "points": 28,
       "isChampion": false,
       "bio": "Full German-Swiss works entry debuting Neuburg-developed 50/50 electric-combustion powertrain."
     },
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:40:00.330Z"
+  "updatedAt": "2026-11-24T04:40:13.187Z"
 }
