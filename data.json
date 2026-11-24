@@ -183,20 +183,6 @@
       "bio": "French single-seater powerhouse with multiple F2 & GP2 championship titles."
     },
     {
-      "id": "t-fe-jag",
-      "series": "FE",
-      "code": "JAG",
-      "name": "Jaguar TCS Racing",
-      "chassis": "GEN3 Evo",
-      "powerUnit": "Jaguar I-Type 7",
-      "base": "Kidlington, UK",
-      "color": "#00A88F",
-      "rank": 2,
-      "points": 79,
-      "isChampion": false,
-      "bio": "Industry-leading 600kW regenerative braking software calibration."
-    },
-    {
       "id": "t-fe-nis",
       "series": "FE",
       "code": "NIS",
@@ -892,5 +878,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:37:11.167Z"
+  "updatedAt": "2026-11-24T04:37:12.232Z"
 }
