@@ -727,6 +727,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Yuki Tsunoda competing in F1."
+    },
+    {
+      "id": "d-1795494980042",
+      "series": "F1",
+      "number": "50",
+      "code": "HIR",
+      "name": "Ryo Hirakawa",
+      "nationality": "Japanese",
+      "teamId": "",
+      "team": "Haas",
+      "color": "#B6BABD",
+      "flag": "🏁",
+      "rank": 24,
+      "points": 1,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Ryo Hirakawa competing in F1."
     }
   ],
   "airliners": [
@@ -914,5 +934,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:34:56.229Z"
+  "updatedAt": "2026-11-24T04:36:20.042Z"
 }
