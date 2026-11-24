@@ -79,8 +79,8 @@
       "powerUnit": "Mercedes-AMG",
       "base": "Grove, UK",
       "color": "#64C4FF",
-      "rank": 6,
-      "points": 28,
+      "rank": 9,
+      "points": 16,
       "isChampion": false,
       "bio": "Grove squad combining carbon-monocoque weight savings with customer Mercedes power."
     },
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:40:26.338Z"
+  "updatedAt": "2026-11-24T04:40:43.129Z"
 }
