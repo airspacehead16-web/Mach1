@@ -123,12 +123,12 @@
       "code": "BOR",
       "name": "Gabriel Bortoleto",
       "nationality": "Brazilian",
-      "teamId": "t-aud",
+      "teamId": "",
       "team": "Audi",
       "color": "#F50537",
-      "flag": "🇧🇷",
-      "rank": 18,
-      "points": 4,
+      "flag": "🏁",
+      "rank": 17,
+      "points": 14,
       "isChampion": false,
       "poles": "—",
       "podiums": "—",
@@ -656,5 +656,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:42:36.873Z"
+  "updatedAt": "2026-11-24T03:03:23.766Z"
 }
