@@ -175,6 +175,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Kimi Antonelli competing in F1."
+    },
+    {
+      "id": "d-1795496105234",
+      "series": "F1",
+      "number": "63",
+      "code": "RUS",
+      "name": "George Russell",
+      "nationality": "British",
+      "teamId": "",
+      "team": "Mercedes-AMG PETRONAS",
+      "color": "#27f4d2",
+      "flag": "🏁",
+      "rank": 2,
+      "points": 264,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "George Russell competing in F1."
     }
   ],
   "airliners": [
@@ -362,5 +382,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:54:13.797Z"
+  "updatedAt": "2026-11-24T04:55:05.234Z"
 }
