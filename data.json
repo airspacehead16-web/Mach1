@@ -244,10 +244,10 @@
       "name": "Franco Colapinto",
       "nationality": "Argentine",
       "teamId": "",
-      "team": "Alpine",
+      "team": "BWT Alpine F1 Team",
       "color": "#FF87BC",
       "flag": "🏁",
-      "rank": 17,
+      "rank": 25,
       "points": 35,
       "isChampion": false,
       "poles": "—",
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:47:41.462Z"
+  "updatedAt": "2026-11-24T04:47:54.255Z"
 }
