@@ -335,6 +335,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Arvid Lindblad competing in F1."
+    },
+    {
+      "id": "d-1795533109133",
+      "series": "F1",
+      "number": "30",
+      "code": "LAW",
+      "name": "Liam Lawson",
+      "nationality": "International",
+      "teamId": "",
+      "team": "Visa Cash App Racing Bulls",
+      "color": "#6692ff",
+      "flag": "🏁",
+      "rank": 10,
+      "points": 89,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Liam Lawson competing in F1."
     }
   ],
   "airliners": [
@@ -727,5 +747,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T15:11:23.284Z"
+  "updatedAt": "2026-11-24T15:11:49.133Z"
 }
