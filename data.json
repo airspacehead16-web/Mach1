@@ -47,7 +47,7 @@
       "team": "Williams",
       "color": "#64C4FF",
       "flag": "🏁",
-      "rank": 17,
+      "rank": 20,
       "points": 5,
       "isChampion": false,
       "poles": "—",
@@ -716,5 +716,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:10:04.322Z"
+  "updatedAt": "2026-11-24T03:26:58.193Z"
 }
