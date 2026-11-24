@@ -249,7 +249,7 @@
       "flag": "🏁",
       "rank": 14,
       "points": 250,
-      "isChampion": false,
+      "isChampion": true,
       "poles": "—",
       "podiums": "—",
       "wins": "—",
@@ -656,5 +656,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:41:51.632Z"
+  "updatedAt": "2026-11-24T02:41:56.316Z"
 }
