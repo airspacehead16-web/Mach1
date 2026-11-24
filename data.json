@@ -364,10 +364,10 @@
       "name": "Kimi Antonelli",
       "nationality": "Italian",
       "teamId": "",
-      "team": "Mercedes AMG Petronas Formula 1 Team",
+      "team": "Mercedes-AMG PETRONAS",
       "color": "#66fffc",
       "flag": "🏁",
-      "rank": 17,
+      "rank": 25,
       "points": 402,
       "isChampion": true,
       "poles": "—",
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:43:34.177Z"
+  "updatedAt": "2026-11-24T04:46:47.913Z"
 }
