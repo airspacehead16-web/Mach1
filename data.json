@@ -155,20 +155,6 @@
       "bio": "America’s newest Formula 1 constructor expanding the grid to 22 cars."
     },
     {
-      "id": "t-f2-inv",
-      "series": "F2",
-      "code": "INV",
-      "name": "Invicta Racing",
-      "chassis": "Dallara F2 2024",
-      "powerUnit": "Mechachrome V6 Turbo",
-      "base": "Norfolk, UK",
-      "color": "#FFD700",
-      "rank": 1,
-      "points": 64,
-      "isChampion": true,
-      "bio": "Reigning F2 Teams’ Champions excelling in Pirelli super-soft thermal management."
-    },
-    {
       "id": "t-f2-pre",
       "series": "F2",
       "code": "PRE",
@@ -934,5 +920,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:36:20.042Z"
+  "updatedAt": "2026-11-24T04:37:08.814Z"
 }
