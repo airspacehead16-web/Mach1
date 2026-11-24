@@ -195,6 +195,26 @@
       "wins": "—",
       "last": "—",
       "bio": "George Russell competing in F1."
+    },
+    {
+      "id": "d-1795496178360",
+      "series": "F1",
+      "number": "44",
+      "code": "HAM",
+      "name": "LEWIS HAMILTON",
+      "nationality": "British",
+      "teamId": "",
+      "team": "Scuderia Ferrari HP",
+      "color": "#e10600",
+      "flag": "🏁",
+      "rank": 3,
+      "points": 267,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "LEWIS HAMILTON competing in F1."
     }
   ],
   "airliners": [
@@ -382,5 +402,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:55:05.234Z"
+  "updatedAt": "2026-11-24T04:56:18.360Z"
 }
