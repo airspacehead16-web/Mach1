@@ -155,20 +155,6 @@
       "bio": "America’s newest Formula 1 constructor expanding the grid to 22 cars."
     },
     {
-      "id": "t-f2-pre",
-      "series": "F2",
-      "code": "PRE",
-      "name": "PREMA Racing",
-      "chassis": "Dallara F2 2024",
-      "powerUnit": "Mechachrome V6 Turbo",
-      "base": "Grisignano, Italy",
-      "color": "#E10600",
-      "rank": 2,
-      "points": 58,
-      "isChampion": false,
-      "bio": "Italian junior single-seater powerhouse renowned for qualifying damper setups."
-    },
-    {
       "id": "t-f2-cam",
       "series": "F2",
       "code": "CAM",
@@ -195,20 +181,6 @@
       "points": 41,
       "isChampion": false,
       "bio": "French single-seater powerhouse with multiple F2 & GP2 championship titles."
-    },
-    {
-      "id": "t-fe-por",
-      "series": "FE",
-      "code": "POR",
-      "name": "TAG Heuer Porsche FE",
-      "chassis": "GEN3 Evo",
-      "powerUnit": "Porsche 99X Electric",
-      "base": "Weissach, Germany",
-      "color": "#D5001C",
-      "rank": 1,
-      "points": 86,
-      "isChampion": true,
-      "bio": "Reigning Formula E Teams’ Champions mastering 350kW AWD Attack Mode acceleration."
     },
     {
       "id": "t-fe-jag",
@@ -920,5 +892,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:37:08.814Z"
+  "updatedAt": "2026-11-24T04:37:11.167Z"
 }
