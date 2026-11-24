@@ -155,7 +155,28 @@
       "bio": "America’s newest Formula 1 constructor expanding the grid to 22 cars."
     }
   ],
-  "drivers": [],
+  "drivers": [
+    {
+      "id": "d-1795496053797",
+      "series": "F1",
+      "number": "12",
+      "code": "ANT",
+      "name": "Kimi Antonelli",
+      "nationality": "Italian",
+      "teamId": "",
+      "team": "Mercedes-AMG PETRONAS",
+      "color": "#27f4d2",
+      "flag": "🏁",
+      "rank": 1,
+      "points": 402,
+      "isChampion": true,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Kimi Antonelli competing in F1."
+    }
+  ],
   "airliners": [
     {
       "id": "air-a350",
@@ -341,5 +362,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:53:31.063Z"
+  "updatedAt": "2026-11-24T04:54:13.797Z"
 }
