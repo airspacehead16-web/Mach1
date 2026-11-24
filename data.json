@@ -237,26 +237,6 @@
       "bio": "Invicta Racing frontrunner dominating Feature Race tyre management."
     },
     {
-      "id": "d-fe-weh",
-      "series": "FE",
-      "number": "1",
-      "code": "WEH",
-      "name": "Pascal Wehrlein",
-      "nationality": "German",
-      "teamId": "t-fe-por",
-      "team": "Porsche FE",
-      "color": "#D5001C",
-      "flag": "🇩🇪",
-      "rank": 1,
-      "points": 54,
-      "isChampion": true,
-      "poles": "6",
-      "podiums": "14",
-      "wins": "7",
-      "last": "1/1",
-      "bio": "Reigning Formula E World Champion mastering GEN3 Evo AWD Attack Mode."
-    },
-    {
       "id": "d-fe-eva",
       "series": "FE",
       "number": "9",
@@ -696,5 +676,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:34:05.264Z"
+  "updatedAt": "2026-11-24T02:34:06.563Z"
 }
