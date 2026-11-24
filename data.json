@@ -235,6 +235,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Charles Leclerc competing in F1."
+    },
+    {
+      "id": "d-1795503645214",
+      "series": "F1",
+      "number": "1",
+      "code": "NOR",
+      "name": "Lando Norris",
+      "nationality": "International",
+      "teamId": "",
+      "team": "McLaren Formula 1 Team",
+      "color": "#ff6600",
+      "flag": "🏁",
+      "rank": 5,
+      "points": 264,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Lando Norris competing in F1."
     }
   ],
   "airliners": [
@@ -525,8 +545,8 @@
           75,
           79,
           108,
-          126,
-          138,
+          34,
+          34,
           34,
           34,
           34,
@@ -581,5 +601,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T06:56:34.160Z"
+  "updatedAt": "2026-11-24T07:00:45.214Z"
 }
