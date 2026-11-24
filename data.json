@@ -157,26 +157,6 @@
   ],
   "drivers": [
     {
-      "id": "d-hul",
-      "series": "F1",
-      "number": "27",
-      "code": "HUL",
-      "name": "Nico Hülkenberg",
-      "nationality": "German",
-      "teamId": "",
-      "team": "Audi",
-      "color": "#F50537",
-      "flag": "🏁",
-      "rank": 25,
-      "points": 14,
-      "isChampion": false,
-      "poles": "—",
-      "podiums": "—",
-      "wins": "—",
-      "last": "—",
-      "bio": "Lead factory driver for Audi’s inaugural Formula 1 campaign."
-    },
-    {
       "id": "d-alb",
       "series": "F1",
       "number": "23",
@@ -822,5 +802,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:49:15.062Z"
+  "updatedAt": "2026-11-24T04:49:57.744Z"
 }
