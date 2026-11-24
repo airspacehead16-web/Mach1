@@ -237,46 +237,6 @@
       "bio": "Invicta Racing frontrunner dominating Feature Race tyre management."
     },
     {
-      "id": "d-fe-row",
-      "series": "FE",
-      "number": "23",
-      "code": "ROW",
-      "name": "Oliver Rowland",
-      "nationality": "British",
-      "teamId": "t-fe-nis",
-      "team": "Nissan FE",
-      "color": "#C3002F",
-      "flag": "🇬🇧",
-      "rank": 3,
-      "points": 39,
-      "isChampion": false,
-      "poles": "8",
-      "podiums": "15",
-      "wins": "4",
-      "last": "—",
-      "bio": "Nissan Formula E lead contender."
-    },
-    {
-      "id": "d-fe-bar",
-      "series": "FE",
-      "number": "5",
-      "code": "BAR",
-      "name": "Taylor Barnard",
-      "nationality": "British",
-      "teamId": "t-fe-mcl",
-      "team": "NEOM McLaren",
-      "color": "#FF8000",
-      "flag": "🇬🇧",
-      "rank": 4,
-      "points": 34,
-      "isChampion": false,
-      "poles": "1",
-      "podiums": "4",
-      "wins": "—",
-      "last": "—",
-      "bio": "NEOM McLaren Formula E rising star."
-    },
-    {
       "id": "d-1795486874776",
       "series": "F1",
       "number": "12",
@@ -656,5 +616,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:34:07.829Z"
+  "updatedAt": "2026-11-24T02:34:09.480Z"
 }
