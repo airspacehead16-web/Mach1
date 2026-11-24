@@ -203,12 +203,12 @@
       "code": "PER",
       "name": "Sergio Pérez",
       "nationality": "Mexican",
-      "teamId": "t-cad",
+      "teamId": "",
       "team": "Cadillac F1",
       "color": "#A88932",
-      "flag": "🇲🇽",
-      "rank": 22,
-      "points": 2,
+      "flag": "🏁",
+      "rank": 17,
+      "points": 0,
       "isChampion": false,
       "poles": "3",
       "podiums": "39",
@@ -656,5 +656,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:05:02.882Z"
+  "updatedAt": "2026-11-24T03:05:15.553Z"
 }
