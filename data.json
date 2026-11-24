@@ -217,26 +217,6 @@
       "bio": "Veteran race winner bringing tyre-management mastery to Cadillac F1."
     },
     {
-      "id": "d-f2-cam",
-      "series": "F2",
-      "number": "1",
-      "code": "CAM",
-      "name": "Rafael Câmara",
-      "nationality": "Brazilian",
-      "teamId": "t-f2-inv",
-      "team": "Invicta Racing",
-      "color": "#FFD700",
-      "flag": "🇧🇷",
-      "rank": 1,
-      "points": 42,
-      "isChampion": true,
-      "poles": "3",
-      "podiums": "6",
-      "wins": "2",
-      "last": "1/2",
-      "bio": "Invicta Racing frontrunner dominating Feature Race tyre management."
-    },
-    {
       "id": "d-1795486874776",
       "series": "F1",
       "number": "12",
@@ -616,5 +596,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:34:09.480Z"
+  "updatedAt": "2026-11-24T02:34:10.179Z"
 }
