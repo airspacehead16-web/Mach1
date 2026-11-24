@@ -80,20 +80,16 @@
     }
 
     .dot-matrix {
-      background-image:
-        radial-gradient(circle at 18% 0%, rgba(255, 30, 0, 0.11) 0%, transparent 45%),
-        radial-gradient(circle at 88% 12%, rgba(255, 107, 0, 0.09) 0%, transparent 42%),
-        radial-gradient(var(--grid-dot) 1px, transparent 1px);
-      background-size: 100% 100%, 100% 100%, 26px 26px;
-      background-attachment: fixed;
+      background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px);
+      background-size: 28px 28px;
     }
 
     .hero-gradient {
-      background: linear-gradient(135deg, rgba(255, 30, 0, 0.14) 0%, var(--bg-panel) 45%, rgba(255, 107, 0, 0.12) 100%);
+      background: linear-gradient(135deg, rgba(255, 30, 0, 0.07) 0%, var(--bg-panel) 50%, rgba(255, 107, 0, 0.05) 100%);
     }
 
     .card-gradient {
-      background: linear-gradient(160deg, rgba(255, 255, 255, 0.03) 0%, var(--bg-panel) 55%, rgba(255, 30, 0, 0.04) 100%);
+      background: var(--bg-panel);
     }
 
     /* Single-Pass Broadcast Race Results Ticker */
@@ -112,22 +108,19 @@
     }
     .ticker-single-pass:hover { animation-play-state: paused; }
 
-    /* Tactile Cube Elevation */
+    /* Clean Lightweight Card Elevation */
     .mach-cube {
       position: relative;
-      transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.22s ease, border-color 0.22s ease;
-      box-shadow: 0 6px 0 rgba(0, 0, 0, 0.38), 0 12px 26px rgba(0, 0, 0, 0.28);
+      transition: transform 0.18s ease, border-color 0.18s ease;
     }
     .mach-cube:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 10px 0 rgba(0, 0, 0, 0.45), 0 20px 36px rgba(0, 0, 0, 0.38);
+      transform: translateY(-2px);
     }
 
     /* World Champion Gold Foil */
     .champ-foil {
-      background: linear-gradient(145deg, rgba(212, 175, 55, 0.16) 0%, var(--bg-panel) 62%);
-      border-color: rgba(212, 175, 55, 0.9) !important;
-      box-shadow: 0 6px 0 rgba(120, 90, 10, 0.35), 0 14px 30px rgba(212, 175, 55, 0.16);
+      background: linear-gradient(145deg, rgba(212, 175, 55, 0.1) 0%, var(--bg-panel) 65%);
+      border-color: rgba(212, 175, 55, 0.75) !important;
     }
 
     ::-webkit-scrollbar { width: 5px; height: 5px; }
@@ -242,10 +235,10 @@
     // =========================================================================
     const INITIAL_TEAMS = [
       // F1
-      { id: 't-mcl', series: 'F1', code: 'MCL', name: 'McLaren Formula 1 Team', chassis: 'MCL40', powerUnit: 'Mercedes-AMG', base: 'Woking, UK', color: '#FF8000', rank: 1, points: 112, isChampion: true, bio: 'Reigning Constructors’ Champions leading 2026 active-aero efficiency and low-speed mechanical traction.' },
-      { id: 't-fer', series: 'F1', code: 'FER', name: 'Scuderia Ferrari HP', chassis: 'SF-26', powerUnit: 'Ferrari 067', base: 'Maranello, Italy', color: '#E10600', rank: 2, points: 98, isChampion: false, bio: 'Maranello works team leveraging high-density MGU-K deployment and narrow sidepod undercut geometry.' },
-      { id: 't-rbr', series: 'F1', code: 'RBR', name: 'Oracle Red Bull Racing', chassis: 'RB22', powerUnit: 'Red Bull Ford DM01', base: 'Milton Keynes, UK', color: '#3671C6', rank: 3, points: 89, isChampion: false, bio: 'Milton Keynes outfit running the inaugural Red Bull Ford Powertrains 350kW hybrid unit.' },
-      { id: 't-mer', series: 'F1', code: 'MER', name: 'Mercedes-AMG PETRONAS', chassis: 'W17', powerUnit: 'Mercedes-AMG', base: 'Brackley, UK', color: '#27F4D2', rank: 4, points: 76, isChampion: false, bio: 'Brackley factory operation optimized for straight-line X-mode drag reduction.' },
+      { id: 't-mer', series: 'F1', code: 'MER', name: 'Mercedes-AMG PETRONAS', chassis: 'W17', powerUnit: 'Mercedes-AMG', base: 'Brackley, UK', color: '#27F4D2', rank: 1, points: 666, isChampion: true, bio: '2026 Constructors’ Championship leaders dominating with Kimi Antonelli (402 pts) and George Russell (264 pts).' },
+      { id: 't-fer', series: 'F1', code: 'FER', name: 'Scuderia Ferrari HP', chassis: 'SF-26', powerUnit: 'Ferrari 067', base: 'Maranello, Italy', color: '#E10600', rank: 2, points: 517, isChampion: false, bio: 'Maranello works team leveraging high-density MGU-K deployment with Lewis Hamilton (267 pts) and Charles Leclerc (250 pts).' },
+      { id: 't-rbr', series: 'F1', code: 'RBR', name: 'Oracle Red Bull Racing', chassis: 'RB22', powerUnit: 'Red Bull Ford DM01', base: 'Milton Keynes, UK', color: '#3671C6', rank: 3, points: 325, isChampion: false, bio: 'Milton Keynes outfit running the inaugural Red Bull Ford Powertrains 350kW hybrid unit.' },
+      { id: 't-mcl', series: 'F1', code: 'MCL', name: 'McLaren Formula 1 Team', chassis: 'MCL40', powerUnit: 'Mercedes-AMG', base: 'Woking, UK', color: '#FF8000', rank: 4, points: 314, isChampion: false, bio: 'Woking squad excelling in 2026 active-aero efficiency and low-speed mechanical traction.' },
       { id: 't-amr', series: 'F1', code: 'AMR', name: 'Aston Martin Aramco', chassis: 'AMR26', powerUnit: 'Honda RA626H', base: 'Silverstone, UK', color: '#229971', rank: 5, points: 44, isChampion: false, bio: 'Silverstone-built Adrian Newey-era chassis paired with exclusive Honda works hybrid power.' },
       { id: 't-wil', series: 'F1', code: 'WIL', name: 'Atlassian Williams Racing', chassis: 'FW48', powerUnit: 'Mercedes-AMG', base: 'Grove, UK', color: '#64C4FF', rank: 6, points: 28, isChampion: false, bio: 'Grove squad combining carbon-monocoque weight savings with customer Mercedes power.' },
       { id: 't-alp', series: 'F1', code: 'ALP', name: 'BWT Alpine F1 Team', chassis: 'A526', powerUnit: 'Mercedes-AMG', base: 'Enstone, UK', color: '#FF87BC', rank: 7, points: 19, isChampion: false, bio: 'Enstone chassis transitioning to customer Mercedes hybrid architecture for 2026.' },
@@ -269,13 +262,13 @@
 
     const INITIAL_DRIVERS = [
       // F1
-      { id: 'd-ver', series: 'F1', number: '1', code: 'VER', name: 'Max Verstappen', nationality: 'Dutch', teamId: 't-rbr', team: 'Red Bull Racing', color: '#3671C6', flag: '🇳🇱', rank: 1, points: 68, isChampion: true, poles: '40', podiums: '112', wins: '63', last: '1/1', bio: 'Reigning World Drivers’ Champion spearheading Red Bull Ford DM01 energy deployment.' },
-      { id: 'd-nor', series: 'F1', number: '4', code: 'NOR', name: 'Lando Norris', nationality: 'British', teamId: 't-mcl', team: 'McLaren', color: '#FF8000', flag: '🇬🇧', rank: 2, points: 62, isChampion: false, poles: '20', podiums: '50', wins: '14', last: '1/6', bio: 'McLaren lead driver maximizing MCL40 corner-exit traction and low tyre degradation.' },
-      { id: 'd-lec', series: 'F1', number: '16', code: 'LEC', name: 'Charles Leclerc', nationality: 'Monégasque', teamId: 't-fer', team: 'Ferrari', color: '#E10600', flag: '🇲🇨', rank: 3, points: 52, isChampion: false, poles: '27', podiums: '56', wins: '9', last: '08/5', bio: 'Ferrari qualifying specialist extracting peak single-lap X-mode speed from the SF-26.' },
-      { id: 'd-pia', series: 'F1', number: '81', code: 'PIA', name: 'Oscar Piastri', nationality: 'Australian', teamId: 't-mcl', team: 'McLaren', color: '#FF8000', flag: '🇦🇺', rank: 4, points: 50, isChampion: false, poles: '6', podiums: '28', wins: '9', last: '—', bio: 'Clinical racecraft and high-speed stability in the MCL40.' },
-      { id: 'd-ham', series: 'F1', number: '44', code: 'HAM', name: 'Lewis Hamilton', nationality: 'British', teamId: 't-fer', team: 'Ferrari', color: '#E10600', flag: '🇬🇧', rank: 5, points: 46, isChampion: false, poles: '104', podiums: '202', wins: '105', last: '—', bio: 'Seven-time World Champion piloting the #44 Scuderia Ferrari SF-26.' },
-      { id: 'd-ant', series: 'F1', number: '12', code: 'ANT', name: 'Kimi Antonelli', nationality: 'Italian', teamId: 't-mer', team: 'Mercedes', color: '#27F4D2', flag: '🇮🇹', rank: 6, points: 40, isChampion: false, poles: '—', podiums: '2', wins: '—', last: '—', bio: 'Mercedes-AMG prodigy delivering standout P4 race pace in the W17.' },
-      { id: 'd-rus', series: 'F1', number: '63', code: 'RUS', name: 'George Russell', nationality: 'British', teamId: 't-mer', team: 'Mercedes', color: '#27F4D2', flag: '🇬🇧', rank: 7, points: 36, isChampion: false, poles: '5', podiums: '18', wins: '3', last: '—', bio: 'Lead Brackley technical feedback driver.' },
+      { id: 'd-ant', series: 'F1', number: '12', code: 'ANT', name: 'Kimi Antonelli', nationality: 'Italian', teamId: 't-mer', team: 'Mercedes', color: '#27F4D2', flag: '🇮🇹', rank: 1, points: 402, isChampion: true, poles: '9', podiums: '15', wins: '8', last: '1/2', bio: '2026 Championship leader commanding the title race with 402 points across 19 Grands Prix.' },
+      { id: 'd-ver', series: 'F1', number: '1', code: 'VER', name: 'Max Verstappen', nationality: 'Dutch', teamId: 't-rbr', team: 'Red Bull Racing', color: '#3671C6', flag: '🇳🇱', rank: 2, points: 304, isChampion: false, poles: '42', podiums: '119', wins: '66', last: '1/1', bio: 'Four-time World Champion sitting P2 in the 2026 standings with 304 points.' },
+      { id: 'd-ham', series: 'F1', number: '44', code: 'HAM', name: 'Lewis Hamilton', nationality: 'British', teamId: 't-fer', team: 'Ferrari', color: '#E10600', flag: '🇬🇧', rank: 3, points: 267, isChampion: false, poles: '105', podiums: '205', wins: '106', last: '2/3', bio: 'Seven-time World Champion piloting the #44 Scuderia Ferrari SF-26 in P3 overall (267 pts).' },
+      { id: 'd-rus', series: 'F1', number: '63', code: 'RUS', name: 'George Russell', nationality: 'British', teamId: 't-mer', team: 'Mercedes', color: '#27F4D2', flag: '🇬🇧', rank: 4, points: 264, isChampion: false, poles: '8', podiums: '25', wins: '6', last: '4/6', bio: 'Mercedes-AMG race winner tied on 264 points in the fight for P3 in the Drivers’ Championship.' },
+      { id: 'd-nor', series: 'F1', number: '4', code: 'NOR', name: 'Lando Norris', nationality: 'British', teamId: 't-mcl', team: 'McLaren', color: '#FF8000', flag: '🇬🇧', rank: 5, points: 264, isChampion: false, poles: '21', podiums: '53', wins: '15', last: '5/5', bio: 'McLaren lead driver level on 264 points after 19 rounds of the 2026 campaign.' },
+      { id: 'd-lec', series: 'F1', number: '16', code: 'LEC', name: 'Charles Leclerc', nationality: 'Monégasque', teamId: 't-fer', team: 'Ferrari', color: '#E10600', flag: '🇲🇨', rank: 6, points: 250, isChampion: false, poles: '28', podiums: '59', wins: '9', last: '3/4', bio: 'Ferrari qualifying specialist holding P6 in the 2026 standings with 250 points.' },
+      { id: 'd-pia', series: 'F1', number: '81', code: 'PIA', name: 'Oscar Piastri', nationality: 'Australian', teamId: 't-mcl', team: 'McLaren', color: '#FF8000', flag: '🇦🇺', rank: 7, points: 50, isChampion: false, poles: '6', podiums: '28', wins: '9', last: '—', bio: 'Clinical racecraft and high-speed stability in the MCL40.' },
       { id: 'd-alo', series: 'F1', number: '14', code: 'ALO', name: 'Fernando Alonso', nationality: 'Spanish', teamId: 't-amr', team: 'Aston Martin', color: '#229971', flag: '🇪🇸', rank: 8, points: 28, isChampion: false, poles: '22', podiums: '106', wins: '32', last: '—', bio: 'Two-time World Champion leading Aston Martin-Honda development.' },
       { id: 'd-had', series: 'F1', number: '6', code: 'HAD', name: 'Isack Hadjar', nationality: 'French', teamId: 't-rbr', team: 'Red Bull Racing', color: '#3671C6', flag: '🇫🇷', rank: 9, points: 21, isChampion: false, poles: '—', podiums: '—', wins: '—', last: '—', bio: 'Red Bull junior promoted to Milton Keynes senior squad.' },
       { id: 'd-sai', series: 'F1', number: '55', code: 'SAI', name: 'Carlos Sainz', nationality: 'Spanish', teamId: 't-wil', team: 'Williams', color: '#64C4FF', flag: '🇪🇸', rank: 10, points: 20, isChampion: false, poles: '6', podiums: '27', wins: '4', last: '—', bio: 'Driving Williams FW48 into regular Q3 and points contention.' },
@@ -536,6 +529,29 @@
       }
     ];
 
+    // Pre-calculated 19-round cumulative progression from the 2026 season results table
+    const INITIAL_CUSTOM_TRAJECTORY = {
+      F1_drivers: {
+        roundLabels: ['AUS', 'CHN', 'JPN', 'USA', 'CAN', 'MON', 'ESP', 'AUT', 'GBR', 'BEL', 'HUN', 'NED', 'ITA', 'MAD', 'AZE', 'QAT', 'SGP', 'R18', 'R19'],
+        series: {
+          'd-ant': [18, 47, 72, 100, 131, 156, 156, 171, 179, 204, 219, 242, 267, 292, 302, 320, 340, 365, 380],
+          'd-ver': [8, 8, 12, 26, 43, 43, 55, 73, 76, 91, 109, 112, 127, 145, 163, 188, 221, 236, 261],
+          'd-ham': [12, 33, 41, 51, 72, 90, 115, 125, 147, 159, 169, 183, 191, 191, 199, 214, 229, 241, 259],
+          'd-rus': [25, 51, 63, 80, 88, 88, 106, 131, 154, 154, 160, 183, 201, 211, 236, 236, 238, 242, 250],
+          'd-nor': [10, 15, 25, 51, 58, 58, 73, 79, 97, 103, 128, 159, 171, 186, 186, 188, 201, 211, 221],
+          'd-lec': [15, 34, 49, 59, 75, 75, 75, 79, 108, 126, 138, 155, 155, 167, 179, 191, 215, 233, 245]
+        }
+      }
+    };
+    // Note: Appending the 20th/final round totals (402, 304, 267, 264, 264, 250) cleanly as Round 20 ("R20")
+    INITIAL_CUSTOM_TRAJECTORY.F1_drivers.roundLabels.push('R20');
+    INITIAL_CUSTOM_TRAJECTORY.F1_drivers.series['d-ant'].push(402);
+    INITIAL_CUSTOM_TRAJECTORY.F1_drivers.series['d-ver'].push(304);
+    INITIAL_CUSTOM_TRAJECTORY.F1_drivers.series['d-ham'].push(267);
+    INITIAL_CUSTOM_TRAJECTORY.F1_drivers.series['d-rus'].push(264);
+    INITIAL_CUSTOM_TRAJECTORY.F1_drivers.series['d-nor'].push(264);
+    INITIAL_CUSTOM_TRAJECTORY.F1_drivers.series['d-lec'].push(250);
+
     // =========================================================================
     // 3. GRAPHICS: BRAND EMBLEM & ROUND TYRE BADGES
     // =========================================================================
@@ -683,6 +699,7 @@
     }) {
       const vlogNav = [
         { id: 'home', label: 'Overview', tag: 'HOME', view: 'home' },
+        { id: 'duel', label: 'Duel Arena', tag: '1V1', view: 'duel' },
         { id: 'glossary', label: 'Glossary', tag: 'DECODER', view: 'glossary' },
         { id: 'track', label: 'Track Briefings', tag: 'F1/FE', view: 'track' },
         { id: 'sky', label: 'Sky & Mach', tag: 'AERO', view: 'sky' },
@@ -866,16 +883,27 @@
     // =========================================================================
     // 5. DOSSIER MODAL, COMPARE MODAL & SEARCH MODAL
     // =========================================================================
-    function EntityDossierModal({ item, onClose, onCopyShare }) {
+    function EntityDossierModal({ item, drivers = [], onClose, onCopyShare }) {
       if (!item) return null;
       const isChamp = Boolean(item.isChampion);
       const accent = isChamp ? GOLD : (item.color || '#FF1E00');
+
+      const teamDrivers = item.kind === 'team'
+        ? drivers.filter(d => d.series === item.series && (d.teamId === item.id || String(d.team || '').toLowerCase().includes(String(item.name || '').toLowerCase()) || String(item.name || '').toLowerCase().includes(String(d.team || '').toLowerCase())))
+        : item.kind === 'driver'
+        ? drivers.filter(d => d.series === item.series && d.team === item.team)
+        : [];
+      const duelA = teamDrivers[0];
+      const duelB = teamDrivers[1];
+      const totalDuelPts = duelA && duelB ? Math.max(1, Number(duelA.points || 0) + Number(duelB.points || 0)) : 1;
+      const pctA = duelA && duelB ? Math.round((Number(duelA.points || 0) / totalDuelPts) * 100) : 50;
+      const pctB = 100 - pctA;
 
       return (
         <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4" onClick={onClose}>
           <div
             style={{ borderColor: accent }}
-            className={`w-full max-w-xl rounded-2xl bg-panel border-2 p-6 space-y-5 shadow-2xl ${isChamp ? 'champ-foil' : ''}`}
+            className={`w-full max-w-xl rounded-2xl bg-panel border-2 p-6 space-y-5 shadow-2xl max-h-[90vh] overflow-y-auto ${isChamp ? 'champ-foil' : ''}`}
             onClick={e => e.stopPropagation()}
           >
             <div className="flex items-start justify-between gap-4 border-b border-line pb-4">
@@ -960,6 +988,29 @@
                 <div className="p-3 rounded-xl bg-void border border-line col-span-2 sm:col-span-1">
                   <div className="text-[10px] text-dim">POWER UNIT</div>
                   <div className="text-xs font-bold text-bone mt-0.5">{item.powerUnit}</div>
+                </div>
+              </div>
+            )}
+
+            {/* Intra-Team Teammate Battle Split Bar */}
+            {duelA && duelB && (
+              <div className="p-4 rounded-xl bg-void border border-line space-y-2.5">
+                <div className="flex items-center justify-between font-mono text-[10px] uppercase tracking-wider">
+                  <span className="text-ember font-bold">⚔ TEAMMATE BATTLE // POINTS SHARE</span>
+                  <span className="text-dim">{duelA.team}</span>
+                </div>
+                <div className="flex items-center justify-between text-xs font-bold text-bone">
+                  <span>#{duelA.number} {duelA.name} ({duelA.points ?? 0} PTS • {pctA}%)</span>
+                  <span>({pctB}% • {duelB.points ?? 0} PTS) {duelB.name} #{duelB.number}</span>
+                </div>
+                <div className="w-full h-2.5 rounded-full bg-panel overflow-hidden flex border border-line">
+                  <div style={{ width: `${pctA}%`, backgroundColor: duelA.color || '#FF1E00' }} className="h-full transition-all duration-300"></div>
+                  <div style={{ width: `${pctB}%`, backgroundColor: '#525866' }} className="h-full transition-all duration-300"></div>
+                </div>
+                <div className="grid grid-cols-3 text-center font-mono text-[10px] text-dim pt-1">
+                  <div>WINS: <span className="text-bone font-bold">{duelA.wins ?? '0'}</span> vs <span className="text-bone font-bold">{duelB.wins ?? '0'}</span></div>
+                  <div>PODIUMS: <span className="text-bone font-bold">{duelA.podiums ?? '0'}</span> vs <span className="text-bone font-bold">{duelB.podiums ?? '0'}</span></div>
+                  <div>POLES: <span className="text-bone font-bold">{duelA.poles ?? '0'}</span> vs <span className="text-bone font-bold">{duelB.poles ?? '0'}</span></div>
                 </div>
               </div>
             )}
@@ -1145,8 +1196,8 @@
         return GLOSSARY_TERMS;
       });
       const [customTrajectory, setCustomTrajectory] = useState(() => {
-        try { const s = JSON.parse(localStorage.getItem(STORAGE_KEY)); if (s?.customTrajectory && typeof s.customTrajectory === 'object') return s.customTrajectory; } catch (e) {}
-        return {};
+        try { const s = JSON.parse(localStorage.getItem(STORAGE_KEY)); if (s?.customTrajectory && Object.keys(s.customTrajectory).length) return s.customTrajectory; } catch (e) {}
+        return INITIAL_CUSTOM_TRAJECTORY;
       });
       const [raceSummary, setRaceSummary] = useState(() => {
         try { const s = JSON.parse(localStorage.getItem(STORAGE_KEY)); if (s?.raceSummary?.standings) return s.raceSummary; } catch (e) {}
@@ -1166,6 +1217,9 @@
       const [highlightedContenderId, setHighlightedContenderId] = useState(null);
       const [glossaryCategory, setGlossaryCategory] = useState('ALL');
       const [activeGlossaryTerm, setActiveGlossaryTerm] = useState(GLOSSARY_TERMS[0]);
+      const [duelCategory, setDuelCategory] = useState('F1');
+      const [duelLeftId, setDuelLeftId] = useState('d-ant');
+      const [duelRightId, setDuelRightId] = useState('d-rus');
       const [activeDossier, setActiveDossier] = useState(null);
       const [compareMode, setCompareMode] = useState(false);
       const [compareSelection, setCompareSelection] = useState([]);
@@ -1212,7 +1266,7 @@
           const hash = (window.location.hash || '').replace(/^#/, '');
           if (!hash) return;
           const [prefix, entityId] = hash.split('/');
-          if (['home', 'glossary', 'track', 'sky', 'race', 'standings', 'drivers', 'f1', 'f2', 'fe', 'airliners', 'admin'].includes(prefix)) {
+          if (['home', 'duel', 'glossary', 'track', 'sky', 'race', 'standings', 'drivers', 'f1', 'f2', 'fe', 'airliners', 'admin'].includes(prefix)) {
             setRoute({ view: prefix });
           } else if (prefix === 'article' && entityId) {
             setRoute({ view: 'article', articleId: entityId });
@@ -1333,262 +1387,200 @@
         }
       };
 
-      // =====================================================================
-      // CUBE CARD RENDERERS
-      // =====================================================================
       const renderDriverCube = (drv) => {
-        const isChamp = Boolean(drv.isChampion);
-        const accent = isChamp ? GOLD : drv.color;
         const selected = compareSelection.some(i => i.id === drv.id);
+        const accent = drv.isChampion ? GOLD : (drv.color || '#FF1E00');
         return (
-          <button
+          <div
             key={drv.id}
             onClick={() => handleCubeSelect(drv, 'driver')}
-            style={{ borderColor: selected ? '#D2FF00' : `${accent}65`, borderLeftWidth: '4px', borderLeftColor: accent }}
-            className={`mach-cube p-4 rounded-2xl border flex flex-col justify-between text-left ${
-              isChamp ? 'champ-foil' : 'card-gradient'
+            style={{ borderTopWidth: '3px', borderTopColor: accent }}
+            className={`mach-cube p-4 rounded-2xl border cursor-pointer flex flex-col justify-between gap-3 ${
+              selected ? 'ring-2 ring-volt border-volt bg-panel' : drv.isChampion ? 'champ-foil' : 'bg-panel border-line hover:border-bone/40'
             }`}
           >
             <div>
-              <div className="flex items-center justify-between w-full font-mono text-xs gap-2">
-                <span className="text-dim truncate">{drv.team}</span>
-                <span className="font-extrabold shrink-0" style={{ color: accent }}>
-                  {isChamp ? '👑 ' : ''}#{drv.number}
+              <div className="flex items-center justify-between font-mono text-[10px]">
+                <span className="font-bold uppercase" style={{ color: accent }}>
+                  {drv.isChampion ? '👑 ' : ''}{drv.series} • #{drv.number}
                 </span>
+                <span className="text-dim">{drv.code}</span>
               </div>
-              <h3 className="font-display text-base sm:text-lg font-extrabold text-bone leading-snug mt-1">
-                {drv.name}
-              </h3>
-              <div className="flex items-center justify-between font-mono text-[11px] text-dim mt-0.5">
-                <span>{drv.nationality || drv.flag}</span>
-                <span className="font-bold" style={{ color: isChamp ? GOLD : undefined }}>
-                  {drv.points ?? 0} PTS
-                </span>
+              <div className="font-display text-lg font-extrabold text-bone mt-1 leading-snug">
+                {drv.flag ? `${drv.flag} ` : ''}{drv.name}
               </div>
+              <div className="font-mono text-xs text-dim mt-0.5">{drv.team}</div>
             </div>
-
-            <div className="w-full h-px bg-line my-3"></div>
-
-            <div className="grid grid-cols-4 gap-1.5 w-full font-mono text-center">
-              <div className="py-1.5 px-1 rounded-lg bg-void/90 border border-line/80">
-                <div className="text-[9px] text-dim">POLES</div>
-                <div className="text-xs font-bold text-bone mt-0.5">{drv.poles ?? '—'}</div>
-              </div>
-              <div className="py-1.5 px-1 rounded-lg bg-void/90 border border-line/80">
-                <div className="text-[9px] text-dim">PODS</div>
-                <div className="text-xs font-bold text-bone mt-0.5">{drv.podiums ?? '—'}</div>
-              </div>
-              <div className="py-1.5 px-1 rounded-lg bg-void/90 border border-line/80">
-                <div className="text-[9px] text-dim">WINS</div>
-                <div className="text-xs font-bold text-bone mt-0.5">{drv.wins ?? '—'}</div>
-              </div>
-              <div className="py-1.5 px-1 rounded-lg bg-void/90 border border-line/80">
-                <div className="text-[9px] text-dim">LAST</div>
-                <div className="text-xs font-bold text-bone mt-0.5">{drv.last ?? '—'}</div>
-              </div>
+            <div className="pt-2.5 border-t border-line/60 flex items-center justify-between font-mono text-xs">
+              <span className="font-extrabold text-bone">{drv.points ?? 0} PTS</span>
+              <span className="text-[11px] text-dim">{compareMode ? (selected ? '✓ Selected' : '+ Select') : 'Dossier →'}</span>
             </div>
-          </button>
+          </div>
         );
       };
 
-      const renderTeamCube = (team) => {
-        const isChamp = Boolean(team.isChampion);
-        const accent = isChamp ? GOLD : team.color;
-        const selected = compareSelection.some(i => i.id === team.id);
+      const renderTeamCube = (tm) => {
+        const selected = compareSelection.some(i => i.id === tm.id);
+        const accent = tm.isChampion ? GOLD : (tm.color || '#FF8000');
         return (
-          <button
-            key={team.id}
-            onClick={() => handleCubeSelect(team, 'team')}
-            style={{ borderColor: selected ? '#D2FF00' : `${accent}70`, borderTopWidth: '4px', borderTopColor: accent }}
-            className={`mach-cube aspect-square p-5 rounded-2xl border flex flex-col justify-between text-left ${
-              isChamp ? 'champ-foil' : 'card-gradient'
+          <div
+            key={tm.id}
+            onClick={() => handleCubeSelect(tm, 'team')}
+            style={{ borderTopWidth: '3px', borderTopColor: accent }}
+            className={`mach-cube p-5 rounded-2xl border cursor-pointer flex flex-col justify-between gap-3 ${
+              selected ? 'ring-2 ring-volt border-volt bg-panel' : tm.isChampion ? 'champ-foil' : 'bg-panel border-line hover:border-bone/40'
             }`}
           >
-            <div className="flex items-center justify-between w-full font-mono text-xs">
-              <span className="px-2 py-0.5 rounded-lg bg-void border border-line font-extrabold" style={{ color: accent }}>
-                {isChamp ? '👑 ' : ''}{team.code}
-              </span>
-              <span className="font-bold" style={{ color: isChamp ? GOLD : undefined }}>P{team.rank}</span>
+            <div>
+              <div className="flex items-center justify-between font-mono text-[10px]">
+                <span className="font-bold uppercase" style={{ color: accent }}>
+                  {tm.isChampion ? '👑 WCC • ' : ''}P{tm.rank} • {tm.code}
+                </span>
+                <span className="text-dim">{tm.chassis}</span>
+              </div>
+              <div className="font-display text-lg font-extrabold text-bone mt-1 leading-snug">{tm.name}</div>
+              <div className="font-mono text-xs text-dim mt-0.5">{tm.powerUnit}</div>
             </div>
-
-            <div className="my-auto py-2">
-              <div className="font-mono text-[10px] uppercase tracking-widest text-dim">{team.chassis}</div>
-              <h3 className="font-display text-lg sm:text-xl font-extrabold text-bone leading-snug mt-1">
-                {team.name}
-              </h3>
-              <div className="text-xs text-dim truncate mt-1">{team.powerUnit}</div>
+            <div className="pt-2.5 border-t border-line/60 flex items-center justify-between font-mono text-xs">
+              <span className="font-extrabold text-bone">{tm.points ?? 0} PTS</span>
+              <span className="text-[11px] text-dim">{compareMode ? (selected ? '✓ Selected' : '+ Select') : 'Dossier →'}</span>
             </div>
-
-            <div className="w-full pt-3 border-t border-line flex items-center justify-between font-mono text-[11px]">
-              <span className="font-extrabold" style={{ color: isChamp ? GOLD : undefined }}>{team.points} PTS</span>
-              <span className="text-dim">{compareMode ? (selected ? '✓ Selected' : '+ Compare') : 'Dossier →'}</span>
-            </div>
-          </button>
+          </div>
         );
       };
 
       const renderAirlinerCube = (ac) => {
         const selected = compareSelection.some(i => i.id === ac.id);
+        const accent = ac.color || '#005EB8';
         return (
-          <button
+          <div
             key={ac.id}
             onClick={() => handleCubeSelect(ac, 'airliner')}
-            style={{ borderColor: selected ? '#D2FF00' : `${ac.color}70`, borderTopWidth: '4px', borderTopColor: ac.color }}
-            className="mach-cube aspect-square p-5 rounded-2xl card-gradient border flex flex-col justify-between text-left"
+            style={{ borderTopWidth: '3px', borderTopColor: accent }}
+            className={`mach-cube p-5 rounded-2xl border cursor-pointer flex flex-col justify-between gap-3 ${
+              selected ? 'ring-2 ring-volt border-volt bg-panel' : 'bg-panel border-line hover:border-bone/40'
+            }`}
           >
-            <div className="flex items-center justify-between w-full font-mono text-xs">
-              <span className="px-2 py-0.5 rounded-lg bg-void border border-line text-bone font-extrabold">{ac.code}</span>
-              <span className="text-[10px] uppercase text-ember font-bold">{ac.status}</span>
+            <div>
+              <div className="flex items-center justify-between font-mono text-[10px]">
+                <span className="font-bold uppercase" style={{ color: accent }}>{ac.manufacturer}</span>
+                <span className="text-dim">{ac.code}</span>
+              </div>
+              <div className="font-display text-lg font-extrabold text-bone mt-1 leading-snug">{ac.model}</div>
+              <div className="font-mono text-xs text-dim mt-0.5">{ac.cruiseSpeed}</div>
             </div>
-
-            <div className="my-auto py-2">
-              <div className="font-mono text-[11px] uppercase tracking-wider text-dim">{ac.manufacturer}</div>
-              <h3 className="font-display text-lg sm:text-xl font-extrabold text-bone leading-snug mt-0.5">{ac.model}</h3>
-              <div className="font-mono text-xs text-ember mt-1.5">{ac.cruiseSpeed}</div>
+            <div className="pt-2.5 border-t border-line/60 flex items-center justify-between font-mono text-xs">
+              <span className="font-bold text-ember">{ac.range}</span>
+              <span className="text-[11px] text-dim">{compareMode ? (selected ? '✓ Selected' : '+ Select') : 'Specs →'}</span>
             </div>
-
-            <div className="w-full pt-3 border-t border-line flex items-center justify-between font-mono text-[11px]">
-              <span className="text-bone font-extrabold">{ac.range}</span>
-              <span className="text-dim">{compareMode ? (selected ? '✓ Selected' : '+ Compare') : 'Specs →'}</span>
-            </div>
-          </button>
+          </div>
         );
       };
 
-      // =====================================================================
-      // FULL ARTICLE READER PAGE
-      // =====================================================================
       const renderArticleReader = () => {
         const art = articles.find(a => a.id === route.articleId) || articles[0];
         if (!art) return null;
-        const isTrack = String(art.section || 'track').toLowerCase() === 'track';
         const linkedDrivers = drivers.filter(d => (art.relatedDriverIds || []).includes(d.id));
         const linkedTeams = teams.filter(t => (art.relatedTeamIds || []).includes(t.id));
         const linkedAirliners = airliners.filter(a => (art.relatedAirlinerIds || []).includes(a.id));
 
         return (
-          <div className="max-w-4xl mx-auto space-y-6">
-            <div className="flex items-center justify-between gap-3">
+          <article className="max-w-3xl mx-auto space-y-6">
+            <div className="flex items-center justify-between gap-3 border-b border-line pb-4">
               <button
-                onClick={() => navigate({ view: isTrack ? 'track' : 'sky' })}
-                className="px-3.5 py-2 rounded-xl bg-panel border border-line hover:border-bone font-mono text-xs text-bone"
+                onClick={() => navigate({ view: String(art.section || 'track').toLowerCase() === 'sky' ? 'sky' : 'track' })}
+                className="font-mono text-xs text-dim hover:text-bone"
               >
-                ← Back to {isTrack ? 'Track Briefings' : 'Sky & Mach'}
+                ← Back to {String(art.section || 'track').toUpperCase()} Briefings
               </button>
               <button
                 onClick={() => copyShareLink('article', art.id)}
-                className="px-3.5 py-2 rounded-xl bg-panel border border-line hover:border-ember font-mono text-xs text-ember"
+                className="px-3 py-1.5 rounded-xl bg-panel border border-line hover:border-ember font-mono text-xs text-ember"
               >
                 🔗 Share Briefing
               </button>
             </div>
 
-            <article className="p-6 sm:p-10 rounded-3xl card-gradient border border-line space-y-6 shadow-2xl">
-              <div className="flex flex-wrap items-center gap-2 font-mono text-xs">
-                <span className={`px-2.5 py-0.5 rounded-lg font-extrabold ${
-                  isTrack ? 'bg-crimson text-white' : 'bg-ember text-void'
-                }`}>
-                  {art.seriesBadge}
-                </span>
-                <span className="text-dim">{art.tag}</span>
-                <span className="text-dim">• {art.date} • {art.readTime}</span>
+            <header className="space-y-3">
+              <div className="font-mono text-xs uppercase tracking-[0.2em] text-crimson font-bold">
+                {art.tag || `${art.seriesBadge} TECHNICAL BRIEFING`}
               </div>
-
-              <h1 className="font-syne text-2xl sm:text-4xl font-extrabold text-bone leading-tight">{art.title}</h1>
-              <p className="text-base text-dim font-medium leading-relaxed border-l-2 border-crimson pl-4">
-                {art.summary}
-              </p>
-
-              <div className="space-y-4 text-sm sm:text-base text-bone/90 leading-relaxed pt-4 border-t border-line">
-                {(art.content || []).map((para, i) => (
-                  <p key={i}>{para}</p>
-                ))}
+              <h1 className="font-syne text-2xl sm:text-4xl font-extrabold text-bone leading-tight">
+                {art.title}
+              </h1>
+              <p className="text-sm sm:text-base text-dim leading-relaxed">{art.summary}</p>
+              <div className="flex flex-wrap items-center gap-3 font-mono text-xs text-dim pt-1">
+                <span>{art.author || 'MACH1 Desk'}</span>
+                <span>•</span>
+                <span>{art.date}</span>
+                <span>•</span>
+                <span className="text-ember">{art.readTime}</span>
               </div>
+            </header>
 
-              {(linkedDrivers.length > 0 || linkedTeams.length > 0 || linkedAirliners.length > 0) && (
-                <div className="pt-5 border-t border-line flex flex-wrap items-center gap-2">
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-dim mr-1">REFERENCED CUBES:</span>
-                  {linkedTeams.map(t => (
-                    <button key={t.id} onClick={() => setActiveDossier({ ...t, kind: 'team' })} style={{ borderColor: t.color }} className="px-3 py-1 rounded-lg bg-void border font-mono text-xs text-bone hover:bg-panel">
-                      {t.name} →
+            <div className="p-6 sm:p-8 rounded-2xl bg-panel border border-line space-y-4 text-sm sm:text-base text-bone/90 leading-relaxed">
+              {(art.content || []).map((para, idx) => (
+                <p key={idx}>{para}</p>
+              ))}
+            </div>
+
+            {(linkedDrivers.length > 0 || linkedTeams.length > 0 || linkedAirliners.length > 0) && (
+              <div className="space-y-3 pt-2">
+                <div className="font-mono text-[10px] uppercase tracking-widest text-dim">REFERENCED TELEMETRY CUBES</div>
+                <div className="flex flex-wrap gap-2">
+                  {linkedDrivers.map(d => (
+                    <button key={d.id} onClick={() => setActiveDossier({ ...d, kind: 'driver' })} className="px-3 py-1.5 rounded-xl bg-panel border border-line hover:border-crimson font-mono text-xs text-bone">
+                      #{d.number} {d.name}
                     </button>
                   ))}
-                  {linkedDrivers.map(d => (
-                    <button key={d.id} onClick={() => setActiveDossier({ ...d, kind: 'driver' })} style={{ borderColor: d.color }} className="px-3 py-1 rounded-lg bg-void border font-mono text-xs text-bone hover:bg-panel">
-                      #{d.number} {d.name} →
+                  {linkedTeams.map(t => (
+                    <button key={t.id} onClick={() => setActiveDossier({ ...t, kind: 'team' })} className="px-3 py-1.5 rounded-xl bg-panel border border-line hover:border-ember font-mono text-xs text-bone">
+                      {t.name}
                     </button>
                   ))}
                   {linkedAirliners.map(a => (
-                    <button key={a.id} onClick={() => setActiveDossier({ ...a, kind: 'airliner' })} style={{ borderColor: a.color }} className="px-3 py-1 rounded-lg bg-void border font-mono text-xs text-bone hover:bg-panel">
-                      {a.manufacturer} {a.model} →
+                    <button key={a.id} onClick={() => setActiveDossier({ ...a, kind: 'airliner' })} className="px-3 py-1.5 rounded-xl bg-panel border border-line hover:border-ember font-mono text-xs text-bone">
+                      {a.manufacturer} {a.model}
                     </button>
                   ))}
                 </div>
-              )}
-            </article>
-          </div>
+              </div>
+            )}
+          </article>
         );
       };
 
-      // =====================================================================
-      // TRACK OR SKY BRIEFINGS SECTION
-      // =====================================================================
-      const renderArticlesSection = (sectionKey) => {
-        const isTrack = sectionKey === 'track';
-        const sectionArticles = articles.filter(a => String(a.section || 'track').toLowerCase() === sectionKey);
-
+      const renderArticlesSection = (sec) => {
+        const list = articles.filter(a => String(a.section || 'track').toLowerCase() === sec);
+        const isSky = sec === 'sky';
         return (
           <div className="space-y-8">
-            <div className="border-b border-line pb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
-              <div>
-                <div className={`font-mono text-xs uppercase tracking-[0.25em] font-bold ${isTrack ? 'text-crimson' : 'text-ember'}`}>
-                  {isTrack ? 'MOTORSPORT TECHNICAL BRIEFINGS // F1 • F2 • FE' : 'COMMERCIAL & SUPERSONIC AEROSPACE'}
-                </div>
-                <h1 className="font-syne text-3xl sm:text-4xl font-extrabold text-bone mt-1">
-                  {isTrack ? 'Track Intelligence Briefings' : 'Sky & Mach Briefings'}
-                </h1>
+            <div className="border-b border-line pb-6">
+              <div className={`font-mono text-xs uppercase tracking-[0.25em] font-bold ${isSky ? 'text-ember' : 'text-crimson'}`}>
+                {isSky ? 'AEROSPACE & SUPERSONIC ENGINEERING' : 'MOTORSPORT PIT-WALL INTELLIGENCE'}
               </div>
-
-              <div className="flex flex-wrap gap-2">
-                {isTrack ? (
-                  <>
-                    <button onClick={() => navigate({ view: 'standings' })} className="px-3.5 py-2 rounded-xl bg-panel border border-gold/60 font-mono text-xs text-gold font-bold">
-                      👑 Standings →
-                    </button>
-                    <button onClick={() => navigate({ view: 'drivers' })} className="px-3.5 py-2 rounded-xl bg-panel border border-line hover:border-crimson font-mono text-xs text-bone">
-                      Driver Cubes →
-                    </button>
-                  </>
-                ) : (
-                  <button onClick={() => navigate({ view: 'airliners' })} className="px-4 py-2 rounded-xl bg-panel border border-ember/60 font-mono text-xs text-ember font-bold">
-                    Airliners Cubes →
-                  </button>
-                )}
-              </div>
+              <h1 className="font-syne text-3xl sm:text-4xl font-extrabold text-bone mt-1">
+                {isSky ? 'Sky & Mach Briefings' : 'Track Briefings'}
+              </h1>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {sectionArticles.map(art => (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {list.map(art => (
                 <button
                   key={art.id}
                   onClick={() => navigate({ view: 'article', articleId: art.id })}
-                  className="mach-cube p-6 rounded-2xl card-gradient border border-line hover:border-crimson text-left flex flex-col justify-between gap-4"
+                  className="mach-cube p-6 rounded-2xl bg-panel border border-line hover:border-crimson text-left flex flex-col justify-between gap-4"
                 >
-                  <div className="space-y-3">
-                    <div className="flex items-center justify-between font-mono text-[11px]">
-                      <span className={`px-2.5 py-0.5 rounded-lg font-extrabold ${
-                        isTrack ? 'bg-crimson text-white' : 'bg-ember text-void'
-                      }`}>
-                        {art.seriesBadge}
-                      </span>
-                      <span className="text-dim">{art.date} • {art.readTime}</span>
+                  <div className="space-y-2">
+                    <div className="font-mono text-[10px] uppercase tracking-wider text-ember font-bold">
+                      {art.tag || art.seriesBadge}
                     </div>
                     <h2 className="font-display text-xl font-extrabold text-bone leading-snug">{art.title}</h2>
-                    <p className="text-xs sm:text-sm text-dim line-clamp-3">{art.summary}</p>
+                    <p className="text-xs sm:text-sm text-dim leading-relaxed">{art.summary}</p>
                   </div>
-                  <div className="pt-3 border-t border-line flex items-center justify-between font-mono text-xs text-bone font-bold">
-                    <span>Read Full Technical Briefing</span>
-                    <span className="text-crimson">→</span>
+                  <div className="pt-3 border-t border-line/60 flex items-center justify-between font-mono text-xs text-dim">
+                    <span>{art.date} • {art.readTime}</span>
+                    <span className="text-bone font-bold">Read Briefing →</span>
                   </div>
                 </button>
               ))}
@@ -1597,22 +1589,206 @@
         );
       };
 
-      // =====================================================================
-      // CHAMPIONSHIP STANDINGS + SEASON TRAJECTORY POINTS & FORM GRAPH
-      // =====================================================================
+      const renderGlossaryPage = () => {
+        const cats = ['ALL', ...Array.from(new Set(glossaryTerms.map(g => g.category)))];
+        const visibleTerms = glossaryCategory === 'ALL' ? glossaryTerms : glossaryTerms.filter(g => g.category === glossaryCategory);
+        const selectedTerm = visibleTerms.find(g => g.term === activeGlossaryTerm?.term) || visibleTerms[0];
+
+        return (
+          <div className="space-y-8">
+            <div className="border-b border-line pb-6">
+              <div className="font-mono text-xs uppercase tracking-[0.25em] text-ember font-bold">TRACK × SKY ENGINEERING DECODER</div>
+              <h1 className="font-syne text-3xl sm:text-4xl font-extrabold text-bone mt-1">Telemetry &amp; Aero Glossary</h1>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              {cats.map(c => (
+                <button
+                  key={c}
+                  onClick={() => setGlossaryCategory(c)}
+                  className={`px-3.5 py-1.5 rounded-xl font-mono text-xs font-bold border ${
+                    glossaryCategory === c ? 'bg-crimson text-white border-crimson' : 'bg-panel border-line text-dim hover:text-bone'
+                  }`}
+                >
+                  {c}
+                </button>
+              ))}
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                {visibleTerms.map((item, idx) => {
+                  const active = selectedTerm?.term === item.term;
+                  return (
+                    <button
+                      key={idx}
+                      onClick={() => setActiveGlossaryTerm(item)}
+                      className={`p-4 rounded-2xl border text-left transition-all ${
+                        active ? 'bg-panel border-crimson shadow-lg' : 'bg-panel/70 border-line hover:border-bone/40'
+                      }`}
+                    >
+                      <div className="font-mono text-[10px] uppercase text-ember font-bold">{item.category}</div>
+                      <div className="font-display text-base font-extrabold text-bone mt-1">{item.term}</div>
+                      <p className="text-xs text-dim mt-1.5 leading-relaxed">{item.short}</p>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {selectedTerm && (
+                <div className="p-6 rounded-2xl card-gradient border border-crimson/50 space-y-4 h-fit">
+                  <div className="font-mono text-[10px] uppercase tracking-widest text-crimson font-bold">
+                    DECODER // {selectedTerm.category}
+                  </div>
+                  <h2 className="font-display text-xl font-extrabold text-bone">{selectedTerm.term}</h2>
+                  <p className="text-xs font-semibold text-ember">{selectedTerm.short}</p>
+                  <p className="text-sm text-bone/90 leading-relaxed pt-2 border-t border-line">{selectedTerm.detail}</p>
+                </div>
+              )}
+            </div>
+          </div>
+        );
+      };
+
+      const renderRaceSummary = () => {
+        const rows = raceSummary?.standings || [];
+        const podium = rows.slice(0, 3);
+        const dnfs = raceSummary?.dnfs || [];
+        const penalties = raceSummary?.penalties || [];
+        const flags = raceSummary?.flags || [];
+
+        return (
+          <div className="space-y-8">
+            <div className="border-b border-line pb-6 flex flex-col lg:flex-row lg:items-end justify-between gap-4">
+              <div>
+                <div className="font-mono text-xs uppercase tracking-[0.25em] text-crimson font-bold">
+                  {raceSummary?.series || 'FORMULA 1'} • {raceSummary?.status || 'OFFICIAL CLASSIFICATION'}
+                </div>
+                <h1 className="font-syne text-2xl sm:text-4xl font-extrabold text-bone mt-1">
+                  {raceSummary?.flag || '🏁'} {raceSummary?.raceName || 'Grand Prix Classification'}
+                </h1>
+                <div className="font-mono text-xs text-dim mt-1.5">
+                  {raceSummary?.circuit} • {raceSummary?.laps} • {raceSummary?.weather}
+                </div>
+              </div>
+              {savedRaces.length > 1 && (
+                <div className="flex flex-wrap gap-2">
+                  {savedRaces.map(sr => (
+                    <button
+                      key={sr.id}
+                      onClick={() => setRaceSummary(sr)}
+                      className={`px-3 py-1.5 rounded-xl font-mono text-xs border ${
+                        raceSummary.id === sr.id ? 'bg-crimson text-white border-crimson font-bold' : 'bg-panel border-line text-dim hover:text-bone'
+                      }`}
+                    >
+                      {sr.flag || '🏁'} {sr.shortTitle}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {podium.length > 0 && (
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                {podium.map((p, idx) => (
+                  <div
+                    key={p.code}
+                    style={{ borderTopWidth: '4px', borderTopColor: p.color || '#FF1E00' }}
+                    className="p-5 rounded-2xl bg-panel border border-line space-y-1.5"
+                  >
+                    <div className="flex items-center justify-between font-mono text-xs">
+                      <span className="font-extrabold" style={{ color: p.color }}>P{idx + 1}</span>
+                      <span className="text-dim">{p.points} PTS</span>
+                    </div>
+                    <div className="font-display text-xl font-extrabold text-bone">{p.name}</div>
+                    <div className="font-mono text-xs text-dim">{p.team} • {p.interval}</div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <div className="rounded-2xl bg-panel border border-line overflow-hidden">
+              <div className="px-5 py-3.5 border-b border-line flex flex-wrap items-center justify-between gap-2">
+                <span className="font-mono text-xs font-bold uppercase text-bone">OFFICIAL CLASSIFICATION</span>
+                {raceSummary?.fastestLap && (
+                  <span className="font-mono text-xs text-ember">⏱ Fastest Lap: {raceSummary.fastestLap}</span>
+                )}
+              </div>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="border-b border-line bg-void/60 font-mono text-[10px] uppercase text-dim">
+                      <th className="py-3 px-4">POS</th>
+                      <th className="py-3 px-4">DRIVER</th>
+                      <th className="py-3 px-4">CONSTRUCTOR</th>
+                      <th className="py-3 px-4">TIME / GAP</th>
+                      <th className="py-3 px-4">TYRES</th>
+                      <th className="py-3 px-4 text-center">STOPS</th>
+                      <th className="py-3 px-4 text-right">PTS</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-line/60 text-xs">
+                    {rows.map((row, idx) => (
+                      <tr key={`${row.code}-${idx}`} className="hover:bg-void/40">
+                        <td className="py-3 px-4 font-mono font-extrabold text-bone">{row.pos}</td>
+                        <td className="py-3 px-4 font-bold text-bone">
+                          <span className="inline-block w-2 h-2 rounded-full mr-2" style={{ backgroundColor: row.color || '#FF1E00' }}></span>
+                          {row.name} <span className="font-mono text-[10px] text-dim ml-1">{row.code}</span>
+                        </td>
+                        <td className="py-3 px-4 text-dim">{row.team}</td>
+                        <td className="py-3 px-4 font-mono text-bone">{row.interval}</td>
+                        <td className="py-3 px-4"><RoundTireBadges tires={row.tires} /></td>
+                        <td className="py-3 px-4 text-center font-mono text-dim">{row.pits ?? 1}</td>
+                        <td className="py-3 px-4 text-right font-mono font-extrabold text-bone">{row.points ?? 0}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {raceSummary?.debrief && (
+              <div className="p-5 rounded-2xl bg-panel border border-line space-y-2">
+                <div className="font-mono text-[10px] uppercase tracking-widest text-ember font-bold">POST-RACE STRATEGY DEBRIEF</div>
+                <p className="text-sm text-bone/90 leading-relaxed">{raceSummary.debrief}</p>
+              </div>
+            )}
+
+            {(dnfs.length > 0 || penalties.length > 0 || flags.length > 0) && (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="p-4 rounded-2xl bg-panel border border-line space-y-2">
+                  <div className="font-mono text-[10px] uppercase text-crimson font-bold">RETIREMENTS ({dnfs.length})</div>
+                  {dnfs.length === 0 ? <div className="text-xs text-dim">No retirements recorded.</div> : dnfs.map((d, i) => (
+                    <div key={i} className="text-xs text-bone"><span className="font-mono font-bold text-crimson">{d.code}</span> ({d.lap}) — {d.reason}</div>
+                  ))}
+                </div>
+                <div className="p-4 rounded-2xl bg-panel border border-line space-y-2">
+                  <div className="font-mono text-[10px] uppercase text-ember font-bold">STEWARDS PENALTIES ({penalties.length})</div>
+                  {penalties.length === 0 ? <div className="text-xs text-dim">No penalties issued.</div> : penalties.map((p, i) => (
+                    <div key={i} className="text-xs text-bone"><span className="font-mono font-bold text-ember">{p.code}</span>: {p.penalty} — {p.reason}</div>
+                  ))}
+                </div>
+                <div className="p-4 rounded-2xl bg-panel border border-line space-y-2">
+                  <div className="font-mono text-[10px] uppercase text-bone font-bold">RACE CONTROL LOG ({flags.length})</div>
+                  {flags.length === 0 ? <div className="text-xs text-dim">Clean race control log.</div> : flags.map((f, i) => (
+                    <div key={i} className="text-xs text-bone"><span className="font-mono font-bold text-emerald-400">{f.type}</span> ({f.lap}) — {f.note}</div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        );
+      };
+
       const renderStandingsPage = () => {
-        const seriesDrivers = [...drivers]
-          .filter(d => d.series === standingsSeries)
-          .sort((a, b) => Number(b.points || 0) - Number(a.points || 0));
-        const seriesTeams = [...teams]
-          .filter(t => t.series === standingsSeries)
-          .sort((a, b) => Number(b.points || 0) - Number(a.points || 0));
+        const seriesDrivers = [...drivers].filter(d => d.series === standingsSeries).sort((a, b) => Number(b.points || 0) - Number(a.points || 0));
+        const seriesTeams = [...teams].filter(t => t.series === standingsSeries).sort((a, b) => Number(b.points || 0) - Number(a.points || 0));
 
-        const champDriver = seriesDrivers.find(d => d.isChampion) || seriesDrivers[0];
-        const champTeam = seriesTeams.find(t => t.isChampion) || seriesTeams[0];
-
-        // Chronological races for this championship (oldest -> newest)
-        const seriesSavedRaces = [...savedRaces]
+        // Build Trajectory Graph Series
+        const trajKey = `${standingsSeries}_${trajectoryTarget}`;
+        const savedTraj = customTrajectory?.[trajKey];
+        const contenders = (trajectoryTarget === 'drivers' ? seriesDrivers : seriesTeams).slice(0, 8);
+        const seriesRaces = [...savedRaces]
           .filter(r => {
             const s = String(r.series || 'Formula 1').toUpperCase();
             if (standingsSeries === 'F1') return s.includes('1') || s === 'F1';
@@ -1622,134 +1798,67 @@
           })
           .reverse();
 
-        const contenders = (trajectoryTarget === 'drivers' ? seriesDrivers : seriesTeams).slice(0, 8);
-        const roundsList = seriesSavedRaces.length > 0
-          ? seriesSavedRaces
-          : [{ id: 'fallback-r1', shortTitle: raceSummary.shortTitle || 'R1', raceName: raceSummary.raceName, standings: raceSummary.standings || [] }];
+        const roundLabels = savedTraj?.roundLabels?.length
+          ? savedTraj.roundLabels
+          : seriesRaces.length
+          ? seriesRaces.map(r => r.shortTitle || 'GP')
+          : ['R1', 'R2', 'R3'];
 
-        const DISTINCT_PALETTE = ['#9333EA', '#FF8000', '#FF1E00', '#16A34A', '#0EA5E9', '#EC4899', '#94A3B8', '#FACC15'];
-
-        const overrideKey = `${standingsSeries}_${trajectoryTarget}`;
-        const activeOverride = customTrajectory?.[overrideKey];
-        const useManualGraph = Boolean(activeOverride && Array.isArray(activeOverride.roundLabels) && activeOverride.roundLabels.length > 0 && activeOverride.series);
-
-        const chartData = contenders.map((entity, cIdx) => {
-          const lastName = trajectoryTarget === 'drivers'
-            ? String(entity.name || '').trim().split(' ').slice(-1)[0]
-            : (entity.code || entity.name);
-
-          let fullSeriesPoints = [];
-          if (useManualGraph) {
-            const rawArr = Array.isArray(activeOverride.series[entity.id])
-              ? activeOverride.series[entity.id]
-              : activeOverride.roundLabels.map((_, idx) => Math.round((Number(entity.points || 0) * (idx + 1)) / activeOverride.roundLabels.length));
-            fullSeriesPoints = [
-              { roundIdx: 0, ptsEarned: 0, cumulative: 0, finishPos: 'START' },
-              ...activeOverride.roundLabels.map((_, rIdx) => {
-                const cum = Number(rawArr[rIdx] ?? 0);
-                const prevCum = rIdx === 0 ? 0 : Number(rawArr[rIdx - 1] ?? 0);
-                return {
-                  roundIdx: rIdx + 1,
-                  ptsEarned: Math.max(0, cum - prevCum),
-                  cumulative: cum,
-                  finishPos: `R${rIdx + 1}`
-                };
-              })
-            ];
-          } else {
-            let runningTotal = 0;
-            const roundPoints = roundsList.map((r, rIdx) => {
+        const chartLines = contenders.map((c, idx) => {
+          const fallbackPalette = ['#9B51E0', '#FF8000', '#E10600', '#27F4D2', '#3671C6', '#FF87BC', '#229971', '#B6BABD'];
+          const lineColor = c.color || fallbackPalette[idx % fallbackPalette.length];
+          let ptsArr = [];
+          if (savedTraj?.series?.[c.id]) {
+            ptsArr = savedTraj.series[c.id].map(v => Number(v || 0));
+          } else if (seriesRaces.length) {
+            let running = 0;
+            const raw = seriesRaces.map(r => {
               const rows = r.standings || [];
-              let ptsEarned = 0;
-              let finishPos = '—';
-              if (trajectoryTarget === 'drivers') {
-                const match = rows.find(row => String(row.code || '').toUpperCase() === String(entity.code || '').toUpperCase());
-                if (match) {
-                  ptsEarned = Number(match.points || 0);
-                  finishPos = match.pos || '—';
-                }
-              } else {
-                const teamMatches = rows.filter(row =>
-                  String(row.team || '').toLowerCase().includes(String(entity.name || '').toLowerCase()) ||
-                  String(entity.name || '').toLowerCase().includes(String(row.team || '').toLowerCase())
-                );
-                ptsEarned = teamMatches.reduce((acc, m) => acc + Number(m.points || 0), 0);
-                if (teamMatches.length) finishPos = `P${teamMatches[0].pos}`;
-              }
-              runningTotal += ptsEarned;
-              return { roundIdx: rIdx + 1, ptsEarned, cumulative: runningTotal, finishPos };
+              const earned = trajectoryTarget === 'drivers'
+                ? Number(rows.find(row => String(row.code || '').toUpperCase() === String(c.code || '').toUpperCase())?.points || 0)
+                : rows.filter(row => String(row.team || '').toLowerCase().includes(String(c.name || '').toLowerCase())).reduce((acc, m) => acc + Number(m.points || 0), 0);
+              running += earned;
+              return running;
             });
-
-            const totalFromRounds = roundPoints[roundPoints.length - 1]?.cumulative || 0;
-            const baseOffset = Math.max(0, Number(entity.points || 0) - totalFromRounds);
-            const adjustedRounds = roundPoints.map(pt => ({
-              ...pt,
-              cumulative: pt.cumulative + baseOffset
-            }));
-
-            fullSeriesPoints = [
-              { roundIdx: 0, ptsEarned: 0, cumulative: 0, finishPos: 'START' },
-              ...adjustedRounds
-            ];
+            const offset = Math.max(0, Number(c.points || 0) - running);
+            ptsArr = raw.map(v => v + offset);
+          } else {
+            ptsArr = roundLabels.map((_, rIdx) => Math.round((Number(c.points || 0) * (rIdx + 1)) / roundLabels.length));
           }
-
-          return {
-            id: entity.id,
-            code: entity.code,
-            name: entity.name,
-            shortLabel: lastName,
-            color: entity.isChampion ? GOLD : (DISTINCT_PALETTE[cIdx % DISTINCT_PALETTE.length] || entity.color || '#FF1E00'),
-            isChampion: Boolean(entity.isChampion),
-            points: fullSeriesPoints
-          };
+          return { id: c.id, name: c.name, code: c.code, color: lineColor, points: [0, ...ptsArr] };
         });
 
-        const effectiveRoundsMeta = useManualGraph
-          ? activeOverride.roundLabels.map((lbl, idx) => ({ shortTitle: lbl || `R${idx + 1}`, raceName: `${standingsSeries} Round ${idx + 1} — ${lbl || ''}` }))
-          : roundsList;
+        const maxPoints = Math.max(50, ...chartLines.flatMap(l => l.points));
+        const yMax = Math.ceil(maxPoints / 50) * 50;
+        const totalCols = Math.max(1, roundLabels.length);
+        const svgW = Math.max(760, 72 + totalCols * 44);
+        const svgH = 230;
+        const padL = 52;
+        const padR = 20;
+        const padT = 14;
+        const padB = 38;
+        const plotW = svgW - padL - padR;
+        const plotH = svgH - padT - padB;
 
-        const totalSteps = effectiveRoundsMeta.length;
-        const rawMax = Math.max(25, ...chartData.flatMap(c => c.points.map(p => p.cumulative)));
-        const niceStep = rawMax <= 80 ? 20 : rawMax <= 160 ? 25 : 50;
-        const maxPoints = Math.ceil(rawMax / niceStep) * niceStep;
+        const getX = (stepIdx) => padL + (stepIdx / totalCols) * plotW;
+        const getY = (val) => padT + plotH - (val / yMax) * plotH;
         const yTicks = [];
-        for (let v = 0; v <= maxPoints; v += niceStep) yTicks.push(v);
-
-        const svgW = 720;
-        const svgH = 290;
-        const padLeft = 58;
-        const padRight = 24;
-        const padTop = 18;
-        const padBottom = 42;
-        const plotW = svgW - padLeft - padRight;
-        const plotH = svgH - padTop - padBottom;
-
-        const getX = (stepIdx) => padLeft + (totalSteps === 0 ? 0 : (stepIdx / totalSteps) * plotW);
-        const getY = (pts) => padTop + plotH - (pts / maxPoints) * plotH;
-
-        const activeStepIdx = hoveredRoundIdx !== null && hoveredRoundIdx <= totalSteps ? hoveredRoundIdx : totalSteps;
+        for (let v = 0; v <= yMax; v += 50) yTicks.push(v);
 
         return (
           <div className="space-y-8">
-            <div className="border-b border-line pb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
+            <div className="border-b border-line pb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
               <div>
-                <div className="font-mono text-xs uppercase tracking-[0.25em] text-gold font-bold">
-                  WORLD CHAMPIONSHIP STANDINGS // WDC & WCC
-                </div>
-                <h1 className="font-syne text-3xl sm:text-4xl font-extrabold text-bone mt-1">
-                  {standingsSeries} Championship Standings
-                </h1>
+                <div className="font-mono text-xs uppercase tracking-[0.25em] text-gold font-bold">CHAMPIONSHIP TELEMETRY &amp; TRAJECTORY</div>
+                <h1 className="font-syne text-3xl sm:text-4xl font-extrabold text-bone mt-1">{standingsSeries} World Standings</h1>
               </div>
-
-              <div className="flex flex-wrap gap-2">
+              <div className="flex gap-2">
                 {['F1', 'F2', 'FE'].map(s => (
                   <button
                     key={s}
-                    onClick={() => { setStandingsSeries(s); setHoveredRoundIdx(null); setHighlightedContenderId(null); }}
-                    className={`px-4 py-2 rounded-xl font-mono text-xs font-extrabold border transition-all ${
-                      standingsSeries === s
-                        ? 'bg-gradient-to-r from-crimson to-ember text-white border-crimson'
-                        : 'bg-panel border-line text-dim hover:text-bone'
+                    onClick={() => { setStandingsSeries(s); setHighlightedContenderId(null); }}
+                    className={`px-4 py-2 rounded-xl font-mono text-xs font-extrabold border ${
+                      standingsSeries === s ? 'bg-crimson text-white border-crimson' : 'bg-panel border-line text-dim hover:text-bone'
                     }`}
                   >
                     {s}
@@ -1758,439 +1867,235 @@
               </div>
             </div>
 
-            {/* Reigning World Champions Gold Banner */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {champDriver && (
-                <button
-                  onClick={() => setActiveDossier({ ...champDriver, kind: 'driver' })}
-                  className="champ-foil p-5 rounded-2xl border-2 text-left flex items-center justify-between transition-transform hover:-translate-y-0.5"
-                >
-                  <div>
-                    <div className="font-mono text-[10px] uppercase tracking-widest text-gold font-extrabold">
-                      👑 {standingsSeries} DRIVERS’ CHAMPION
-                    </div>
-                    <div className="font-display text-2xl font-extrabold text-bone mt-0.5">{champDriver.name}</div>
-                    <div className="font-mono text-xs text-dim mt-0.5">{champDriver.team} • #{champDriver.number}</div>
-                  </div>
-                  <div className="text-right font-mono">
-                    <div className="text-2xl font-extrabold text-gold">{champDriver.points}</div>
-                    <div className="text-[10px] text-gold/80">PTS</div>
-                  </div>
-                </button>
-              )}
-
-              {champTeam && (
-                <button
-                  onClick={() => setActiveDossier({ ...champTeam, kind: 'team' })}
-                  className="champ-foil p-5 rounded-2xl border-2 text-left flex items-center justify-between transition-transform hover:-translate-y-0.5"
-                >
-                  <div>
-                    <div className="font-mono text-[10px] uppercase tracking-widest text-gold font-extrabold">
-                      👑 {standingsSeries} CONSTRUCTORS’ CHAMPION
-                    </div>
-                    <div className="font-display text-2xl font-extrabold text-bone mt-0.5">{champTeam.name}</div>
-                    <div className="font-mono text-xs text-dim mt-0.5">{champTeam.chassis} • {champTeam.powerUnit}</div>
-                  </div>
-                  <div className="text-right font-mono">
-                    <div className="text-2xl font-extrabold text-gold">{champTeam.points}</div>
-                    <div className="text-[10px] text-gold/80">PTS</div>
-                  </div>
-                </button>
-              )}
-            </div>
-
             {/* Season Trajectory Points & Form Graph */}
-            <section className="p-5 sm:p-6 rounded-2xl card-gradient border border-line space-y-4">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-line pb-4">
+            <div className="p-4 sm:p-5 rounded-2xl bg-panel border border-line space-y-3">
+              <div className="flex flex-wrap items-center justify-between gap-2">
                 <div>
-                  <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-crimson font-bold">
-                    CHAMPIONSHIP POINTS PROGRESSION // ROUND 0 TO ROUND {totalSteps}
-                  </div>
-                  <h2 className="font-display text-lg sm:text-xl font-extrabold text-bone mt-0.5">
-                    {standingsSeries} {trajectoryTarget === 'drivers' ? 'Drivers' : 'Constructors'} Points Trajectory
-                  </h2>
+                  <div className="font-mono text-[9px] uppercase tracking-widest text-ember font-bold">SEASON TRAJECTORY // ROUND-BY-ROUND</div>
+                  <h2 className="font-display text-base font-extrabold text-bone">Championship Points Progression</h2>
                 </div>
-
-                <div className="flex items-center gap-2">
+                <div className="flex gap-1.5">
                   <button
-                    onClick={() => { setTrajectoryTarget('drivers'); setHighlightedContenderId(null); }}
-                    className={`px-3 py-1.5 rounded-lg font-mono text-[11px] font-bold border ${
-                      trajectoryTarget === 'drivers'
-                        ? 'bg-crimson text-white border-crimson'
-                        : 'bg-void border-line text-dim hover:text-bone'
-                    }`}
+                    onClick={() => setTrajectoryTarget('drivers')}
+                    className={`px-2.5 py-1 rounded-lg font-mono text-[11px] border ${trajectoryTarget === 'drivers' ? 'bg-void border-crimson text-bone font-bold' : 'bg-void/50 border-line text-dim'}`}
                   >
                     Drivers
                   </button>
                   <button
-                    onClick={() => { setTrajectoryTarget('teams'); setHighlightedContenderId(null); }}
-                    className={`px-3 py-1.5 rounded-lg font-mono text-[11px] font-bold border ${
-                      trajectoryTarget === 'teams'
-                        ? 'bg-ember text-void border-ember'
-                        : 'bg-void border-line text-dim hover:text-bone'
-                    }`}
+                    onClick={() => setTrajectoryTarget('teams')}
+                    className={`px-2.5 py-1 rounded-lg font-mono text-[11px] border ${trajectoryTarget === 'teams' ? 'bg-void border-crimson text-bone font-bold' : 'bg-void/50 border-line text-dim'}`}
                   >
                     Constructors
                   </button>
                 </div>
               </div>
 
-              {/* Multi-Row Top Colored Dot Legend */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-4 gap-y-2 py-2 px-3 rounded-xl bg-void/70 border border-line/80">
-                {chartData.map(c => {
-                  const isDimmed = highlightedContenderId && highlightedContenderId !== c.id;
-                  const isSelected = highlightedContenderId === c.id;
+              {/* Clean Multi-Row Colored Dot Legend */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
+                {chartLines.map(line => {
+                  const isDimmed = highlightedContenderId && highlightedContenderId !== line.id;
+                  const activePts = hoveredRoundIdx !== null ? line.points[hoveredRoundIdx] : line.points[line.points.length - 1];
                   return (
                     <button
-                      key={c.id}
-                      type="button"
-                      onClick={() => setHighlightedContenderId(prev => (prev === c.id ? null : c.id))}
-                      className={`flex items-center gap-2 text-left py-0.5 px-1.5 rounded-md transition-opacity ${
+                      key={line.id}
+                      onClick={() => setHighlightedContenderId(prev => (prev === line.id ? null : line.id))}
+                      className={`flex items-center justify-between gap-2 px-2.5 py-1 rounded-lg bg-void/70 border border-line text-left transition-opacity ${
                         isDimmed ? 'opacity-35' : 'opacity-100'
-                      } ${isSelected ? 'bg-panel ring-1 ring-bone/30' : 'hover:bg-panel/60'}`}
-                      title="Click to highlight line"
+                      }`}
                     >
-                      <span
-                        className="w-3 h-3 rounded-full shrink-0"
-                        style={{ backgroundColor: c.color }}
-                      ></span>
-                      <span className="font-sans text-xs sm:text-sm font-semibold text-bone truncate">
-                        {c.shortLabel}
+                      <span className="inline-flex items-center gap-1.5 min-w-0">
+                        <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: line.color }}></span>
+                        <span className="font-sans text-[11px] font-semibold text-bone truncate">{line.name}</span>
                       </span>
+                      <span className="font-mono text-[10px] font-bold text-dim shrink-0">{activePts}</span>
                     </button>
                   );
                 })}
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
-                {/* SVG Line Chart */}
-                <div className="lg:col-span-8 w-full overflow-x-auto">
-                  <svg viewBox={`0 0 ${svgW} ${svgH}`} className="w-full h-auto min-w-[460px] select-none">
-                    {/* Horizontal Y-Axis Gridlines & Numeric Labels */}
-                    {yTicks.map((val, idx) => {
-                      const y = getY(val);
-                      const isZero = val === 0;
-                      return (
-                        <g key={idx}>
-                          <line
-                            x1={padLeft}
-                            y1={y}
-                            x2={svgW - padRight}
-                            y2={y}
-                            stroke={isZero ? 'var(--text-bone)' : 'var(--border-line)'}
-                            strokeWidth={isZero ? '1.3' : '1'}
-                            strokeOpacity={isZero ? '0.6' : '0.85'}
-                          />
-                          <text
-                            x={padLeft - 10}
-                            y={y + 4}
-                            textAnchor="end"
-                            fill="var(--text-bone)"
-                            fontSize="11"
-                            fontFamily="JetBrains Mono, monospace"
-                            fontWeight="600"
-                          >
-                            {val}
-                          </text>
-                        </g>
-                      );
-                    })}
+              {/* Rebuilt SVG Chart with Every Round Number Clearly Shown */}
+              <div className="w-full overflow-x-auto pb-1">
+                <svg viewBox={`0 0 ${svgW} ${svgH}`} style={{ minWidth: `${svgW}px` }} className="w-full h-[220px] select-none">
+                  {/* Y-Axis Label */}
+                  <text
+                    x="13"
+                    y={padT + plotH / 2}
+                    textAnchor="middle"
+                    transform={`rotate(-90, 13, ${padT + plotH / 2})`}
+                    fill="var(--text-bone)"
+                    fontSize="10"
+                    fontWeight="600"
+                    fontFamily="Inter"
+                  >
+                    Points
+                  </text>
 
-                    {/* Rotated Y-Axis Title */}
-                    <text
-                      x={16}
-                      y={padTop + plotH / 2}
-                      transform={`rotate(-90, 16, ${padTop + plotH / 2})`}
-                      textAnchor="middle"
-                      fill="var(--text-bone)"
-                      fontSize="12"
-                      fontFamily="Inter, sans-serif"
-                      fontWeight="600"
-                    >
-                      Points
-                    </text>
+                  {/* Horizontal Gridlines */}
+                  {yTicks.map((val, i) => {
+                    const y = getY(val);
+                    return (
+                      <g key={i}>
+                        <line
+                          x1={padL}
+                          y1={y}
+                          x2={svgW - padR}
+                          y2={y}
+                          stroke={val === 0 ? 'var(--text-dim)' : 'var(--border-line)'}
+                          strokeWidth={val === 0 ? '1.3' : '0.9'}
+                        />
+                        <text x={padL - 7} y={y + 3.5} textAnchor="end" fill="var(--text-dim)" fontSize="9.5" fontFamily="JetBrains Mono">
+                          {val}
+                        </text>
+                      </g>
+                    );
+                  })}
 
-                    {/* X-Axis Round Numbers (0, 1, 2, 3...) & Hover Hit Columns */}
-                    {Array.from({ length: totalSteps + 1 }).map((_, stepIdx) => {
-                      const x = getX(stepIdx);
-                      const isActive = stepIdx === activeStepIdx;
-                      const colW = plotW / Math.max(1, totalSteps + 1);
-                      return (
-                        <g
-                          key={stepIdx}
-                          className="cursor-pointer"
-                          onMouseEnter={() => setHoveredRoundIdx(stepIdx)}
-                          onClick={() => setHoveredRoundIdx(stepIdx)}
+                  {/* Vertical Hover Band & Every Single Round Number (0, 1, 2, 3...) */}
+                  {['0', ...roundLabels].map((lbl, idx) => {
+                    const x = getX(idx);
+                    const isHovered = hoveredRoundIdx === idx;
+                    const colW = plotW / totalCols;
+                    return (
+                      <g key={idx} onMouseEnter={() => setHoveredRoundIdx(idx)} onMouseLeave={() => setHoveredRoundIdx(null)}>
+                        {isHovered && (
+                          <line x1={x} y1={padT} x2={x} y2={padT + plotH} stroke="#FF6B00" strokeWidth="1" strokeDasharray="3 3" />
+                        )}
+                        <rect
+                          x={x - colW / 2}
+                          y={padT}
+                          width={colW}
+                          height={plotH + 24}
+                          fill="transparent"
+                          className="cursor-crosshair"
+                        />
+                        <text
+                          x={x}
+                          y={padT + plotH + 15}
+                          textAnchor="middle"
+                          fill={isHovered ? '#FF6B00' : 'var(--text-bone)'}
+                          fontWeight={isHovered ? '800' : '600'}
+                          fontSize="9.5"
+                          fontFamily="JetBrains Mono"
                         >
-                          <rect
-                            x={x - colW / 2}
-                            y={padTop}
-                            width={colW}
-                            height={plotH + 22}
-                            fill="transparent"
+                          {idx}
+                        </text>
+                      </g>
+                    );
+                  })}
+
+                  {/* X-Axis Label */}
+                  <text
+                    x={padL + plotW / 2}
+                    y={svgH - 4}
+                    textAnchor="middle"
+                    fill="var(--text-bone)"
+                    fontSize="10"
+                    fontWeight="600"
+                    fontFamily="Inter"
+                  >
+                    Round {hoveredRoundIdx !== null && hoveredRoundIdx > 0 ? `(R${hoveredRoundIdx}: ${roundLabels[hoveredRoundIdx - 1]})` : ''}
+                  </text>
+
+                  {/* Contender Progression Lines & Data Dots */}
+                  {chartLines.map(line => {
+                    const dimmed = highlightedContenderId && highlightedContenderId !== line.id;
+                    const ptsStr = line.points.map((v, idx) => `${getX(idx)},${getY(v)}`).join(' ');
+                    return (
+                      <g key={line.id} opacity={dimmed ? 0.18 : 1}>
+                        <polyline fill="none" stroke={line.color} strokeWidth="2.3" strokeLinejoin="round" strokeLinecap="round" points={ptsStr} />
+                        {line.points.map((v, idx) => (
+                          <circle
+                            key={idx}
+                            cx={getX(idx)}
+                            cy={getY(v)}
+                            r={hoveredRoundIdx === idx ? 4 : 2.6}
+                            fill={line.color}
                           />
-                          {isActive && (
-                            <line
-                              x1={x}
-                              y1={padTop}
-                              x2={x}
-                              y2={padTop + plotH}
-                              stroke="var(--text-dim)"
-                              strokeWidth="1.2"
-                              strokeDasharray="3 3"
-                            />
-                          )}
-                          <text
-                            x={x}
-                            y={padTop + plotH + 18}
-                            textAnchor="middle"
-                            fill={isActive ? '#FF6B00' : 'var(--text-bone)'}
-                            fontSize="11"
-                            fontFamily="JetBrains Mono, monospace"
-                            fontWeight={isActive ? '800' : '600'}
-                          >
-                            {stepIdx}
-                          </text>
-                        </g>
-                      );
-                    })}
-
-                    {/* Centered X-Axis Title */}
-                    <text
-                      x={padLeft + plotW / 2}
-                      y={svgH - 4}
-                      textAnchor="middle"
-                      fill="var(--text-bone)"
-                      fontSize="12"
-                      fontFamily="Inter, sans-serif"
-                      fontWeight="600"
-                    >
-                      Round
-                    </text>
-
-                    {/* Trajectory Polylines & Nodes */}
-                    {chartData.map((contender) => {
-                      const isDimmed = highlightedContenderId && highlightedContenderId !== contender.id;
-                      const isHighlighted = highlightedContenderId === contender.id;
-                      const coords = contender.points.map(pt => `${getX(pt.roundIdx)},${getY(pt.cumulative)}`).join(' ');
-                      return (
-                        <g key={contender.id} style={{ opacity: isDimmed ? 0.2 : 1, transition: 'opacity 0.2s ease' }}>
-                          <polyline
-                            fill="none"
-                            stroke={contender.color}
-                            strokeWidth={isHighlighted || contender.isChampion ? '3' : '2.2'}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            points={coords}
-                          />
-                          {contender.points.map((pt) => {
-                            const cx = getX(pt.roundIdx);
-                            const cy = getY(pt.cumulative);
-                            const isActive = pt.roundIdx === activeStepIdx;
-                            return (
-                              <circle
-                                key={pt.roundIdx}
-                                cx={cx}
-                                cy={cy}
-                                r={isActive ? '4.5' : '3'}
-                                fill={contender.color}
-                              />
-                            );
-                          })}
-                        </g>
-                      );
-                    })}
-                  </svg>
-                </div>
-
-                {/* Round-by-Round Telemetry Readout Card */}
-                <div className="lg:col-span-4 p-4 rounded-xl bg-void border border-line space-y-2.5">
-                  <div className="flex items-center justify-between font-mono text-[10px] uppercase tracking-wider">
-                    <span className="text-ember font-bold">
-                      {activeStepIdx === 0 ? 'ROUND 0 // SEASON START' : `ROUND ${activeStepIdx} SNAPSHOT`}
-                    </span>
-                    <span className="text-dim">
-                      {activeStepIdx === 0 ? 'GRID 0 PTS' : (effectiveRoundsMeta[activeStepIdx - 1]?.shortTitle || 'RACE')}
-                    </span>
-                  </div>
-                  <div className="text-xs font-semibold text-bone truncate">
-                    {activeStepIdx === 0
-                      ? `${standingsSeries} Pre-Season Baseline`
-                      : (effectiveRoundsMeta[activeStepIdx - 1]?.raceName || raceSummary.raceName)}
-                  </div>
-                  <div className="space-y-1.5 pt-2 border-t border-line max-h-52 overflow-y-auto pr-1">
-                    {chartData
-                      .slice()
-                      .sort((a, b) => (b.points[activeStepIdx]?.cumulative || 0) - (a.points[activeStepIdx]?.cumulative || 0))
-                      .map((c) => {
-                        const snap = c.points[activeStepIdx] || { ptsEarned: 0, cumulative: 0, finishPos: '—' };
-                        return (
-                          <div key={c.id} className="flex items-center justify-between font-mono text-xs">
-                            <div className="flex items-center gap-2 min-w-0">
-                              <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: c.color }}></span>
-                              <span className="text-bone font-bold truncate">{c.shortLabel}</span>
-                              {activeStepIdx > 0 && (
-                                <span className="text-[10px] text-dim">
-                                  ({snap.finishPos === 'NC' ? 'NC' : `P${snap.finishPos}`})
-                                </span>
-                              )}
-                            </div>
-                            <div className="flex items-center gap-2 shrink-0">
-                              {activeStepIdx > 0 && snap.ptsEarned > 0 && (
-                                <span className="text-[10px] text-emerald-400">+{snap.ptsEarned}</span>
-                              )}
-                              <span className="font-extrabold" style={{ color: c.isChampion ? GOLD : undefined }}>
-                                {snap.cumulative} PTS
-                              </span>
-                            </div>
-                          </div>
-                        );
-                      })}
-                  </div>
-                </div>
+                        ))}
+                      </g>
+                    );
+                  })}
+                </svg>
               </div>
-            </section>
+            </div>
 
-            {/* Drivers vs Constructors Toggle */}
+            {/* Standings Table Switcher */}
             <div className="flex gap-2">
               <button
                 onClick={() => setStandingsTab('drivers')}
-                className={`px-4 py-2 rounded-xl font-mono text-xs uppercase border ${
-                  standingsTab === 'drivers' ? 'bg-panel border-crimson text-bone font-bold' : 'bg-void border-line text-dim'
+                className={`px-4 py-2 rounded-xl font-mono text-xs font-bold border ${
+                  standingsTab === 'drivers' ? 'bg-panel border-gold text-gold' : 'bg-panel/60 border-line text-dim'
                 }`}
               >
-                Drivers’ Championship ({seriesDrivers.length})
+                Drivers’ Championship (WDC)
               </button>
               <button
                 onClick={() => setStandingsTab('teams')}
-                className={`px-4 py-2 rounded-xl font-mono text-xs uppercase border ${
-                  standingsTab === 'teams' ? 'bg-panel border-ember text-bone font-bold' : 'bg-void border-line text-dim'
+                className={`px-4 py-2 rounded-xl font-mono text-xs font-bold border ${
+                  standingsTab === 'teams' ? 'bg-panel border-gold text-gold' : 'bg-panel/60 border-line text-dim'
                 }`}
               >
-                Constructors’ Championship ({seriesTeams.length})
+                Constructors’ Championship (WCC)
               </button>
             </div>
 
             {standingsTab === 'drivers' ? (
               <div className="rounded-2xl bg-panel border border-line overflow-hidden">
-                <div className="overflow-x-auto">
-                  <table className="w-full text-left border-collapse">
-                    <thead>
-                      <tr className="border-b border-line bg-void/70 font-mono text-[10px] uppercase text-dim">
-                        <th className="py-3.5 px-4">POS</th>
-                        <th className="py-3.5 px-4">DRIVER</th>
-                        <th className="py-3.5 px-4">TEAM</th>
-                        <th className="py-3.5 px-4">RECENT FORM</th>
-                        <th className="py-3.5 px-4">WINS</th>
-                        <th className="py-3.5 px-4 text-right">POINTS</th>
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="border-b border-line bg-void/60 font-mono text-[10px] uppercase text-dim">
+                      <th className="py-3 px-4">POS</th>
+                      <th className="py-3 px-4">DRIVER</th>
+                      <th className="py-3 px-4">CONSTRUCTOR</th>
+                      <th className="py-3 px-4 text-center">WINS</th>
+                      <th className="py-3 px-4 text-right">POINTS</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-line/60 text-xs">
+                    {seriesDrivers.map((d, idx) => (
+                      <tr
+                        key={d.id}
+                        onClick={() => setActiveDossier({ ...d, kind: 'driver' })}
+                        className={`cursor-pointer hover:bg-void/40 ${d.isChampion ? 'champ-foil' : ''}`}
+                      >
+                        <td className="py-3 px-4 font-mono font-extrabold" style={{ color: d.isChampion ? GOLD : undefined }}>{idx + 1}</td>
+                        <td className="py-3 px-4 font-bold text-bone">
+                          {d.isChampion ? '👑 ' : ''}{d.name} <span className="font-mono text-[10px] text-dim ml-1">#{d.number}</span>
+                        </td>
+                        <td className="py-3 px-4 text-dim">{d.team}</td>
+                        <td className="py-3 px-4 text-center font-mono text-bone">{d.wins ?? '—'}</td>
+                        <td className="py-3 px-4 text-right font-mono font-extrabold" style={{ color: d.isChampion ? GOLD : undefined }}>{d.points ?? 0}</td>
                       </tr>
-                    </thead>
-                    <tbody className="divide-y divide-line/60 text-sm">
-                      {seriesDrivers.map((d, idx) => {
-                        const isChamp = Boolean(d.isChampion);
-                        const formList = roundsList.slice(-5).map(r => {
-                          const m = (r.standings || []).find(row => String(row.code || '').toUpperCase() === String(d.code || '').toUpperCase());
-                          return m ? (m.pos === 'NC' ? 'NC' : `P${m.pos}`) : '—';
-                        });
-                        return (
-                          <tr
-                            key={d.id}
-                            onClick={() => setActiveDossier({ ...d, kind: 'driver' })}
-                            className={`cursor-pointer transition-colors ${
-                              isChamp ? 'bg-gold/15 hover:bg-gold/20' : 'hover:bg-void/60'
-                            }`}
-                          >
-                            <td className={`py-3.5 px-4 font-mono font-extrabold ${isChamp ? 'text-gold' : 'text-bone'}`}>
-                              {isChamp ? '👑 1' : idx + 1}
-                            </td>
-                            <td className="py-3.5 px-4 font-bold text-bone">
-                              <span className="inline-block w-2.5 h-2.5 rounded-full mr-2" style={{ backgroundColor: isChamp ? GOLD : d.color }}></span>
-                              {d.name}
-                              {isChamp && (
-                                <span className="ml-2 px-2 py-0.5 rounded bg-gold/20 border border-gold/60 font-mono text-[9px] text-gold">
-                                  WORLD CHAMPION
-                                </span>
-                              )}
-                            </td>
-                            <td className="py-3.5 px-4 text-xs text-dim">{d.team}</td>
-                            <td className="py-3.5 px-4">
-                              <div className="flex items-center gap-1 font-mono text-[10px]">
-                                {formList.map((f, fi) => (
-                                  <span
-                                    key={fi}
-                                    className={`px-1.5 py-0.5 rounded border ${
-                                      f === 'P1'
-                                        ? 'bg-gold/20 border-gold text-gold font-extrabold'
-                                        : f === 'P2' || f === 'P3'
-                                        ? 'bg-ember/15 border-ember/50 text-ember font-bold'
-                                        : f === 'NC'
-                                        ? 'bg-crimson/15 border-crimson/50 text-crimson'
-                                        : 'bg-void border-line text-dim'
-                                    }`}
-                                  >
-                                    {f}
-                                  </span>
-                                ))}
-                              </div>
-                            </td>
-                            <td className="py-3.5 px-4 font-mono text-xs text-bone">{d.wins ?? '—'}</td>
-                            <td className={`py-3.5 px-4 font-mono text-sm font-extrabold text-right ${isChamp ? 'text-gold' : 'text-ember'}`}>
-                              {d.points ?? 0}
-                            </td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
+                    ))}
+                  </tbody>
+                </table>
               </div>
             ) : (
               <div className="rounded-2xl bg-panel border border-line overflow-hidden">
-                <div className="overflow-x-auto">
-                  <table className="w-full text-left border-collapse">
-                    <thead>
-                      <tr className="border-b border-line bg-void/70 font-mono text-[10px] uppercase text-dim">
-                        <th className="py-3.5 px-4">POS</th>
-                        <th className="py-3.5 px-4">CONSTRUCTOR</th>
-                        <th className="py-3.5 px-4">CHASSIS</th>
-                        <th className="py-3.5 px-4">POWER UNIT</th>
-                        <th className="py-3.5 px-4 text-right">POINTS</th>
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="border-b border-line bg-void/60 font-mono text-[10px] uppercase text-dim">
+                      <th className="py-3 px-4">POS</th>
+                      <th className="py-3 px-4">CONSTRUCTOR</th>
+                      <th className="py-3 px-4">CHASSIS / PU</th>
+                      <th className="py-3 px-4 text-right">POINTS</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-line/60 text-xs">
+                    {seriesTeams.map((t, idx) => (
+                      <tr
+                        key={t.id}
+                        onClick={() => setActiveDossier({ ...t, kind: 'team' })}
+                        className={`cursor-pointer hover:bg-void/40 ${t.isChampion ? 'champ-foil' : ''}`}
+                      >
+                        <td className="py-3 px-4 font-mono font-extrabold" style={{ color: t.isChampion ? GOLD : undefined }}>{idx + 1}</td>
+                        <td className="py-3 px-4 font-bold text-bone">{t.isChampion ? '👑 ' : ''}{t.name}</td>
+                        <td className="py-3 px-4 text-dim">{t.chassis} • {t.powerUnit}</td>
+                        <td className="py-3 px-4 text-right font-mono font-extrabold" style={{ color: t.isChampion ? GOLD : undefined }}>{t.points ?? 0}</td>
                       </tr>
-                    </thead>
-                    <tbody className="divide-y divide-line/60 text-sm">
-                      {seriesTeams.map((t, idx) => {
-                        const isChamp = Boolean(t.isChampion);
-                        return (
-                          <tr
-                            key={t.id}
-                            onClick={() => setActiveDossier({ ...t, kind: 'team' })}
-                            className={`cursor-pointer transition-colors ${
-                              isChamp ? 'bg-gold/15 hover:bg-gold/20' : 'hover:bg-void/60'
-                            }`}
-                          >
-                            <td className={`py-3.5 px-4 font-mono font-extrabold ${isChamp ? 'text-gold' : 'text-bone'}`}>
-                              {isChamp ? '👑 1' : idx + 1}
-                            </td>
-                            <td className="py-3.5 px-4 font-bold text-bone">
-                              <span className="inline-block w-2.5 h-2.5 rounded-full mr-2" style={{ backgroundColor: isChamp ? GOLD : t.color }}></span>
-                              {t.name}
-                              {isChamp && (
-                                <span className="ml-2 px-2 py-0.5 rounded bg-gold/20 border border-gold/60 font-mono text-[9px] text-gold">
-                                  CONSTRUCTORS’ CHAMPION
-                                </span>
-                              )}
-                            </td>
-                            <td className="py-3.5 px-4 font-mono text-xs text-bone">{t.chassis}</td>
-                            <td className="py-3.5 px-4 text-xs text-dim">{t.powerUnit}</td>
-                            <td className={`py-3.5 px-4 font-mono text-sm font-extrabold text-right ${isChamp ? 'text-gold' : 'text-ember'}`}>
-                              {t.points ?? 0}
-                            </td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
+                    ))}
+                  </tbody>
+                </table>
               </div>
             )}
           </div>
@@ -2198,243 +2103,233 @@
       };
 
       // =====================================================================
-      // GLOSSARY PAGE (TRACK × SKY TELEMETRY & ENGINEERING DECODER)
+      // DUEL ARENA (1V1 HEAD-TO-HEAD FOR F1, F2, FE & AVIATION)
       // =====================================================================
-      const renderGlossaryPage = () => {
-        const categories = ['ALL', ...Array.from(new Set(glossaryTerms.map(g => g.category)))];
-        const filteredTerms = glossaryCategory === 'ALL'
-          ? glossaryTerms
-          : glossaryTerms.filter(g => g.category === glossaryCategory);
-        const currentTerm = glossaryTerms.find(g => g.term === activeGlossaryTerm?.term) || filteredTerms[0] || glossaryTerms[0];
+      const renderDuelArena = () => {
+        const isAviation = duelCategory === 'AVIATION';
+        const pool = isAviation
+          ? airliners
+          : drivers.filter(d => d.series === duelCategory);
+
+        const leftItem = pool.find(item => item.id === duelLeftId) || pool[0];
+        const rightItem = pool.find(item => item.id === duelRightId && item.id !== leftItem?.id) || pool[1] || pool[0];
+
+        const handleSwitchCategory = (nextCat) => {
+          setDuelCategory(nextCat);
+          const nextPool = nextCat === 'AVIATION'
+            ? airliners
+            : drivers.filter(d => d.series === nextCat);
+          setDuelLeftId(nextPool[0]?.id || '');
+          setDuelRightId(nextPool[1]?.id || nextPool[0]?.id || '');
+        };
+
+        // Quick-select teammate pairings for motorsport categories
+        const teammatePresets = !isAviation
+          ? pool.reduce((acc, drv) => {
+              if (acc.some(x => x.team === drv.team)) return acc;
+              const pair = pool.filter(x => x.team === drv.team).sort((a, b) => Number(b.points || 0) - Number(a.points || 0));
+              if (pair.length >= 2) acc.push({ team: drv.team, color: drv.color, a: pair[0], b: pair[1] });
+              return acc;
+            }, [])
+          : [];
+
+        const parseNum = (val) => {
+          const n = parseFloat(String(val ?? '').replace(/[^0-9.]/g, ''));
+          return Number.isFinite(n) ? n : 0;
+        };
+
+        const renderSplitMetric = (label, rawA, rawB, unit = '') => {
+          const numA = parseNum(rawA);
+          const numB = parseNum(rawB);
+          const sum = numA + numB;
+          const pctA = sum > 0 ? Math.round((numA / sum) * 100) : 50;
+          const pctB = sum > 0 ? 100 - pctA : 50;
+          const colorA = leftItem?.isChampion ? GOLD : (leftItem?.color || '#FF1E00');
+          const colorB = rightItem?.isChampion ? GOLD : (rightItem?.color || '#FF6B00');
+
+          return (
+            <div key={label} className="p-4 rounded-xl bg-void border border-line space-y-2">
+              <div className="flex items-center justify-between font-mono text-xs">
+                <span className="font-extrabold text-bone">{rawA ?? '—'}{unit}</span>
+                <span className="text-[10px] uppercase tracking-widest text-dim">{label}</span>
+                <span className="font-extrabold text-bone">{rawB ?? '—'}{unit}</span>
+              </div>
+              <div className="w-full h-2 rounded-full bg-panel overflow-hidden flex">
+                <div style={{ width: `${pctA}%`, backgroundColor: colorA }} className="h-full transition-all duration-300"></div>
+                <div style={{ width: `${pctB}%`, backgroundColor: colorB }} className="h-full transition-all duration-300 opacity-85"></div>
+              </div>
+            </div>
+          );
+        };
 
         return (
           <div className="space-y-8">
             <div className="border-b border-line pb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
               <div>
                 <div className="font-mono text-xs uppercase tracking-[0.25em] text-crimson font-bold">
-                  TRACK × SKY ENGINEERING DECODER
+                  HEAD-TO-HEAD TELEMETRY // 1V1 COMPARISON
                 </div>
                 <h1 className="font-syne text-3xl sm:text-4xl font-extrabold text-bone mt-1">
-                  Telemetry & Aerodynamics Glossary
+                  The Duel Arena
                 </h1>
               </div>
-              <div className="flex flex-wrap gap-1.5">
-                {categories.map(cat => (
+
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { id: 'F1', label: 'Formula 1' },
+                  { id: 'F2', label: 'Formula 2' },
+                  { id: 'FE', label: 'Formula E' },
+                  { id: 'AVIATION', label: 'Aviation' }
+                ].map(cat => (
                   <button
-                    key={cat}
-                    onClick={() => setGlossaryCategory(cat)}
-                    className={`px-3 py-1.5 rounded-xl font-mono text-[10px] font-bold border transition-colors ${
-                      glossaryCategory === cat
+                    key={cat.id}
+                    onClick={() => handleSwitchCategory(cat.id)}
+                    className={`px-4 py-2 rounded-xl font-mono text-xs font-extrabold border transition-all ${
+                      duelCategory === cat.id
                         ? 'bg-gradient-to-r from-crimson to-ember text-white border-crimson'
                         : 'bg-panel border-line text-dim hover:text-bone'
                     }`}
                   >
-                    {cat}
+                    {cat.label}
                   </button>
                 ))}
               </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
-              <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {filteredTerms.map((item, idx) => {
-                  const active = currentTerm?.term === item.term;
-                  return (
-                    <button
-                      key={idx}
-                      onClick={() => setActiveGlossaryTerm(item)}
-                      className={`p-4 rounded-2xl border text-left transition-all ${
-                        active
-                          ? 'bg-panel border-crimson shadow-lg'
-                          : 'card-gradient border-line hover:border-bone/50'
-                      }`}
-                    >
-                      <div className="font-mono text-[9px] uppercase tracking-widest text-ember font-bold">
-                        {item.category}
-                      </div>
-                      <div className="font-display text-base font-bold text-bone mt-1">{item.term}</div>
-                      <p className="text-xs text-dim mt-1.5 line-clamp-2">{item.short}</p>
-                    </button>
-                  );
-                })}
-              </div>
-
-              {currentTerm && (
-                <div className="lg:col-span-5 p-6 rounded-2xl hero-gradient border border-crimson/50 space-y-3">
-                  <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-crimson font-bold">
-                    ENGINEERING TECHNICAL BRIEF // {currentTerm.category}
-                  </div>
-                  <h3 className="font-syne text-xl font-extrabold text-bone">{currentTerm.term}</h3>
-                  <p className="text-xs sm:text-sm font-medium text-bone/95">{currentTerm.short}</p>
-                  <div className="h-px bg-line"></div>
-                  <p className="text-xs sm:text-sm text-dim leading-relaxed">{currentTerm.detail}</p>
+            {/* Teammate Battle Quick-Load Pills (F1 / F2 / FE) */}
+            {teammatePresets.length > 0 && (
+              <div className="space-y-2">
+                <div className="font-mono text-[10px] uppercase tracking-widest text-dim">
+                  QUICK-SELECT TEAMMATE BATTLES ({duelCategory})
                 </div>
-              )}
-            </div>
-          </div>
-        );
-      };
-
-      // =====================================================================
-      // RACE SUMMARY PAGE (ROUND TIRE BADGES, PODIUM, PENALTIES & FLAGS)
-      // =====================================================================
-      const renderRaceSummary = () => {
-        const standings = raceSummary?.standings || [];
-        const top3 = standings.slice(0, 3);
-        const dnfs = raceSummary?.dnfs || [];
-        const penalties = raceSummary?.penalties || [];
-        const flags = raceSummary?.flags || [];
-
-        return (
-          <div className="space-y-8">
-            <div className="border-b border-line pb-6">
-              <div className="flex flex-wrap items-center gap-2 font-mono text-xs uppercase text-crimson font-bold">
-                <span>{raceSummary.status || 'OFFICIAL CLASSIFICATION'}</span>
-                <span>•</span>
-                <span className="text-dim">{raceSummary.date}</span>
-              </div>
-              <h1 className="font-syne text-3xl sm:text-4xl font-extrabold text-bone mt-1">
-                {raceSummary.flag} {raceSummary.raceName}
-              </h1>
-              <div className="flex flex-wrap gap-4 font-mono text-xs text-dim mt-2">
-                <span>{raceSummary.laps}</span>
-                <span>•</span>
-                <span>{raceSummary.weather}</span>
-                <span>•</span>
-                <span className="text-ember">Fastest Lap: {raceSummary.fastestLap}</span>
-              </div>
-            </div>
-
-            {top3.length > 0 && (
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {top3.map((p, idx) => (
-                  <div
-                    key={p.code}
-                    style={{ borderColor: p.color, borderTopWidth: '4px', borderTopColor: p.color }}
-                    className="p-5 rounded-2xl card-gradient border flex items-center justify-between"
-                  >
-                    <div>
-                      <div className="font-mono text-xs font-extrabold" style={{ color: p.color }}>
-                        P{idx + 1} // {p.team}
-                      </div>
-                      <div className="font-display text-xl font-extrabold text-bone mt-0.5">{p.name}</div>
-                      <div className="font-mono text-xs text-dim mt-1">{p.interval}</div>
-                    </div>
-                    <div className="text-right font-mono">
-                      <div className="text-lg font-extrabold text-bone">+{p.points}</div>
-                      <div className="text-[10px] text-dim">PTS</div>
-                    </div>
-                  </div>
-                ))}
+                <div className="flex flex-wrap gap-2">
+                  {teammatePresets.map((p, i) => {
+                    const isSelected = leftItem?.id === p.a.id && rightItem?.id === p.b.id;
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => { setDuelLeftId(p.a.id); setDuelRightId(p.b.id); }}
+                        style={{ borderColor: isSelected ? p.color : undefined }}
+                        className={`px-3 py-1.5 rounded-xl font-mono text-xs border transition-colors ${
+                          isSelected ? 'bg-panel text-bone font-bold' : 'bg-panel/60 border-line text-dim hover:text-bone'
+                        }`}
+                      >
+                        <span className="inline-block w-2 h-2 rounded-full mr-1.5" style={{ backgroundColor: p.color }}></span>
+                        {p.a.code} vs {p.b.code}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
             )}
 
-            <section className="rounded-2xl bg-panel border border-line overflow-hidden">
-              <div className="px-5 py-3.5 border-b border-line flex items-center justify-between">
-                <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-bone font-bold">
-                  FULL CLASSIFICATION, INTERVALS & TYRE COMPOUNDS
-                </h2>
-                <span className="font-mono text-[11px] text-dim">{standings.length} Drivers</span>
-              </div>
-              <div className="overflow-x-auto">
-                <table className="w-full text-left border-collapse">
-                  <thead>
-                    <tr className="border-b border-line bg-void/70 font-mono text-[10px] uppercase text-dim">
-                      <th className="py-3 px-4">POS</th>
-                      <th className="py-3 px-4">DRIVER</th>
-                      <th className="py-3 px-4">CONSTRUCTOR</th>
-                      <th className="py-3 px-4">INTERVAL</th>
-                      <th className="py-3 px-4">TYRES</th>
-                      <th className="py-3 px-4">PITS</th>
-                      <th className="py-3 px-4 text-right">PTS</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-line/60 text-sm">
-                    {standings.map((row, idx) => (
-                      <tr key={`${row.code}-${idx}`} className="hover:bg-void/50 transition-colors">
-                        <td className={`py-3 px-4 font-mono font-extrabold ${row.pos === 'NC' ? 'text-crimson' : 'text-bone'}`}>
-                          {row.pos}
-                        </td>
-                        <td className="py-3 px-4 font-bold text-bone">
-                          <span className="inline-block w-2 h-2 rounded-full mr-2" style={{ backgroundColor: row.color }}></span>
-                          {row.name} <span className="font-mono text-xs text-dim ml-1">({row.code})</span>
-                        </td>
-                        <td className="py-3 px-4 text-xs text-dim">{row.team}</td>
-                        <td className="py-3 px-4 font-mono text-xs text-bone">{row.interval}</td>
-                        <td className="py-3 px-4">
-                          <RoundTireBadges tires={row.tires} />
-                        </td>
-                        <td className="py-3 px-4 font-mono text-xs text-dim">{row.pits ?? 1}</td>
-                        <td className="py-3 px-4 font-mono text-xs font-extrabold text-right text-ember">{row.points}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </section>
-
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-              <div className="p-5 rounded-2xl bg-panel border border-crimson/50 space-y-3">
-                <div className="font-mono text-xs uppercase tracking-widest text-crimson font-extrabold">
-                  DNF / DNS RETIREMENTS ({dnfs.length})
-                </div>
-                {dnfs.length === 0 ? (
-                  <p className="font-mono text-xs text-dim">Zero retirements.</p>
-                ) : (
-                  dnfs.map((d, i) => (
-                    <div key={i} className="p-3 rounded-xl bg-void border border-line">
-                      <div className="flex justify-between font-mono text-xs">
-                        <span className="font-bold text-bone">{d.name} ({d.code})</span>
-                        <span className="text-crimson font-bold">{d.status} • {d.lap}</span>
-                      </div>
-                      <p className="text-xs text-dim mt-1">{d.reason}</p>
-                    </div>
-                  ))
-                )}
-              </div>
-
-              <div className="p-5 rounded-2xl bg-panel border border-ember/50 space-y-3">
-                <div className="font-mono text-xs uppercase tracking-widest text-ember font-extrabold">
-                  STEWARDS PENALTIES ({penalties.length})
-                </div>
-                {penalties.length === 0 ? (
-                  <p className="font-mono text-xs text-dim">No penalties issued.</p>
-                ) : (
-                  penalties.map((p, i) => (
-                    <div key={i} className="p-3 rounded-xl bg-void border border-line">
-                      <div className="flex justify-between font-mono text-xs">
-                        <span className="font-bold text-bone">{p.name} ({p.code})</span>
-                        <span className="text-ember font-bold">{p.penalty}</span>
-                      </div>
-                      <p className="text-xs text-dim mt-1">{p.reason}</p>
-                    </div>
-                  ))
-                )}
-              </div>
-
-              <div className="p-5 rounded-2xl bg-panel border border-line space-y-3">
-                <div className="font-mono text-xs uppercase tracking-widest text-bone font-extrabold">
-                  RACE CONTROL LOG ({flags.length})
-                </div>
-                {flags.map((f, i) => (
-                  <div key={i} className="p-3 rounded-xl bg-void border border-line">
-                    <div className="flex justify-between font-mono text-xs">
-                      <span className="font-bold text-emerald-400">{f.type}</span>
-                      <span className="text-dim">{f.lap}</span>
-                    </div>
-                    <p className="text-xs text-dim mt-1">{f.note}</p>
+            {/* Contender Selectors + Swap Button */}
+            {leftItem && rightItem && (
+              <div className="p-6 rounded-2xl card-gradient border border-line space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-11 gap-4 items-center">
+                  <div className="md:col-span-5 space-y-1.5">
+                    <label className="font-mono text-[10px] uppercase text-dim">CONTENDER A</label>
+                    <select
+                      value={leftItem.id}
+                      onChange={e => setDuelLeftId(e.target.value)}
+                      className="w-full px-3.5 py-2.5 rounded-xl bg-void border border-line font-sans text-sm font-bold text-bone focus:border-crimson focus:outline-none"
+                    >
+                      {pool.map(item => (
+                        <option key={item.id} value={item.id}>
+                          {isAviation ? `${item.manufacturer} ${item.model} (${item.code})` : `#${item.number} ${item.name} — ${item.team}`}
+                        </option>
+                      ))}
+                    </select>
                   </div>
-                ))}
-              </div>
-            </div>
 
-            {raceSummary.debrief && (
-              <section className="p-6 rounded-2xl card-gradient border border-line space-y-2">
-                <div className="font-mono text-xs uppercase tracking-[0.2em] text-ember font-bold">
-                  POST-RACE STRATEGY DEBRIEF
+                  <div className="md:col-span-1 flex justify-center pt-4">
+                    <button
+                      type="button"
+                      onClick={() => { setDuelLeftId(rightItem.id); setDuelRightId(leftItem.id); }}
+                      className="px-3 py-2 rounded-xl bg-void border border-line hover:border-ember font-mono text-xs font-bold text-ember"
+                      title="Swap Contenders"
+                    >
+                      ⇄
+                    </button>
+                  </div>
+
+                  <div className="md:col-span-5 space-y-1.5">
+                    <label className="font-mono text-[10px] uppercase text-dim">CONTENDER B</label>
+                    <select
+                      value={rightItem.id}
+                      onChange={e => setDuelRightId(e.target.value)}
+                      className="w-full px-3.5 py-2.5 rounded-xl bg-void border border-line font-sans text-sm font-bold text-bone focus:border-ember focus:outline-none"
+                    >
+                      {pool.map(item => (
+                        <option key={item.id} value={item.id}>
+                          {isAviation ? `${item.manufacturer} ${item.model} (${item.code})` : `#${item.number} ${item.name} — ${item.team}`}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
                 </div>
-                <p className="text-sm text-bone/90 leading-relaxed whitespace-pre-line">{raceSummary.debrief}</p>
-              </section>
+
+                {/* Contender Header Cards */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {[leftItem, rightItem].map((c, idx) => {
+                    const accent = c.isChampion ? GOLD : (c.color || '#FF1E00');
+                    return (
+                      <div
+                        key={`${c.id}-${idx}`}
+                        style={{ borderTopWidth: '4px', borderTopColor: accent }}
+                        className="p-5 rounded-2xl bg-void border border-line flex items-center justify-between gap-3"
+                      >
+                        <div>
+                          <div className="font-mono text-[10px] uppercase font-bold" style={{ color: accent }}>
+                            {isAviation ? `${c.manufacturer} • ${c.status}` : `${c.series} • ${c.team}`}
+                          </div>
+                          <div className="font-display text-xl font-extrabold text-bone mt-1">
+                            {isAviation ? c.model : c.name}
+                          </div>
+                          <div className="font-mono text-xs text-dim mt-0.5">
+                            {isAviation ? c.engines : `${c.flag || ''} #${c.number} • ${c.nationality || ''}`}
+                          </div>
+                        </div>
+                        <div className="text-right font-mono shrink-0">
+                          <div className="text-xl font-extrabold" style={{ color: accent }}>
+                            {isAviation ? c.code : `${c.points ?? 0}`}
+                          </div>
+                          <div className="text-[10px] text-dim">{isAviation ? 'ICAO' : 'PTS'}</div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+
+                {/* Telemetry Comparison Bars */}
+                {!isAviation ? (
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {renderSplitMetric('Championship Points', leftItem.points ?? 0, rightItem.points ?? 0, ' PTS')}
+                    {renderSplitMetric('Grand Prix Wins', leftItem.wins ?? 0, rightItem.wins ?? 0)}
+                    {renderSplitMetric('Career Podiums', leftItem.podiums ?? 0, rightItem.podiums ?? 0)}
+                    {renderSplitMetric('Pole Positions', leftItem.poles ?? 0, rightItem.poles ?? 0)}
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {renderSplitMetric('Max Range (km)', leftItem.range, rightItem.range)}
+                      {renderSplitMetric('Max Takeoff Weight (kg)', leftItem.mtow, rightItem.mtow)}
+                      {renderSplitMetric('Service Ceiling (ft)', leftItem.ceiling, rightItem.ceiling)}
+                      {renderSplitMetric('Cruise Mach Number', leftItem.cruiseSpeed, rightItem.cruiseSpeed)}
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                      <div className="p-4 rounded-xl bg-void border border-line">
+                        <div className="font-mono text-[10px] text-dim uppercase">POWERPLANT // {leftItem.model}</div>
+                        <div className="font-mono text-xs font-bold text-bone mt-1">{leftItem.engines}</div>
+                      </div>
+                      <div className="p-4 rounded-xl bg-void border border-line">
+                        <div className="font-mono text-[10px] text-dim uppercase">POWERPLANT // {rightItem.model}</div>
+                        <div className="font-mono text-xs font-bold text-bone mt-1">{rightItem.engines}</div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
             )}
           </div>
         );
@@ -2446,6 +2341,8 @@
       const filteredDrivers = drivers.filter(d => d.series === driverSeriesFilter);
       const featuredBriefing = articles[0];
       const topPodium = (raceSummary?.standings || []).slice(0, 3);
+      const f1LeaderDriver = [...drivers].filter(d => d.series === 'F1').sort((a, b) => Number(b.points || 0) - Number(a.points || 0))[0];
+      const f1LeaderTeam = [...teams].filter(t => t.series === 'F1').sort((a, b) => Number(b.points || 0) - Number(a.points || 0))[0];
 
       return (
         <div className="min-h-screen flex flex-col relative">
@@ -2469,126 +2366,140 @@
               onSelectDriver={(drv) => setActiveDossier({ ...drv, kind: 'driver' })}
             />
 
-            <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-8 py-6 sm:py-8">
+            <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-8 py-6 sm:py-8">
               {route.view === 'home' && (
                 <div className="space-y-8">
-                  {/* Compact Gradient Showcase Hero */}
-                  <section className="hero-gradient rounded-2xl border border-line p-5 sm:p-7 relative overflow-hidden">
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
-                      <div className="lg:col-span-7 space-y-3">
-                        <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-void/90 border border-crimson/50 font-mono text-[10px] uppercase tracking-[0.2em] text-crimson font-bold">
-                          <span className="w-1.5 h-1.5 rounded-full bg-crimson"></span>
-                          <span>TRACK & SKY ENGINEERING DESK</span>
-                        </div>
-
-                        <h1 className="font-syne text-2xl sm:text-4xl font-extrabold text-bone leading-[1.08] tracking-tight">
-                          MOTORSPORT TELEMETRY & AEROSPACE INTELLIGENCE.
-                        </h1>
-
-                        <p className="text-xs sm:text-sm text-dim max-w-xl leading-relaxed">
-                          Technical briefings across Formula 1, Formula 2, Formula E, and commercial & supersonic aviation—paired with live race classifications and interactive telemetry cubes.
-                        </p>
-
-                        <div className="flex flex-wrap gap-2.5 pt-1">
-                          {featuredBriefing && (
-                            <button
-                              onClick={() => navigate({ view: 'article', articleId: featuredBriefing.id })}
-                              className="px-4 py-2 rounded-xl bg-gradient-to-r from-crimson to-ember text-white font-mono text-xs font-extrabold uppercase tracking-wider shadow-md hover:opacity-95 transition-opacity"
-                            >
-                              Read Latest Briefing →
-                            </button>
-                          )}
-                          <button
-                            onClick={() => navigate({ view: 'standings' })}
-                            className="px-4 py-2 rounded-xl bg-void/90 border border-gold/60 hover:border-gold font-mono text-xs text-gold font-bold uppercase"
-                          >
-                            👑 Standings & Graph
-                          </button>
-                          <button
-                            onClick={() => navigate({ view: 'glossary' })}
-                            className="px-4 py-2 rounded-xl bg-void/90 border border-line hover:border-bone font-mono text-xs text-bone font-semibold"
-                          >
-                            Glossary Decoder
-                          </button>
-                        </div>
+                  {/* Light Editorial Hero */}
+                  <section className="hero-gradient rounded-2xl border border-line p-6 sm:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
+                    <div className="space-y-2.5 max-w-xl">
+                      <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-crimson font-bold">
+                        MACH1 // MOTORSPORT & AEROSPACE DESK
                       </div>
+                      <h1 className="font-syne text-2xl sm:text-3xl font-extrabold text-bone leading-tight">
+                        Track Telemetry &amp; Supersonic Intelligence.
+                      </h1>
+                      <p className="text-xs sm:text-sm text-dim leading-relaxed">
+                        Technical briefings, championship trajectory, teammate duels, and Track × Sky engineering specs.
+                      </p>
+                      <div className="flex flex-wrap items-center gap-2 pt-2">
+                        {featuredBriefing && (
+                          <button
+                            onClick={() => navigate({ view: 'article', articleId: featuredBriefing.id })}
+                            className="px-4 py-2 rounded-xl bg-crimson text-white font-mono text-xs font-bold hover:opacity-90 transition-opacity"
+                          >
+                            Read Lead Briefing →
+                          </button>
+                        )}
+                        <button
+                          onClick={() => navigate({ view: 'standings' })}
+                          className="px-3.5 py-2 rounded-xl bg-void border border-line hover:border-gold font-mono text-xs text-gold font-semibold"
+                        >
+                          👑 Standings &amp; Graph
+                        </button>
+                        <button
+                          onClick={() => navigate({ view: 'duel' })}
+                          className="px-3.5 py-2 rounded-xl bg-void border border-line hover:border-bone font-mono text-xs text-bone"
+                        >
+                          ⚔ Duel Arena
+                        </button>
+                      </div>
+                    </div>
 
-                      {/* Compact Podium Card */}
-                      <div className="lg:col-span-5 p-4 rounded-xl bg-void/85 border border-line space-y-2.5">
+                    {/* Minimal Podium & Leaders Snapshot */}
+                    <div className="w-full md:w-80 shrink-0 space-y-2.5">
+                      <div className="p-4 rounded-xl bg-void/80 border border-line space-y-2">
                         <div className="flex items-center justify-between font-mono text-[10px]">
-                          <span className="text-ember font-bold uppercase">LATEST GRAND PRIX</span>
-                          <button onClick={() => navigate({ view: 'race' })} className="text-bone hover:text-crimson">
+                          <span className="text-ember font-bold uppercase">{raceSummary.shortTitle || 'LATEST GP'}</span>
+                          <button onClick={() => navigate({ view: 'race' })} className="text-dim hover:text-bone">
                             Full Results →
                           </button>
                         </div>
-                        <div className="font-display font-bold text-sm text-bone truncate">
-                          {raceSummary.flag} {raceSummary.raceName}
-                        </div>
-                        <div className="space-y-1.5">
+                        <div className="space-y-1">
                           {topPodium.map((p, idx) => (
-                            <div key={p.code} className="flex items-center justify-between p-2 rounded-lg bg-panel border border-line/80 font-mono text-xs">
-                              <div className="flex items-center gap-2 min-w-0">
-                                <span className="font-extrabold" style={{ color: p.color }}>P{idx + 1}</span>
-                                <span className="font-bold text-bone truncate">{p.name}</span>
+                            <div key={p.code} className="flex items-center justify-between font-mono text-xs py-0.5">
+                              <div className="flex items-center gap-2 truncate">
+                                <span className="font-bold" style={{ color: p.color }}>P{idx + 1}</span>
+                                <span className="text-bone truncate">{p.name}</span>
                               </div>
-                              <span className="text-[11px] text-dim shrink-0">{p.interval}</span>
+                              <span className="text-[11px] text-dim">{p.interval}</span>
                             </div>
                           ))}
                         </div>
                       </div>
-                    </div>
-                  </section>
 
-                  {/* Compact Quick Navigation Row */}
-                  <section className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-                    <button onClick={() => navigate({ view: 'track' })} className="p-4 rounded-xl card-gradient border border-line hover:border-crimson text-left transition-all">
-                      <div className="font-mono text-[10px] text-crimson font-bold">TRACK // F1 • F2 • FE</div>
-                      <div className="font-display text-base font-extrabold text-bone mt-0.5">Track Briefings</div>
-                    </button>
-                    <button onClick={() => navigate({ view: 'sky' })} className="p-4 rounded-xl card-gradient border border-line hover:border-ember text-left transition-all">
-                      <div className="font-mono text-[10px] text-ember font-bold">SKY // AEROSPACE</div>
-                      <div className="font-display text-base font-extrabold text-bone mt-0.5">Sky & Mach</div>
-                    </button>
-                    <button onClick={() => navigate({ view: 'drivers' })} className="p-4 rounded-xl card-gradient border border-line hover:border-gold text-left transition-all">
-                      <div className="font-mono text-[10px] text-gold font-bold">CUBES // GRID</div>
-                      <div className="font-display text-base font-extrabold text-bone mt-0.5">Drivers & Teams</div>
-                    </button>
-                    <button onClick={() => navigate({ view: 'airliners' })} className="p-4 rounded-xl card-gradient border border-line hover:border-ember text-left transition-all">
-                      <div className="font-mono text-[10px] text-ember font-bold">CUBES // FLEET</div>
-                      <div className="font-display text-base font-extrabold text-bone mt-0.5">Airliners Cubes</div>
-                    </button>
-                  </section>
-
-                  {/* Latest Track & Sky Briefings */}
-                  <section className="space-y-3">
-                    <div className="flex items-center justify-between">
-                      <h2 className="font-mono text-xs uppercase tracking-[0.22em] text-bone font-bold">
-                        LATEST TRACK & SKY BRIEFINGS
-                      </h2>
-                      <div className="flex gap-3 font-mono text-xs">
-                        <button onClick={() => navigate({ view: 'track' })} className="text-crimson hover:underline">Track →</button>
-                        <button onClick={() => navigate({ view: 'sky' })} className="text-ember hover:underline">Sky →</button>
+                      <div className="grid grid-cols-2 gap-2">
+                        {f1LeaderDriver && (
+                          <button
+                            onClick={() => navigate({ view: 'standings' })}
+                            className="champ-foil px-3 py-2.5 rounded-xl border text-left"
+                          >
+                            <div className="font-mono text-[9px] text-gold font-bold">👑 WDC</div>
+                            <div className="text-xs font-bold text-bone truncate mt-0.5">{f1LeaderDriver.code} • {f1LeaderDriver.points}</div>
+                          </button>
+                        )}
+                        {f1LeaderTeam && (
+                          <button
+                            onClick={() => navigate({ view: 'standings' })}
+                            className="champ-foil px-3 py-2.5 rounded-xl border text-left"
+                          >
+                            <div className="font-mono text-[9px] text-gold font-bold">👑 WCC</div>
+                            <div className="text-xs font-bold text-bone truncate mt-0.5">{f1LeaderTeam.code} • {f1LeaderTeam.points}</div>
+                          </button>
+                        )}
                       </div>
                     </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  </section>
+
+                  {/* Minimal Quick Navigation Row */}
+                  <section className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
+                    {[
+                      { view: 'track', tag: 'TRACK', title: 'F1 / F2 / FE' },
+                      { view: 'sky', tag: 'SKY', title: 'Sky & Mach' },
+                      { view: 'duel', tag: '1V1', title: 'Duel Arena' },
+                      { view: 'airliners', tag: 'FLEET', title: 'Airliners' },
+                      { view: 'glossary', tag: 'DECODER', title: 'Glossary' }
+                    ].map(card => (
+                      <button
+                        key={card.view}
+                        onClick={() => navigate({ view: card.view })}
+                        className="px-4 py-3 rounded-xl bg-panel border border-line hover:border-crimson text-left transition-colors"
+                      >
+                        <div className="font-mono text-[9px] text-dim uppercase">{card.tag}</div>
+                        <div className="font-display text-sm font-bold text-bone mt-0.5">{card.title}</div>
+                      </button>
+                    ))}
+                  </section>
+
+                  {/* Clean Latest Briefings Grid */}
+                  <section className="space-y-3">
+                    <div className="flex items-center justify-between">
+                      <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-dim font-bold">
+                        LATEST BRIEFINGS
+                      </h2>
+                      <div className="flex gap-3 font-mono text-xs">
+                        <button onClick={() => navigate({ view: 'track' })} className="text-crimson hover:underline">Track</button>
+                        <button onClick={() => navigate({ view: 'sky' })} className="text-ember hover:underline">Sky</button>
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
                       {articles.slice(0, 4).map(art => {
                         const sec = String(art?.section || 'track').toLowerCase();
                         return (
                           <button
                             key={art.id}
                             onClick={() => navigate({ view: 'article', articleId: art.id })}
-                            className="mach-cube p-5 rounded-xl card-gradient border border-line hover:border-crimson text-left flex flex-col justify-between gap-2.5"
+                            className="mach-cube p-4 rounded-xl bg-panel border border-line hover:border-crimson text-left flex flex-col justify-between gap-2"
                           >
                             <div>
-                              <div className="font-mono text-[10px] uppercase text-ember font-bold">
-                                {sec.toUpperCase()} • {art.seriesBadge} • {art.date}
+                              <div className="font-mono text-[10px] uppercase text-ember">
+                                {sec.toUpperCase()} • {art.seriesBadge}
                               </div>
-                              <h3 className="font-display text-base font-extrabold text-bone mt-1 leading-snug">{art.title}</h3>
+                              <h3 className="font-display text-sm sm:text-base font-bold text-bone mt-1 leading-snug">{art.title}</h3>
                               <p className="text-xs text-dim mt-1 line-clamp-2">{art.summary}</p>
                             </div>
-                            <div className="pt-2.5 border-t border-line font-mono text-[11px] font-bold text-bone flex justify-between">
-                              <span>Read Briefing</span>
-                              <span className="text-crimson">→</span>
+                            <div className="pt-2 border-t border-line/60 font-mono text-[11px] text-dim flex justify-between">
+                              <span>{art.readTime}</span>
+                              <span className="text-bone">Read →</span>
                             </div>
                           </button>
                         );
@@ -2598,6 +2509,7 @@
                 </div>
               )}
 
+              {route.view === 'duel' && renderDuelArena()}
               {route.view === 'article' && renderArticleReader()}
               {route.view === 'glossary' && renderGlossaryPage()}
               {route.view === 'track' && renderArticlesSection('track')}
@@ -2788,7 +2700,7 @@
             </main>
           </div>
 
-          <EntityDossierModal item={activeDossier} onClose={() => setActiveDossier(null)} onCopyShare={copyShareLink} />
+          <EntityDossierModal item={activeDossier} drivers={drivers} onClose={() => setActiveDossier(null)} onCopyShare={copyShareLink} />
           <CompareModal items={compareSelection} onClose={() => setCompareSelection([])} />
 
           <SearchModal
