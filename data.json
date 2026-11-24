@@ -93,8 +93,8 @@
       "powerUnit": "Mercedes-AMG",
       "base": "Enstone, UK",
       "color": "#FF87BC",
-      "rank": 7,
-      "points": 19,
+      "rank": 6,
+      "points": 87,
       "isChampion": false,
       "bio": "Enstone chassis transitioning to customer Mercedes hybrid architecture for 2026."
     },
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:39:23.177Z"
+  "updatedAt": "2026-11-24T04:39:44.596Z"
 }
