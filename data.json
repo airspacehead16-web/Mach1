@@ -9,8 +9,8 @@
       "powerUnit": "Mercedes-AMG",
       "base": "Woking, UK",
       "color": "#FF8000",
-      "rank": 1,
-      "points": 112,
+      "rank": 4,
+      "points": 431,
       "isChampion": true,
       "bio": "Reigning Constructors’ Champions leading 2026 active-aero efficiency and low-speed mechanical traction."
     },
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:37:17.401Z"
+  "updatedAt": "2026-11-24T04:38:00.693Z"
 }
