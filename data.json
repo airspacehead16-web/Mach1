@@ -155,20 +155,6 @@
       "bio": "America’s newest Formula 1 constructor expanding the grid to 22 cars."
     },
     {
-      "id": "t-f2-cam",
-      "series": "F2",
-      "code": "CAM",
-      "name": "Campos Racing",
-      "chassis": "Dallara F2 2024",
-      "powerUnit": "Mechachrome V6 Turbo",
-      "base": "Alzira, Spain",
-      "color": "#FF6B00",
-      "rank": 3,
-      "points": 49,
-      "isChampion": false,
-      "bio": "Spanish outfit leading Feature Race undercut strategy."
-    },
-    {
       "id": "t-f2-art",
       "series": "F2",
       "code": "ART",
@@ -878,5 +864,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:37:12.232Z"
+  "updatedAt": "2026-11-24T04:37:14.339Z"
 }
