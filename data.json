@@ -275,6 +275,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Oscar Piastri competing in F1."
+    },
+    {
+      "id": "d-1795504340767",
+      "series": "F1",
+      "number": "3",
+      "code": "VER",
+      "name": "Max Verstappen",
+      "nationality": "International",
+      "teamId": "",
+      "team": "Oracle Red Bull Racing",
+      "color": "#3671c6",
+      "flag": "🏁",
+      "rank": 7,
+      "points": 304,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Max Verstappen competing in F1."
     }
   ],
   "airliners": [
@@ -621,5 +641,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T07:03:38.273Z"
+  "updatedAt": "2026-11-24T07:12:20.767Z"
 }
