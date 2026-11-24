@@ -355,6 +355,26 @@
       "wins": "-",
       "last": "—",
       "bio": "Pierre Gasly competing in F1."
+    },
+    {
+      "id": "d-1795489681106",
+      "series": "F1",
+      "number": "14",
+      "code": "ALO",
+      "name": "Fernando Alonso",
+      "nationality": "Spanish",
+      "teamId": "",
+      "team": "Aston Martin",
+      "color": "#1d8b58",
+      "flag": "🏁",
+      "rank": 18,
+      "points": 7,
+      "isChampion": false,
+      "poles": "-",
+      "podiums": "-",
+      "wins": "-",
+      "last": "—",
+      "bio": "Fernando Alonso competing in F1."
     }
   ],
   "airliners": [
@@ -676,5 +696,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:06:51.350Z"
+  "updatedAt": "2026-11-24T03:08:01.106Z"
 }
