@@ -150,7 +150,7 @@
       "base": "Silverstone / Charlotte",
       "color": "#D4AF37",
       "rank": 11,
-      "points": 4,
+      "points": 0,
       "isChampion": false,
       "bio": "America’s newest Formula 1 constructor expanding the grid to 22 cars."
     }
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:41:00.196Z"
+  "updatedAt": "2026-11-24T04:41:16.590Z"
 }
