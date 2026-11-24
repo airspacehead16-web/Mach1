@@ -407,7 +407,7 @@
       "team": "Scuderia Ferrari",
       "color": "#FF1E00",
       "flag": "🏁",
-      "rank": 12,
+      "rank": 14,
       "points": 250,
       "isChampion": false,
       "poles": "—",
@@ -756,5 +756,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:33:17.689Z"
+  "updatedAt": "2026-11-24T02:33:25.985Z"
 }
