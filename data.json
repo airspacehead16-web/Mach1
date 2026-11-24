@@ -275,6 +275,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Lewis Hamilton competing in F1."
+    },
+    {
+      "id": "d-1795487728100",
+      "series": "F1",
+      "number": "3",
+      "code": "VER",
+      "name": "Max Verstappen",
+      "nationality": "Dutch",
+      "teamId": "",
+      "team": "Oracle Red Bull Racing",
+      "color": "#050df5",
+      "flag": "🏁",
+      "rank": 14,
+      "points": 304,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Max Verstappen competing in F1."
     }
   ],
   "airliners": [
@@ -596,5 +616,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:34:10.179Z"
+  "updatedAt": "2026-11-24T02:35:28.100Z"
 }
