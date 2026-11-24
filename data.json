@@ -143,12 +143,12 @@
       "code": "OCO",
       "name": "Esteban Ocon",
       "nationality": "French",
-      "teamId": "t-has",
+      "teamId": "",
       "team": "Haas",
       "color": "#B6BABD",
-      "flag": "🇫🇷",
-      "rank": 19,
-      "points": 4,
+      "flag": "🏁",
+      "rank": 17,
+      "points": 7,
       "isChampion": false,
       "poles": "—",
       "podiums": "4",
@@ -656,5 +656,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:04:08.828Z"
+  "updatedAt": "2026-11-24T03:04:23.672Z"
 }
