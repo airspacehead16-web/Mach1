@@ -1,20 +1,5 @@
 {
-  "teams": [
-    {
-      "id": "t-1795453783639",
-      "series": "F1",
-      "code": "MCL",
-      "name": "Mclaren",
-      "chassis": "MCL40",
-      "powerUnit": "Mercedes",
-      "base": "HQ",
-      "color": "#FF8000",
-      "rank": 4,
-      "points": 0,
-      "isChampion": false,
-      "bio": "Mclaren competing in the F1 Championship."
-    }
-  ],
+  "teams": [],
   "drivers": [
     {
       "id": "d-hul",
@@ -776,5 +761,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:56:44.352Z"
+  "updatedAt": "2026-11-24T03:57:25.088Z"
 }
