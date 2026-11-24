@@ -83,12 +83,12 @@
       "code": "LAW",
       "name": "Liam Lawson",
       "nationality": "New Zealander",
-      "teamId": "t-rb",
+      "teamId": "",
       "team": "Racing Bulls",
       "color": "#6692FF",
-      "flag": "🇳🇿",
-      "rank": 16,
-      "points": 6,
+      "flag": "🏁",
+      "rank": 17,
+      "points": 89,
       "isChampion": false,
       "poles": "—",
       "podiums": "—",
@@ -656,5 +656,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:03:40.695Z"
+  "updatedAt": "2026-11-24T03:03:53.176Z"
 }
