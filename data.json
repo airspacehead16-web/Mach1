@@ -355,6 +355,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Liam Lawson competing in F1."
+    },
+    {
+      "id": "d-1795533184771",
+      "series": "F1",
+      "number": "10",
+      "code": "GAS",
+      "name": "Pierre Gasly",
+      "nationality": "International",
+      "teamId": "",
+      "team": "BWT Alpine F1 Team",
+      "color": "#ff87bc",
+      "flag": "🏁",
+      "rank": 11,
+      "points": 52,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Pierre Gasly competing in F1."
     }
   ],
   "airliners": [
@@ -747,5 +767,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T15:11:49.133Z"
+  "updatedAt": "2026-11-24T15:13:04.771Z"
 }
