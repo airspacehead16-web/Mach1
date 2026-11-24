@@ -415,6 +415,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Charles Leclerc competing in F1."
+    },
+    {
+      "id": "d-1795487597689",
+      "series": "F1",
+      "number": "44",
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "nationality": "British",
+      "teamId": "",
+      "team": "Ferrari",
+      "color": "#66fffc",
+      "flag": "🏁",
+      "rank": 13,
+      "points": 267,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "--",
+      "wins": "—",
+      "last": "—",
+      "bio": "Lewis Hamilton competing in F1."
     }
   ],
   "airliners": [
@@ -736,5 +756,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:23:20.721Z"
+  "updatedAt": "2026-11-24T02:33:17.689Z"
 }
