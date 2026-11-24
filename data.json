@@ -11,7 +11,7 @@
       "color": "#FF8000",
       "rank": 4,
       "points": 431,
-      "isChampion": true,
+      "isChampion": false,
       "bio": "Reigning Constructors’ Champions leading 2026 active-aero efficiency and low-speed mechanical traction."
     },
     {
@@ -51,9 +51,9 @@
       "powerUnit": "Mercedes-AMG",
       "base": "Brackley, UK",
       "color": "#27F4D2",
-      "rank": 4,
-      "points": 76,
-      "isChampion": false,
+      "rank": 1,
+      "points": 666,
+      "isChampion": true,
       "bio": "Brackley factory operation optimized for straight-line X-mode drag reduction."
     },
     {
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:38:22.530Z"
+  "updatedAt": "2026-11-24T04:38:54.699Z"
 }
