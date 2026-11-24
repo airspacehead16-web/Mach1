@@ -137,7 +137,7 @@
       "color": "#6692FF",
       "rank": 5,
       "points": 114,
-      "isChampion": true,
+      "isChampion": false,
       "bio": "Faenza-based sister constructor running Red Bull Ford powertrains."
     },
     {
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:40:13.187Z"
+  "updatedAt": "2026-11-24T04:40:26.338Z"
 }
