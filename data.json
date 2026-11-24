@@ -53,7 +53,7 @@
       "color": "#27F4D2",
       "rank": 1,
       "points": 666,
-      "isChampion": true,
+      "isChampion": false,
       "bio": "Brackley factory operation optimized for straight-line X-mode drag reduction."
     },
     {
@@ -137,7 +137,7 @@
       "color": "#6692FF",
       "rank": 10,
       "points": 9,
-      "isChampion": false,
+      "isChampion": true,
       "bio": "Faenza-based sister constructor running Red Bull Ford powertrains."
     },
     {
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:38:54.699Z"
+  "updatedAt": "2026-11-24T04:39:09.414Z"
 }
