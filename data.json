@@ -121,8 +121,8 @@
       "powerUnit": "Ferrari 067",
       "base": "Kannapolis, USA",
       "color": "#B6BABD",
-      "rank": 9,
-      "points": 11,
+      "rank": 7,
+      "points": 31,
       "isChampion": false,
       "bio": "Compact aerodynamic package maximizing high-efficiency Ferrari energy recovery."
     },
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:39:44.596Z"
+  "updatedAt": "2026-11-24T04:40:00.330Z"
 }
