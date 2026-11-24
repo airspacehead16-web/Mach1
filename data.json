@@ -425,9 +425,9 @@
       "nationality": "British",
       "teamId": "",
       "team": "Ferrari",
-      "color": "#66fffc",
+      "color": "#ff1e00",
       "flag": "🏁",
-      "rank": 13,
+      "rank": 14,
       "points": 267,
       "isChampion": false,
       "poles": "—",
@@ -756,5 +756,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:33:25.985Z"
+  "updatedAt": "2026-11-24T02:33:42.734Z"
 }
