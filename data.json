@@ -395,6 +395,26 @@
       "wins": "-",
       "last": "—",
       "bio": "Lance Stroll competing in F1."
+    },
+    {
+      "id": "d-1795490858285",
+      "series": "F1",
+      "number": "55",
+      "code": "SAI",
+      "name": "Carlos Sainz",
+      "nationality": "Spanish",
+      "teamId": "",
+      "team": "Williams",
+      "color": "#64C4FF",
+      "flag": "🏁",
+      "rank": 20,
+      "points": 11,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "-",
+      "wins": "—",
+      "last": "—",
+      "bio": "Carlos Sainz competing in F1."
     }
   ],
   "airliners": [
@@ -716,5 +736,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:26:58.193Z"
+  "updatedAt": "2026-11-24T03:27:38.285Z"
 }
