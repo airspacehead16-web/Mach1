@@ -384,10 +384,10 @@
       "name": "Charles Leclerc",
       "nationality": "Monegasque",
       "teamId": "",
-      "team": "Scuderia Ferrari",
+      "team": "Scuderia Ferrari HP",
       "color": "#FF1E00",
       "flag": "🏁",
-      "rank": 17,
+      "rank": 25,
       "points": 250,
       "isChampion": false,
       "poles": "—",
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:46:47.913Z"
+  "updatedAt": "2026-11-24T04:47:09.784Z"
 }
