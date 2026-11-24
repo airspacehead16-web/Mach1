@@ -103,12 +103,12 @@
       "code": "COL",
       "name": "Franco Colapinto",
       "nationality": "Argentine",
-      "teamId": "t-alp",
+      "teamId": "",
       "team": "Alpine",
       "color": "#FF87BC",
-      "flag": "🇦🇷",
+      "flag": "🏁",
       "rank": 17,
-      "points": 5,
+      "points": 35,
       "isChampion": false,
       "poles": "—",
       "podiums": "—",
@@ -656,5 +656,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:03:53.176Z"
+  "updatedAt": "2026-11-24T03:04:08.828Z"
 }
