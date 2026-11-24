@@ -620,26 +620,6 @@
         "Modern widebody propulsion relies on maximizing propulsive efficiency by accelerating a massive volume of bypass air at lower exit velocities.",
         "With 16 fourth-generation carbon-fiber composite fan blades and ceramic matrix composite (CMC) combustor liners, the GE9X on the Boeing 777-9 achieves a 10% specific fuel consumption improvement over its predecessor."
       ]
-    },
-    {
-      "id": "art-sky-boom",
-      "section": "sky",
-      "seriesBadge": "AIRLINERS",
-      "tag": "SUPERSONIC AERODYNAMICS",
-      "title": "Area-Ruled Fuselage & Gull-Wing Geometry on Boom Overture",
-      "summary": "Minimizing transonic wave drag at Mach 1.7 without energy-hungry afterburners.",
-      "author": "MACH1 Aerospace Desk",
-      "date": "2026-11-15",
-      "readTime": "5 MIN READ",
-      "relatedTeamIds": [],
-      "relatedDriverIds": [],
-      "relatedAirlinerIds": [
-        "air-overture"
-      ],
-      "content": [
-        "Sustained supersonic cruise at Mach 1.7 demands strict adherence to the Whitcomb area rule, tapering the fuselage waist where the gull-wing root cross-section peaks.",
-        "Four non-afterburning Symphony medium-bypass turbofans allow Overture to meet Stage 5 airport noise standards while running on 100% Sustainable Aviation Fuel."
-      ]
     }
   ],
   "raceSummary": {
@@ -796,5 +776,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:30:43.142Z"
+  "updatedAt": "2026-11-24T03:56:44.352Z"
 }
