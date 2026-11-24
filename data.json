@@ -382,6 +382,70 @@
       ]
     }
   ],
+  "glossaryTerms": [
+    {
+      "category": "ACTIVE AERO",
+      "term": "X-Mode & Z-Mode Wing Actuation",
+      "short": "Dual-trim front and rear movable wing elements replacing legacy DRS.",
+      "detail": "Z-Mode deploys maximum flap incidence for high-downforce cornering, while X-Mode flattens both front and rear wing elements on designated straights to slash aerodynamic drag and boost end-of-straight speed."
+    },
+    {
+      "category": "HYBRID POWERTRAIN",
+      "term": "350kW MGU-K Override & Harvesting",
+      "short": "Tripled electrical deployment delivering nearly 50% of total power unit output.",
+      "detail": "Under 2026 F1 regulations, the Motor Generator Unit–Kinetic outputs 350kW (475 hp) alongside the 400kW V6 ICE, with Manual Override Mode providing extra electrical energy above 290 km/h for overtaking."
+    },
+    {
+      "category": "RACE STRATEGY",
+      "term": "Undercut vs. Overcut Pit Window",
+      "short": "Out-lap thermal tyre grip delta used to jump rivals during pit-stop sequences.",
+      "detail": "Pitting one lap earlier onto fresh Pirelli rubber yields 1.5–2.2 seconds of clean-air grip advantage (the undercut), whereas staying out on warm tyres while a rival warms up harder compounds executes an overcut."
+    },
+    {
+      "category": "AEROSPACE PROPULSION",
+      "term": "Ultra-High Bypass Ratio (>10:1)",
+      "short": "Accelerating a large mass of cold bypass air slowly for peak cruise efficiency.",
+      "detail": "Modern widebody turbofans like the GE9X and Trent XWB route over ten times more air around the core than through the combustor, dramatically reducing specific fuel consumption at Mach 0.84–0.85."
+    },
+    {
+      "category": "SUPERSONIC AERO",
+      "term": "Whitcomb Area Rule",
+      "short": "Fuselage waist contouring that minimizes transonic and supersonic wave drag.",
+      "detail": "By tapering the cross-sectional area of the fuselage where the wing root expands, supersonic aircraft like Boom Overture maintain a smooth longitudinal area distribution and lower drag at Mach 1.7."
+    },
+    {
+      "category": "ELECTRIC RACING",
+      "term": "GEN3 Evo AWD Attack Mode",
+      "short": "Temporary front-axle 250kW motor activation delivering four-wheel drive traction.",
+      "detail": "Activating Attack Mode unlocks the front powertrain kit alongside the 350kW rear motor, cutting 0–100 km/h launch times to 1.86 seconds on tight street circuits."
+    }
+  ],
+  "customTrajectory": {
+    "F1_drivers": {
+      "roundLabels": [
+        "Race",
+        "Round 2"
+      ],
+      "series": {
+        "d-1795496053797": [
+          18,
+          47
+        ],
+        "d-1795496178360": [
+          12,
+          33
+        ],
+        "d-1795496105234": [
+          25,
+          51
+        ],
+        "d-1795496213709": [
+          15,
+          34
+        ]
+      }
+    }
+  },
   "raceSummary": {
     "id": "race-1795457013003",
     "raceName": "United States Grand Prix — Circuit of the Americas",
@@ -422,5 +486,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:57:56.602Z"
+  "updatedAt": "2026-11-24T05:47:13.902Z"
 }
