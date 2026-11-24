@@ -135,8 +135,8 @@
       "powerUnit": "Red Bull Ford DM01",
       "base": "Faenza, Italy",
       "color": "#6692FF",
-      "rank": 10,
-      "points": 9,
+      "rank": 5,
+      "points": 114,
       "isChampion": true,
       "bio": "Faenza-based sister constructor running Red Bull Ford powertrains."
     },
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:39:09.414Z"
+  "updatedAt": "2026-11-24T04:39:23.177Z"
 }
