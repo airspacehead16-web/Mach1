@@ -375,6 +375,26 @@
       "wins": "—",
       "last": "—",
       "bio": "NEOM McLaren Formula E rising star."
+    },
+    {
+      "id": "d-1795486874776",
+      "series": "F1",
+      "number": "12",
+      "code": "ANT",
+      "name": "Kimi Antonelli",
+      "nationality": "Italian",
+      "teamId": "",
+      "team": "Mercedes AMG Petronas Formula 1 Team",
+      "color": "#64C4FF",
+      "flag": "🏁",
+      "rank": 11,
+      "points": 402,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "--",
+      "wins": "—",
+      "last": "—",
+      "bio": "Kimi Antonelli competing in F1."
     }
   ],
   "airliners": [
@@ -696,5 +716,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:19:21.759Z"
+  "updatedAt": "2026-11-24T02:21:14.776Z"
 }
