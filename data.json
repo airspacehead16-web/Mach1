@@ -325,9 +325,9 @@
       "nationality": "British",
       "teamId": "",
       "team": "Mercedes",
-      "color": "#05f5f1",
+      "color": "#66fffc",
       "flag": "🏁",
-      "rank": 16,
+      "rank": 20,
       "points": 264,
       "isChampion": false,
       "poles": "—",
@@ -716,5 +716,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:09:18.259Z"
+  "updatedAt": "2026-11-24T03:10:04.322Z"
 }
