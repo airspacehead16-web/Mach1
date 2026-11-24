@@ -237,46 +237,6 @@
       "bio": "Invicta Racing frontrunner dominating Feature Race tyre management."
     },
     {
-      "id": "d-f2-dun",
-      "series": "F2",
-      "number": "5",
-      "code": "DUN",
-      "name": "Alex Dunne",
-      "nationality": "Irish",
-      "teamId": "t-f2-cam",
-      "team": "Campos Racing",
-      "color": "#FF6B00",
-      "flag": "🇮🇪",
-      "rank": 3,
-      "points": 31,
-      "isChampion": false,
-      "poles": "1",
-      "podiums": "4",
-      "wins": "1",
-      "last": "—",
-      "bio": "Campos Racing standout contender."
-    },
-    {
-      "id": "d-f2-mar",
-      "series": "F2",
-      "number": "7",
-      "code": "MAR",
-      "name": "Nikola Tsolov",
-      "nationality": "Bulgarian",
-      "teamId": "t-f2-art",
-      "team": "ART Grand Prix",
-      "color": "#E2E8F0",
-      "flag": "🇧🇬",
-      "rank": 4,
-      "points": 27,
-      "isChampion": false,
-      "poles": "1",
-      "podiums": "3",
-      "wins": "—",
-      "last": "—",
-      "bio": "ART Grand Prix lead charger."
-    },
-    {
       "id": "d-fe-weh",
       "series": "FE",
       "number": "1",
@@ -736,5 +696,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:34:03.364Z"
+  "updatedAt": "2026-11-24T02:34:05.264Z"
 }
