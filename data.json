@@ -163,12 +163,12 @@
       "code": "LIN",
       "name": "Arvid Lindblad",
       "nationality": "British",
-      "teamId": "t-rb",
+      "teamId": "",
       "team": "Racing Bulls",
       "color": "#6692FF",
-      "flag": "🇬🇧",
-      "rank": 20,
-      "points": 3,
+      "flag": "🏁",
+      "rank": 17,
+      "points": 38,
       "isChampion": false,
       "poles": "—",
       "podiums": "—",
@@ -656,5 +656,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:04:23.672Z"
+  "updatedAt": "2026-11-24T03:04:37.513Z"
 }
