@@ -375,6 +375,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Pierre Gasly competing in F1."
+    },
+    {
+      "id": "d-1795533240003",
+      "series": "F1",
+      "number": "43",
+      "code": "COL",
+      "name": "Franco Colapinto",
+      "nationality": "International",
+      "teamId": "",
+      "team": "BWT Alpine F1 Team",
+      "color": "#ff87bc",
+      "flag": "🏁",
+      "rank": 12,
+      "points": 35,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Franco Colapinto competing in F1."
     }
   ],
   "airliners": [
@@ -767,5 +787,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T15:13:04.771Z"
+  "updatedAt": "2026-11-24T15:14:00.004Z"
 }
