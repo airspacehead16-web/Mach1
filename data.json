@@ -435,6 +435,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Lando Norris competing in F1."
+    },
+    {
+      "id": "d-1795491008277",
+      "series": "F1",
+      "number": "81",
+      "code": "PIA",
+      "name": "Oscar Piastri",
+      "nationality": "Australian",
+      "teamId": "",
+      "team": "Mclaren",
+      "color": "#ff8000",
+      "flag": "🏁",
+      "rank": 22,
+      "points": 167,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "-",
+      "wins": "—",
+      "last": "—",
+      "bio": "Oscar Piastri competing in F1."
     }
   ],
   "airliners": [
@@ -756,5 +776,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:29:17.454Z"
+  "updatedAt": "2026-11-24T03:30:08.277Z"
 }
