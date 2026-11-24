@@ -295,6 +295,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Max Verstappen competing in F1."
+    },
+    {
+      "id": "d-1795487775126",
+      "series": "F1",
+      "number": "6",
+      "code": "HAD",
+      "name": "Isack Hadjar",
+      "nationality": "French",
+      "teamId": "",
+      "team": "Oracle Red Bull Racing",
+      "color": "#050df5",
+      "flag": "🏁",
+      "rank": 15,
+      "points": 122,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Isack Hadjar competing in F1."
     }
   ],
   "airliners": [
@@ -616,5 +636,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:35:28.100Z"
+  "updatedAt": "2026-11-24T02:36:15.126Z"
 }
