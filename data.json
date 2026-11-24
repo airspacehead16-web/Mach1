@@ -201,13 +201,13 @@
       "series": "F1",
       "number": "44",
       "code": "HAM",
-      "name": "LEWIS HAMILTON",
+      "name": "Lewis Hamilton",
       "nationality": "British",
       "teamId": "",
       "team": "Scuderia Ferrari HP",
       "color": "#e10600",
       "flag": "🏁",
-      "rank": 3,
+      "rank": 5,
       "points": 267,
       "isChampion": false,
       "poles": "—",
@@ -422,5 +422,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:56:53.709Z"
+  "updatedAt": "2026-11-24T04:57:15.324Z"
 }
