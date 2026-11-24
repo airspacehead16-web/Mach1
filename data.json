@@ -549,7 +549,7 @@
     "flag": "🏁",
     "series": "Formula 1",
     "circuit": "Circuit of the Americas",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "laps": "56 Laps • 308.405 km",
     "weather": "Dry • Track 34°C / Air 26°C",
     "status": "OFFICIAL CLASSIFICATION",
@@ -598,6 +598,20 @@
         ],
         "pits": 1,
         "points": 0
+      },
+      {
+        "pos": "4",
+        "code": "LIN",
+        "name": "Arvid Lindblad",
+        "team": "Racing Bulls",
+        "color": "#6692FF",
+        "interval": "+0.000s",
+        "tires": [
+          "M",
+          "H"
+        ],
+        "pits": 1,
+        "points": 0
       }
     ],
     "dnfs": [],
@@ -612,7 +626,7 @@
       "flag": "🏁",
       "series": "Formula 1",
       "circuit": "Circuit of the Americas",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "laps": "56 Laps • 308.405 km",
       "weather": "Dry • Track 34°C / Air 26°C",
       "status": "OFFICIAL CLASSIFICATION",
@@ -661,6 +675,20 @@
           ],
           "pits": 1,
           "points": 0
+        },
+        {
+          "pos": "4",
+          "code": "LIN",
+          "name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "color": "#6692FF",
+          "interval": "+0.000s",
+          "tires": [
+            "M",
+            "H"
+          ],
+          "pits": 1,
+          "points": 0
         }
       ],
       "dnfs": [],
@@ -668,5 +696,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-23T18:03:40.283Z"
+  "updatedAt": "2026-11-24T01:33:21.848Z"
 }
