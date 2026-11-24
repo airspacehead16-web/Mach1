@@ -385,9 +385,9 @@
       "nationality": "Italian",
       "teamId": "",
       "team": "Mercedes AMG Petronas Formula 1 Team",
-      "color": "#64C4FF",
+      "color": "#66fffc",
       "flag": "🏁",
-      "rank": 11,
+      "rank": 13,
       "points": 402,
       "isChampion": false,
       "poles": "—",
@@ -736,5 +736,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:22:54.130Z"
+  "updatedAt": "2026-11-24T02:23:20.721Z"
 }
