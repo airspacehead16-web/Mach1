@@ -65,8 +65,8 @@
       "powerUnit": "Honda RA626H",
       "base": "Silverstone, UK",
       "color": "#229971",
-      "rank": 5,
-      "points": 44,
+      "rank": 10,
+      "points": 7,
       "isChampion": false,
       "bio": "Silverstone-built Adrian Newey-era chassis paired with exclusive Honda works hybrid power."
     },
@@ -822,5 +822,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:40:43.129Z"
+  "updatedAt": "2026-11-24T04:41:00.196Z"
 }
