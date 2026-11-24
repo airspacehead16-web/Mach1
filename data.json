@@ -345,10 +345,10 @@
       "nationality": "French",
       "teamId": "",
       "team": "Alpine",
-      "color": "#A88932",
+      "color": "#ff87bc",
       "flag": "🏁",
-      "rank": 17,
-      "points": 0,
+      "rank": 18,
+      "points": 52,
       "isChampion": false,
       "poles": "-",
       "podiums": "-",
@@ -676,5 +676,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T03:06:07.961Z"
+  "updatedAt": "2026-11-24T03:06:51.350Z"
 }
