@@ -215,6 +215,26 @@
       "wins": "—",
       "last": "—",
       "bio": "LEWIS HAMILTON competing in F1."
+    },
+    {
+      "id": "d-1795496213709",
+      "series": "F1",
+      "number": "16",
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "nationality": "Monegasque",
+      "teamId": "",
+      "team": "Scuderia Ferrari HP",
+      "color": "#e10600",
+      "flag": "🏁",
+      "rank": 4,
+      "points": 250,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Charles Leclerc competing in F1."
     }
   ],
   "airliners": [
@@ -402,5 +422,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T04:56:18.360Z"
+  "updatedAt": "2026-11-24T04:56:53.709Z"
 }
