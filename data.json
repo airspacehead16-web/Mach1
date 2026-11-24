@@ -237,26 +237,6 @@
       "bio": "Invicta Racing frontrunner dominating Feature Race tyre management."
     },
     {
-      "id": "d-f2-min",
-      "series": "F2",
-      "number": "3",
-      "code": "MIN",
-      "name": "Gabriele Minì",
-      "nationality": "Italian",
-      "teamId": "t-f2-pre",
-      "team": "PREMA Racing",
-      "color": "#E10600",
-      "flag": "🇮🇹",
-      "rank": 2,
-      "points": 36,
-      "isChampion": false,
-      "poles": "2",
-      "podiums": "5",
-      "wins": "1",
-      "last": "—",
-      "bio": "PREMA Racing qualifying pacesetter."
-    },
-    {
       "id": "d-f2-dun",
       "series": "F2",
       "number": "5",
@@ -756,5 +736,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:33:53.608Z"
+  "updatedAt": "2026-11-24T02:34:03.364Z"
 }
