@@ -315,6 +315,26 @@
       "wins": "—",
       "last": "—",
       "bio": "Isack Hadjar competing in F1."
+    },
+    {
+      "id": "d-1795533083284",
+      "series": "F1",
+      "number": "41",
+      "code": "LIN",
+      "name": "Arvid Lindblad",
+      "nationality": "International",
+      "teamId": "",
+      "team": "Visa Cash App Racing Bulls",
+      "color": "#6692ff",
+      "flag": "🏁",
+      "rank": 9,
+      "points": 38,
+      "isChampion": false,
+      "poles": "—",
+      "podiums": "—",
+      "wins": "—",
+      "last": "—",
+      "bio": "Arvid Lindblad competing in F1."
     }
   ],
   "airliners": [
@@ -707,5 +727,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T10:21:38.055Z"
+  "updatedAt": "2026-11-24T15:11:23.284Z"
 }
