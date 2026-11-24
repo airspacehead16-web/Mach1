@@ -237,26 +237,6 @@
       "bio": "Invicta Racing frontrunner dominating Feature Race tyre management."
     },
     {
-      "id": "d-fe-eva",
-      "series": "FE",
-      "number": "9",
-      "code": "EVA",
-      "name": "Mitch Evans",
-      "nationality": "New Zealander",
-      "teamId": "t-fe-jag",
-      "team": "Jaguar TCS",
-      "color": "#00A88F",
-      "flag": "🇳🇿",
-      "rank": 2,
-      "points": 48,
-      "isChampion": false,
-      "poles": "9",
-      "podiums": "29",
-      "wins": "13",
-      "last": "—",
-      "bio": "Jaguar TCS Racing energy-saving specialist."
-    },
-    {
       "id": "d-fe-row",
       "series": "FE",
       "number": "23",
@@ -676,5 +656,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:34:06.563Z"
+  "updatedAt": "2026-11-24T02:34:07.829Z"
 }
