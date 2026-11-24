@@ -43,12 +43,12 @@
       "code": "ALB",
       "name": "Alexander Albon",
       "nationality": "Thai",
-      "teamId": "t-wil",
+      "teamId": "",
       "team": "Williams",
       "color": "#64C4FF",
-      "flag": "🇹🇭",
-      "rank": 14,
-      "points": 8,
+      "flag": "🏁",
+      "rank": 11,
+      "points": 5,
       "isChampion": false,
       "poles": "—",
       "podiums": "2",
@@ -696,5 +696,5 @@
       "flags": []
     }
   ],
-  "updatedAt": "2026-11-24T02:19:12.546Z"
+  "updatedAt": "2026-11-24T02:19:21.759Z"
 }
